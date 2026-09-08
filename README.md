@@ -36,3 +36,9 @@ Shared display:
 Phone controller:
 
 ![Phone quiz controls](docs/controller.png)
+
+## Content packs
+
+In the [marketplace](https://retro-museum.net/#catalog), Quiz is one game with separate questionnaire packs. Select one or more packs to prepare a game that contains only those questions. A selection currently supports up to 10 packs and 100 questions; the host may play fewer questions.
+
+Download the complete `.rmg.json` selection for an SDK-compatible host, or the `.quiz.json` content file to import from an existing museum's Quiz settings. Approved community questionnaires reuse the same game engine. The content-only engine build deliberately excludes all unselected starter questions.
