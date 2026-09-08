@@ -26,3 +26,13 @@ Only data is accepted, never user code. Public/private game snapshots expose no 
 `npm run build` creates the sandboxed engine/view and submission-page client. `npm test` covers content limits, private answers, stale/duplicate commands, save/restore, all modes, 128 simulated engine participants, and a 100-question match. `node node_modules/@manaty/retro-museum-sdk/validate.js .` performs the SDK compatibility check. These are not substitutes for physical network endurance tests.
 
 Code: MIT. The original bundled questionnaire text and generated flag diagrams are supplied by Manaty under CC BY 4.0. Submitted quizzes retain their declared attribution; code packages include the base engine license and questionnaire attribution.
+
+## Screenshots
+
+Shared display:
+
+![Shared quiz screen](docs/display.png)
+
+Phone controller:
+
+![Phone quiz controls](docs/controller.png)
