@@ -1,6 +1,18 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';
 import {Quizz} from '../server/quizz.js';import {validateQuiz,gameOptions,MAX_IMAGE_BYTES} from '../server/schema.js';import {BUILTIN_QUIZZES} from '../server/builtins.js';
 const players=Array.from({length:128},(_,i)=>({id:'p'+i,number:i+1}));
+test('ranking question prize agrees with the award; elimination retains its progressive ladder',()=>{
+ const game=new Quizz(players.slice(0,1),null,{mode:'ranking',questionCount:10,seconds:15});
+ for(let index=0;index<10;index++){
+  assert.equal(game.snapshot('p0').gain,100000);
+  const before=game.players[0].gain;game.action('p0','quizAnswer',{question:index,answer:game.correct});game.advance(15);
+  assert.equal(game.players[0].gain-before,100000);game.advance(6);
+ }
+ assert.equal(game.players[0].gain,1000000);
+ const elimination=new Quizz(players.slice(0,1),null,{mode:'elimination',questionCount:10,seconds:15});
+ const first=elimination.gain;elimination.action('p0','quizAnswer',{question:0,answer:elimination.correct});elimination.advance(15);
+ assert.equal(elimination.players[0].gain,first);elimination.advance(6);assert.ok(elimination.gain>first);
+});
 test('four starter packs contain ten valid questions and lightweight flags',()=>{for(const q of Object.values(BUILTIN_QUIZZES))assert.equal(validateQuiz(q).questions.length,10);for(const q of BUILTIN_QUIZZES.flags.questions)assert.ok(Buffer.from(q.image.split(',')[1],'base64').length<MAX_IMAGE_BYTES);});
 test('rejects excessive question counts, images, executable formats and ambiguous answers',()=>{const q=structuredClone(BUILTIN_QUIZZES.fruits);q.questions=Array.from({length:1001},(_,i)=>({...q.questions[0],id:'q'+i}));assert.throws(()=>validateQuiz(q));q.questions=q.questions.slice(0,1);q.questions[0].answers[1]=q.questions[0].answers[0];assert.throws(()=>validateQuiz(q));for(const image of ['https://example.com/image.png','data:image/svg+xml;base64,PHN2Zz4=','data:image/png;base64,'+Buffer.alloc(100001).toString('base64')]){const bad=structuredClone(BUILTIN_QUIZZES.flags);bad.questions[0].image=image;assert.throws(()=>validateQuiz(bad));}assert.throws(()=>gameOptions({questionCount:11},10));});
 test('128 players lock private answers; pause-independent timers and stale answers',()=>{const game=new Quizz(players,null,{questionCount:2,seconds:15});const correct=game.correct;game.action('p0','quizAnswer',{question:0,answer:correct});assert.equal(game.snapshot().question.correct,undefined);assert.equal(game.snapshot('p1').you.answer,null);assert.equal(game.snapshot('p0').you.answer,correct);assert.throws(()=>game.action('p0','quizAnswer',{question:0,answer:correct}));game.release('p1');game.advance(15);assert.equal(game.stage,'reveal');assert.equal(game.snapshot().question.correct,correct);assert.equal(game.players[0].score,1);game.advance(6);assert.equal(game.index,1);assert.throws(()=>game.action('p0','quizAnswer',{question:0,answer:0}));});

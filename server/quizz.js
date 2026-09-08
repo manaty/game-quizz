@@ -16,7 +16,7 @@ export class Quizz{
  }
  get question(){return this.quiz.questions[this.order[this.index]];}
  get correct(){return this.answerOrder.indexOf(this.question.correct);}
- get gain(){return Math.round(100*Math.pow(10000,(this.index+1)/this.order.length)/10)*10;}
+ get gain(){if(this.options.mode==='ranking')return 1000000/this.order.length;return Math.round(100*Math.pow(10000,(this.index+1)/this.order.length)/10)*10;}
  action(id,action,value){
   if(action==='hostTimeUp'){this.finish();return;}
   const p=this.players.find(p=>p.id===id);if(!p||p.spectator||this.stage!=='question'||this.ended)throw Error('Wait for the next question.');
