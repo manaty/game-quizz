@@ -1,0 +1,29 @@
+{
+  "name": "@manaty/game-quizz",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "A shared quiz show. Flags, fruit, capitals and European monarchs. Choose the mode, question count and timer.",
+  "exports": {
+    "./engine": "./server/quizz.js",
+    "./schema": "./server/schema.js",
+    "./builtins": "./server/builtins.js",
+    "./package": "./dist/game.rmg.json",
+    "./public/*": "./public/*",
+    "./package-quiz": "./server/package-quiz.js"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "retro-museum-host --package dist/game.rmg.json",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@manaty/retro-museum-sdk": "https://github.com/manaty/retro-museum-sdk/archive/da1ee1a226de00e2f4f2a5deb4b7158831d5ac22.tar.gz"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

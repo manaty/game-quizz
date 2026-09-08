@@ -1,0 +1,2 @@
+import {Quizz} from '../server/quizz.js';import {BUILTIN_QUIZZES} from '../server/builtins.js';
+globalThis.RetroMuseumGame={create(players,saved,options){const game=new Quizz(players,saved,options,globalThis.RetroQuizBank||BUILTIN_QUIZZES);return {action:(...a)=>game.action(...a),advance:dt=>game.advance(dt),snapshot:id=>game.snapshot(id),save:()=>game.save(),release:id=>game.release(id),addPlayer:p=>game.addPlayer(p),status:()=>({winner:game.winner,ended:game.ended,requiredPlayers:[]})};}};

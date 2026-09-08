@@ -1,0 +1,10 @@
+name: Validate Retro Museum quiz
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: manaty/retro-museum-sdk@da1ee1a226de00e2f4f2a5deb4b7158831d5ac22

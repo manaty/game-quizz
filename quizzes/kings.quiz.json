@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "kings",
+  "title": {
+    "en": "Kings and queens of Europe",
+    "fr": "Rois et reines d’Europe",
+    "tl": "Mga hari at reyna ng Europa"
+  },
+  "author": "Manaty",
+  "language": "en",
+  "questions": [
+    {
+      "id": "king0",
+      "prompt": {
+        "en": "Which French king was known as the Sun King?",
+        "fr": "Quel roi de France était surnommé le Roi-Soleil ?",
+        "tl": "Sinong hari ng Pransiya ang tinawag na Hari ng Araw?"
+      },
+      "answers": [
+        "Louis XIV",
+        "Louis XVI",
+        "François I",
+        "Henri IV"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "king1",
+      "prompt": {
+        "en": "Who became king of England after the Battle of Hastings in 1066?",
+        "fr": "Qui devient roi d’Angleterre après la bataille de Hastings en 1066 ?",
+        "tl": "Sino ang naging hari ng Inglatera matapos ang Labanan sa Hastings noong 1066?"
+      },
+      "answers": [
+        {
+          "en": "William the Conqueror",
+          "fr": "Guillaume le Conquérant",
+          "tl": "William the Conqueror"
+        },
+        "Henry VIII",
+        "Richard III",
+        "Edward VII"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "king2",
+      "prompt": {
+        "en": "Which English king had six wives?",
+        "fr": "Quel roi d’Angleterre eut six épouses ?",
+        "tl": "Sinong hari ng Inglatera ang nagkaroon ng anim na asawa?"
+      },
+      "answers": [
+        "Henry VIII",
+        "Henry V",
+        "Charles I",
+        "George VI"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "king3",
+      "prompt": {
+        "en": "Which emperor was crowned in Rome on Christmas Day in the year 800?",
+        "fr": "Quel empereur fut couronné à Rome le jour de Noël de l’an 800 ?",
+        "tl": "Sinong emperador ang kinoronahan sa Roma noong Pasko ng taong 800?"
+      },
+      "answers": [
+        {
+          "en": "Charlemagne",
+          "fr": "Charlemagne",
+          "tl": "Charlemagne"
+        },
+        "Napoleon I",
+        "Charles V",
+        "Otto I"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "king4",
+      "prompt": {
+        "en": "Which French king was executed in 1793?",
+        "fr": "Quel roi de France fut exécuté en 1793 ?",
+        "tl": "Sinong hari ng Pransiya ang pinatay noong 1793?"
+      },
+      "answers": [
+        "Louis XVI",
+        "Louis XIV",
+        "Louis XV",
+        "Charles X"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "king5",
+      "prompt": {
+        "en": "Which English king is associated with the Magna Carta of 1215?",
+        "fr": "Quel roi d’Angleterre est associé à la Magna Carta de 1215 ?",
+        "tl": "Sinong hari ng Inglatera ang kaugnay ng Magna Carta noong 1215?"
+      },
+      "answers": [
+        {
+          "en": "John",
+          "fr": "Jean sans Terre",
+          "tl": "John"
+        },
+        "Richard II",
+        "Edward VI",
+        "George I"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "king6",
+      "prompt": {
+        "en": "Which queen began her reign in the United Kingdom in 1837?",
+        "fr": "Quelle reine commença son règne au Royaume-Uni en 1837 ?",
+        "tl": "Sinong reyna ang nagsimulang maghari sa United Kingdom noong 1837?"
+      },
+      "answers": [
+        "Victoria",
+        "Elizabeth I",
+        "Mary I",
+        "Anne"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "king7",
+      "prompt": {
+        "en": "Which French king is associated with the Edict of Nantes in 1598?",
+        "fr": "Quel roi de France est associé à l’édit de Nantes en 1598 ?",
+        "tl": "Sinong hari ng Pransiya ang kaugnay ng Edict of Nantes noong 1598?"
+      },
+      "answers": [
+        "Henri IV",
+        "Louis XIII",
+        "François II",
+        "Charles VIII"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "king8",
+      "prompt": {
+        "en": "Which queen ruled England when the Spanish Armada sailed against it in 1588?",
+        "fr": "Quelle reine régnait sur l’Angleterre lors de l’expédition de l’Armada espagnole en 1588 ?",
+        "tl": "Sinong reyna ang namumuno sa Inglatera nang dumating ang Spanish Armada noong 1588?"
+      },
+      "answers": [
+        "Elizabeth I",
+        "Victoria",
+        "Mary II",
+        "Elizabeth II"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "king9",
+      "prompt": {
+        "en": "Which French king commissioned the Château de Chambord?",
+        "fr": "Quel roi de France commanda le château de Chambord ?",
+        "tl": "Sinong hari ng Pransiya ang nagpagawa ng Château de Chambord?"
+      },
+      "answers": [
+        "François I",
+        "Louis XI",
+        "Henri III",
+        "Louis XVIII"
+      ],
+      "correct": 0
+    }
+  ]
+}

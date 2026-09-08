@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "id": "fruits",
+  "title": {
+    "en": "Fruit discovery",
+    "fr": "À la découverte des fruits",
+    "tl": "Kilalanin ang mga prutas"
+  },
+  "author": "Manaty",
+  "language": "en",
+  "questions": [
+    {
+      "id": "fruit0",
+      "prompt": {
+        "en": "Which long, curved fruit usually has yellow skin when ripe?",
+        "fr": "Quel fruit long et courbé a généralement la peau jaune à maturité ?",
+        "tl": "Anong mahaba at kurbadong prutas ang karaniwang dilaw kapag hinog?"
+      },
+      "answers": [
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        },
+        {
+          "en": "Mango",
+          "fr": "Mangue",
+          "tl": "Mangga"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        },
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "fruit1",
+      "prompt": {
+        "en": "Which tropical fruit has a rough skin and a crown of pointed leaves?",
+        "fr": "Quel fruit tropical a une peau rugueuse et une couronne de feuilles pointues ?",
+        "tl": "Anong tropikal na prutas ang may magaspang na balat at koronang matutulis na dahon?"
+      },
+      "answers": [
+        {
+          "en": "Pineapple",
+          "fr": "Ananas",
+          "tl": "Pinya"
+        },
+        {
+          "en": "Watermelon",
+          "fr": "Pastèque",
+          "tl": "Pakwan"
+        },
+        {
+          "en": "Coconut",
+          "fr": "Noix de coco",
+          "tl": "Niyog"
+        },
+        {
+          "en": "Strawberry",
+          "fr": "Fraise",
+          "tl": "Strawberry"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "fruit2",
+      "prompt": {
+        "en": "Which fruit has a large flat stone and orange flesh, and is famously grown in Guimaras?",
+        "fr": "Quel fruit à noyau plat et à chair orangée est notamment cultivé à Guimaras ?",
+        "tl": "Anong prutas na may malaking patag na buto at kahel na laman ang tanyag sa Guimaras?"
+      },
+      "answers": [
+        {
+          "en": "Mango",
+          "fr": "Mangue",
+          "tl": "Mangga"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        },
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        },
+        {
+          "en": "Avocado",
+          "fr": "Avocat",
+          "tl": "Abokado"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "fruit3",
+      "prompt": {
+        "en": "Which large fruit usually has green skin, red flesh and many black seeds?",
+        "fr": "Quel gros fruit a généralement une peau verte, une chair rouge et de nombreux pépins noirs ?",
+        "tl": "Anong malaking prutas ang karaniwang may berdeng balat, pulang laman at maraming itim na buto?"
+      },
+      "answers": [
+        {
+          "en": "Watermelon",
+          "fr": "Pastèque",
+          "tl": "Pakwan"
+        },
+        {
+          "en": "Coconut",
+          "fr": "Noix de coco",
+          "tl": "Niyog"
+        },
+        {
+          "en": "Strawberry",
+          "fr": "Fraise",
+          "tl": "Strawberry"
+        },
+        {
+          "en": "Papaya",
+          "fr": "Papaye",
+          "tl": "Papaya"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "fruit4",
+      "prompt": {
+        "en": "Which small fruit grows in bunches and is dried to make raisins?",
+        "fr": "Quel petit fruit pousse en grappes et se sèche pour devenir un raisin sec ?",
+        "tl": "Anong maliit na prutas na kumpol-kumpol ang pinatutuyo upang gawing pasas?"
+      },
+      "answers": [
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        },
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        },
+        {
+          "en": "Avocado",
+          "fr": "Avocat",
+          "tl": "Abokado"
+        },
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "fruit5",
+      "prompt": {
+        "en": "Which fruit has a hard fibrous shell, white flesh and water inside?",
+        "fr": "Quel fruit a une coque fibreuse dure, une chair blanche et de l’eau à l’intérieur ?",
+        "tl": "Anong prutas ang may matigas na mabuhok na bao, puting laman at tubig sa loob?"
+      },
+      "answers": [
+        {
+          "en": "Coconut",
+          "fr": "Noix de coco",
+          "tl": "Niyog"
+        },
+        {
+          "en": "Strawberry",
+          "fr": "Fraise",
+          "tl": "Strawberry"
+        },
+        {
+          "en": "Papaya",
+          "fr": "Papaye",
+          "tl": "Papaya"
+        },
+        {
+          "en": "Pineapple",
+          "fr": "Ananas",
+          "tl": "Pinya"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "fruit6",
+      "prompt": {
+        "en": "Which sour yellow citrus fruit is commonly squeezed into lemonade?",
+        "fr": "Quel agrume jaune et acide presse-t-on pour faire de la citronnade ?",
+        "tl": "Anong maasim at dilaw na citrus ang pinipiga para gumawa ng lemonade?"
+      },
+      "answers": [
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        },
+        {
+          "en": "Avocado",
+          "fr": "Avocat",
+          "tl": "Abokado"
+        },
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        },
+        {
+          "en": "Mango",
+          "fr": "Mangue",
+          "tl": "Mangga"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "fruit7",
+      "prompt": {
+        "en": "Which red fruit has tiny seed-like dots on its surface and a green leafy top?",
+        "fr": "Quel fruit rouge porte de petits points semblables à des graines sur sa surface et une collerette verte ?",
+        "tl": "Anong pulang prutas ang may maliliit na tuldok na parang buto sa labas at berdeng dahon sa itaas?"
+      },
+      "answers": [
+        {
+          "en": "Strawberry",
+          "fr": "Fraise",
+          "tl": "Strawberry"
+        },
+        {
+          "en": "Papaya",
+          "fr": "Papaye",
+          "tl": "Papaya"
+        },
+        {
+          "en": "Pineapple",
+          "fr": "Ananas",
+          "tl": "Pinya"
+        },
+        {
+          "en": "Watermelon",
+          "fr": "Pastèque",
+          "tl": "Pakwan"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "fruit8",
+      "prompt": {
+        "en": "Which creamy green fruit has one large round stone and is used for guacamole?",
+        "fr": "Quel fruit crémeux et vert a un gros noyau rond et sert à préparer le guacamole ?",
+        "tl": "Anong kremang berdeng prutas na may malaking bilog na buto ang ginagamit sa guacamole?"
+      },
+      "answers": [
+        {
+          "en": "Avocado",
+          "fr": "Avocat",
+          "tl": "Abokado"
+        },
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        },
+        {
+          "en": "Mango",
+          "fr": "Mangue",
+          "tl": "Mangga"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "fruit9",
+      "prompt": {
+        "en": "Which tropical fruit has orange flesh and a central cavity full of small black seeds?",
+        "fr": "Quel fruit tropical a une chair orange et une cavité remplie de petits pépins noirs ?",
+        "tl": "Anong tropikal na prutas ang may kahel na laman at gitnang puno ng maliliit na itim na buto?"
+      },
+      "answers": [
+        {
+          "en": "Papaya",
+          "fr": "Papaye",
+          "tl": "Papaya"
+        },
+        {
+          "en": "Pineapple",
+          "fr": "Ananas",
+          "tl": "Pinya"
+        },
+        {
+          "en": "Watermelon",
+          "fr": "Pastèque",
+          "tl": "Pakwan"
+        },
+        {
+          "en": "Coconut",
+          "fr": "Noix de coco",
+          "tl": "Niyog"
+        }
+      ],
+      "correct": 0
+    }
+  ]
+}

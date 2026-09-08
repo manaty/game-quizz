@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "capitals",
+  "title": {
+    "en": "World capitals",
+    "fr": "Capitales du monde",
+    "tl": "Mga kabisera ng mundo"
+  },
+  "author": "Manaty",
+  "language": "en",
+  "questions": [
+    {
+      "id": "capital0",
+      "prompt": {
+        "en": "What is the capital of France?",
+        "fr": "Quelle est la capitale de France ?",
+        "tl": "Ano ang kabisera ng Pransiya?"
+      },
+      "answers": [
+        "Paris",
+        "Rome",
+        "Berlin",
+        "Madrid"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "capital1",
+      "prompt": {
+        "en": "What is the capital of Japan?",
+        "fr": "Quelle est la capitale de Japon ?",
+        "tl": "Ano ang kabisera ng Hapon?"
+      },
+      "answers": [
+        "Tokyo",
+        "Kyoto",
+        "Osaka",
+        "Seoul"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "capital2",
+      "prompt": {
+        "en": "What is the capital of Philippines?",
+        "fr": "Quelle est la capitale de Philippines ?",
+        "tl": "Ano ang kabisera ng Pilipinas?"
+      },
+      "answers": [
+        "Manila",
+        "Cebu",
+        "Davao",
+        "Baguio"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "capital3",
+      "prompt": {
+        "en": "What is the capital of Italy?",
+        "fr": "Quelle est la capitale de Italie ?",
+        "tl": "Ano ang kabisera ng Italya?"
+      },
+      "answers": [
+        "Rome",
+        "Milan",
+        "Naples",
+        "Venice"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "capital4",
+      "prompt": {
+        "en": "What is the capital of Canada?",
+        "fr": "Quelle est la capitale de Canada ?",
+        "tl": "Ano ang kabisera ng Canada?"
+      },
+      "answers": [
+        "Ottawa",
+        "Toronto",
+        "Montreal",
+        "Vancouver"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "capital5",
+      "prompt": {
+        "en": "What is the capital of Australia?",
+        "fr": "Quelle est la capitale de Australie ?",
+        "tl": "Ano ang kabisera ng Australia?"
+      },
+      "answers": [
+        "Canberra",
+        "Sydney",
+        "Melbourne",
+        "Perth"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "capital6",
+      "prompt": {
+        "en": "What is the capital of Brazil?",
+        "fr": "Quelle est la capitale de Brésil ?",
+        "tl": "Ano ang kabisera ng Brazil?"
+      },
+      "answers": [
+        "Brasília",
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "capital7",
+      "prompt": {
+        "en": "What is the capital of Germany?",
+        "fr": "Quelle est la capitale de Allemagne ?",
+        "tl": "Ano ang kabisera ng Alemanya?"
+      },
+      "answers": [
+        "Berlin",
+        "Munich",
+        "Hamburg",
+        "Bonn"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "capital8",
+      "prompt": {
+        "en": "What is the capital of Egypt?",
+        "fr": "Quelle est la capitale de Égypte ?",
+        "tl": "Ano ang kabisera ng Ehipto?"
+      },
+      "answers": [
+        "Cairo",
+        "Alexandria",
+        "Luxor",
+        "Aswan"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "capital9",
+      "prompt": {
+        "en": "What is the capital of Spain?",
+        "fr": "Quelle est la capitale de Espagne ?",
+        "tl": "Ano ang kabisera ng Espanya?"
+      },
+      "answers": [
+        "Madrid",
+        "Barcelona",
+        "Seville",
+        "Valencia"
+      ],
+      "correct": 0
+    }
+  ]
+}
