@@ -10,176 +10,3204 @@
   "language": "en",
   "questions": [
     {
-      "id": "king0",
+      "id": "kings-001",
       "prompt": {
-        "en": "Which French king was known as the Sun King?",
-        "fr": "Quel roi de France était surnommé le Roi-Soleil ?",
-        "tl": "Sinong hari ng Pransiya ang tinawag na Hari ng Araw?"
-      },
-      "answers": [
-        "Louis XIV",
-        "Louis XVI",
-        "François I",
-        "Henri IV"
-      ],
-      "correct": 0,
-      "difficulty": 2
-    },
-    {
-      "id": "king1",
-      "prompt": {
-        "en": "Who became king of England after the Battle of Hastings in 1066?",
-        "fr": "Qui devient roi d’Angleterre après la bataille de Hastings en 1066 ?",
-        "tl": "Sino ang naging hari ng Inglatera matapos ang Labanan sa Hastings noong 1066?"
+        "en": "What jewel-covered headpiece traditionally symbolizes a king or queen?",
+        "fr": "Quel objet souvent orné de joyaux symbolise traditionnellement un roi ou une reine ?",
+        "tl": "Anong palamuti sa ulo na may mga hiyas ang tradisyonal na simbolo ng hari o reyna?"
       },
       "answers": [
         {
-          "en": "William the Conqueror",
-          "fr": "Guillaume le Conquérant",
-          "tl": "William the Conqueror"
+          "en": "Crown",
+          "fr": "Couronne",
+          "tl": "Korona"
         },
-        "Henry VIII",
-        "Richard III",
-        "Edward VII"
+        {
+          "en": "Bicycle helmet",
+          "fr": "Casque de vélo",
+          "tl": "Helmet sa bisikleta"
+        },
+        {
+          "en": "Baseball cap",
+          "fr": "Casquette de baseball",
+          "tl": "Baseball cap"
+        },
+        {
+          "en": "Chef's hat",
+          "fr": "Toque de cuisinier",
+          "tl": "Sumbrero ng kusinero"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-002",
+      "prompt": {
+        "en": "What is a monarch's ceremonial seat called?",
+        "fr": "Comment appelle-t-on le siège cérémoniel d'un monarque ?",
+        "tl": "Ano ang tawag sa seremonyal na upuan ng monarka?"
+      },
+      "answers": [
+        {
+          "en": "Bench",
+          "fr": "Banc",
+          "tl": "Bangko"
+        },
+        {
+          "en": "Throne",
+          "fr": "Trône",
+          "tl": "Trono"
+        },
+        {
+          "en": "Saddle",
+          "fr": "Selle",
+          "tl": "Siya"
+        },
+        {
+          "en": "Desk",
+          "fr": "Bureau",
+          "tl": "Mesa"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-003",
+      "prompt": {
+        "en": "What staff is a traditional symbol of royal authority?",
+        "fr": "Quel bâton est un symbole traditionnel de l'autorité royale ?",
+        "tl": "Anong tungkod ang tradisyonal na simbolo ng kapangyarihang maharlika?"
+      },
+      "answers": [
+        {
+          "en": "Compass",
+          "fr": "Boussole",
+          "tl": "Kompas"
+        },
+        {
+          "en": "Paintbrush",
+          "fr": "Pinceau",
+          "tl": "Pinsel"
+        },
+        {
+          "en": "Sceptre",
+          "fr": "Sceptre",
+          "tl": "Setro"
+        },
+        {
+          "en": "Flute",
+          "fr": "Flûte",
+          "tl": "Plawta"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-004",
+      "prompt": {
+        "en": "What is the ceremony of placing a crown on a monarch called?",
+        "fr": "Comment appelle-t-on la cérémonie où l'on pose une couronne sur un monarque ?",
+        "tl": "Ano ang tawag sa seremonyang paglalagay ng korona sa monarka?"
+      },
+      "answers": [
+        {
+          "en": "Election",
+          "fr": "Élection",
+          "tl": "Halalan"
+        },
+        {
+          "en": "Baptism",
+          "fr": "Baptême",
+          "tl": "Binyag"
+        },
+        {
+          "en": "Graduation",
+          "fr": "Remise de diplôme",
+          "tl": "Pagtatapos sa pag-aaral"
+        },
+        {
+          "en": "Coronation",
+          "fr": "Couronnement",
+          "tl": "Koronasyon"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-005",
+      "prompt": {
+        "en": "What do we call a state headed by a king or queen?",
+        "fr": "Comment appelle-t-on un État dont le chef est un roi ou une reine ?",
+        "tl": "Ano ang tawag sa estadong pinamumunuan ng hari o reyna?"
+      },
+      "answers": [
+        {
+          "en": "Monarchy",
+          "fr": "Monarchie",
+          "tl": "Monarkiya"
+        },
+        {
+          "en": "Republic",
+          "fr": "République",
+          "tl": "Republika"
+        },
+        {
+          "en": "Federation",
+          "fr": "Fédération",
+          "tl": "Pederasyon"
+        },
+        {
+          "en": "Colony",
+          "fr": "Colonie",
+          "tl": "Kolonya"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-006",
+      "prompt": {
+        "en": "What is a succession of rulers from the same family called?",
+        "fr": "Comment appelle-t-on une succession de souverains d'une même famille ?",
+        "tl": "Ano ang tawag sa sunod-sunod na pinunong mula sa iisang pamilya?"
+      },
+      "answers": [
+        {
+          "en": "Army",
+          "fr": "Armée",
+          "tl": "Hukbo"
+        },
+        {
+          "en": "Dynasty",
+          "fr": "Dynastie",
+          "tl": "Dinastiya"
+        },
+        {
+          "en": "Guild",
+          "fr": "Guilde",
+          "tl": "Samahan ng mga manggagawa"
+        },
+        {
+          "en": "Parliament",
+          "fr": "Parlement",
+          "tl": "Parlamento"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-007",
+      "prompt": {
+        "en": "What do we call the person expected to inherit a throne?",
+        "fr": "Comment appelle-t-on la personne appelée à hériter du trône ?",
+        "tl": "Ano ang tawag sa taong inaasahang magmamana ng trono?"
+      },
+      "answers": [
+        {
+          "en": "Mayor",
+          "fr": "Maire",
+          "tl": "Alkalde"
+        },
+        {
+          "en": "Judge",
+          "fr": "Juge",
+          "tl": "Hukom"
+        },
+        {
+          "en": "Heir",
+          "fr": "Héritier ou héritière",
+          "tl": "Tagapagmana"
+        },
+        {
+          "en": "Ambassador",
+          "fr": "Ambassadeur",
+          "tl": "Ambasador"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-008",
+      "prompt": {
+        "en": "What does a monarch do when they voluntarily give up the throne?",
+        "fr": "Comment appelle-t-on le renoncement volontaire d'un monarque au trône ?",
+        "tl": "Ano ang tawag sa kusang pag-iwan ng monarka sa trono?"
+      },
+      "answers": [
+        {
+          "en": "Annexation",
+          "fr": "Annexion",
+          "tl": "Pagsasanib ng teritoryo"
+        },
+        {
+          "en": "Coronation",
+          "fr": "Sacre",
+          "tl": "Koronasyon"
+        },
+        {
+          "en": "Peace treaty",
+          "fr": "Traité de paix",
+          "tl": "Kasunduang pangkapayapaan"
+        },
+        {
+          "en": "Abdication",
+          "fr": "Abdication",
+          "tl": "Pagbibitiw sa trono"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-009",
+      "prompt": {
+        "en": "Who may govern on behalf of a king who is still a child?",
+        "fr": "Qui peut gouverner au nom d'un roi encore enfant ?",
+        "tl": "Sino ang maaaring mamahala para sa haring bata pa?"
+      },
+      "answers": [
+        {
+          "en": "Regent",
+          "fr": "Régent",
+          "tl": "Rehente"
+        },
+        {
+          "en": "Knight",
+          "fr": "Chevalier",
+          "tl": "Kabalyero"
+        },
+        {
+          "en": "Monk",
+          "fr": "Moine",
+          "tl": "Monghe"
+        },
+        {
+          "en": "Merchant",
+          "fr": "Marchand",
+          "tl": "Mangangalakal"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-010",
+      "prompt": {
+        "en": "Which French king was nicknamed the Sun King?",
+        "fr": "Quel roi de France était surnommé le Roi-Soleil ?",
+        "tl": "Sinong hari ng Pransiya ang tinawag na Haring Araw?"
+      },
+      "answers": [
+        {
+          "en": "Francis I",
+          "fr": "François Ier",
+          "tl": "Francis I"
+        },
+        {
+          "en": "Louis XIV",
+          "fr": "Louis XIV",
+          "tl": "Louis XIV"
+        },
+        {
+          "en": "Louis XVI",
+          "fr": "Louis XVI",
+          "tl": "Louis XVI"
+        },
+        {
+          "en": "Henry IV of France",
+          "fr": "Henri IV de France",
+          "tl": "Henry IV ng Pransiya"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-011",
+      "prompt": {
+        "en": "Which palace is especially associated with Louis XIV?",
+        "fr": "Quel palais est particulièrement associé à Louis XIV ?",
+        "tl": "Anong palasyo ang lalo nang nauugnay kay Louis XIV?"
+      },
+      "answers": [
+        {
+          "en": "Alhambra",
+          "fr": "Alhambra",
+          "tl": "Alhambra"
+        },
+        {
+          "en": "Pena Palace",
+          "fr": "Palais de Pena",
+          "tl": "Palasyo ng Pena"
+        },
+        {
+          "en": "Palace of Versailles",
+          "fr": "Château de Versailles",
+          "tl": "Palasyo ng Versailles"
+        },
+        {
+          "en": "Buckingham Palace",
+          "fr": "Palais de Buckingham",
+          "tl": "Palasyo ng Buckingham"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-012",
+      "prompt": {
+        "en": "In which city is Buckingham Palace?",
+        "fr": "Dans quelle ville se trouve Buckingham Palace ?",
+        "tl": "Saang lungsod matatagpuan ang Buckingham Palace?"
+      },
+      "answers": [
+        {
+          "en": "Paris",
+          "fr": "Paris",
+          "tl": "Paris"
+        },
+        {
+          "en": "Madrid",
+          "fr": "Madrid",
+          "tl": "Madrid"
+        },
+        {
+          "en": "Rome",
+          "fr": "Rome",
+          "tl": "Roma"
+        },
+        {
+          "en": "London",
+          "fr": "Londres",
+          "tl": "London"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-013",
+      "prompt": {
+        "en": "Which queen gave her name to the Victorian era?",
+        "fr": "Quelle reine a donné son nom à l'époque victorienne ?",
+        "tl": "Sinong reyna ang pinagmulan ng pangalan ng Victorian era?"
+      },
+      "answers": [
+        {
+          "en": "Victoria",
+          "fr": "Victoria",
+          "tl": "Victoria"
+        },
+        {
+          "en": "Elizabeth I",
+          "fr": "Élisabeth Ire",
+          "tl": "Elizabeth I"
+        },
+        {
+          "en": "Anne",
+          "fr": "Anne",
+          "tl": "Anne"
+        },
+        {
+          "en": "Mary I of England",
+          "fr": "Marie Ire d'Angleterre",
+          "tl": "Mary I ng Inglatera"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-014",
+      "prompt": {
+        "en": "Which English king is famous for having six wives?",
+        "fr": "Quel roi d'Angleterre est célèbre pour ses six épouses ?",
+        "tl": "Sinong hari ng Inglatera ang kilala sa pagkakaroon ng anim na asawa?"
+      },
+      "answers": [
+        {
+          "en": "William I the Conqueror",
+          "fr": "Guillaume Ier le Conquérant",
+          "tl": "William I the Conqueror"
+        },
+        {
+          "en": "Henry VIII",
+          "fr": "Henri VIII",
+          "tl": "Henry VIII"
+        },
+        {
+          "en": "Richard I the Lionheart",
+          "fr": "Richard Ier Cœur de Lion",
+          "tl": "Richard I the Lionheart"
+        },
+        {
+          "en": "George III",
+          "fr": "George III",
+          "tl": "George III"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-015",
+      "prompt": {
+        "en": "Which country did Louis XVI rule?",
+        "fr": "Sur quel pays Louis XVI régnait-il ?",
+        "tl": "Anong bansa ang pinamunuan ni Louis XVI?"
+      },
+      "answers": [
+        {
+          "en": "Sweden",
+          "fr": "Suède",
+          "tl": "Sweden"
+        },
+        {
+          "en": "Portugal",
+          "fr": "Portugal",
+          "tl": "Portugal"
+        },
+        {
+          "en": "France",
+          "fr": "France",
+          "tl": "Pransiya"
+        },
+        {
+          "en": "Spain",
+          "fr": "Espagne",
+          "tl": "Espanya"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-016",
+      "prompt": {
+        "en": "Which queen reigned over the United Kingdom from 1952 to 2022?",
+        "fr": "Quelle reine a régné sur le Royaume-Uni de 1952 à 2022 ?",
+        "tl": "Sinong reyna ang naghari sa United Kingdom mula 1952 hanggang 2022?"
+      },
+      "answers": [
+        {
+          "en": "Victoria",
+          "fr": "Victoria",
+          "tl": "Victoria"
+        },
+        {
+          "en": "Elizabeth I",
+          "fr": "Élisabeth Ire",
+          "tl": "Elizabeth I"
+        },
+        {
+          "en": "Anne",
+          "fr": "Anne",
+          "tl": "Anne"
+        },
+        {
+          "en": "Elizabeth II",
+          "fr": "Élisabeth II",
+          "tl": "Elizabeth II"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-017",
+      "prompt": {
+        "en": "Which king is known as Richard the Lionheart?",
+        "fr": "Quel roi est connu sous le nom de Richard Cœur de Lion ?",
+        "tl": "Sinong hari ang kilala bilang Richard the Lionheart?"
+      },
+      "answers": [
+        {
+          "en": "Richard I the Lionheart",
+          "fr": "Richard Ier Cœur de Lion",
+          "tl": "Richard I the Lionheart"
+        },
+        {
+          "en": "Richard II",
+          "fr": "Richard II",
+          "tl": "Richard II"
+        },
+        {
+          "en": "Richard III",
+          "fr": "Richard III",
+          "tl": "Richard III"
+        },
+        {
+          "en": "Henry VII",
+          "fr": "Henri VII",
+          "tl": "Henry VII"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-018",
+      "prompt": {
+        "en": "Which country did Gustav Vasa become king of in 1523?",
+        "fr": "De quel pays Gustave Vasa devint-il roi en 1523 ?",
+        "tl": "Saang bansa naging hari si Gustav Vasa noong 1523?"
+      },
+      "answers": [
+        {
+          "en": "Belgium",
+          "fr": "Belgique",
+          "tl": "Belgium"
+        },
+        {
+          "en": "Sweden",
+          "fr": "Suède",
+          "tl": "Sweden"
+        },
+        {
+          "en": "Spain",
+          "fr": "Espagne",
+          "tl": "Espanya"
+        },
+        {
+          "en": "Portugal",
+          "fr": "Portugal",
+          "tl": "Portugal"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-019",
+      "prompt": {
+        "en": "Which country did Peter the Great rule?",
+        "fr": "Sur quel pays Pierre le Grand régnait-il ?",
+        "tl": "Anong bansa ang pinamunuan ni Peter the Great?"
+      },
+      "answers": [
+        {
+          "en": "Denmark",
+          "fr": "Danemark",
+          "tl": "Denmark"
+        },
+        {
+          "en": "Italy",
+          "fr": "Italie",
+          "tl": "Italya"
+        },
+        {
+          "en": "Russia",
+          "fr": "Russie",
+          "tl": "Russia"
+        },
+        {
+          "en": "England",
+          "fr": "Angleterre",
+          "tl": "Inglatera"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-020",
+      "prompt": {
+        "en": "Which kingdom is associated with Mary, Queen of Scots?",
+        "fr": "À quel royaume associe-t-on Marie Stuart, reine des Écossais ?",
+        "tl": "Anong kaharian ang nauugnay kay Mary, Queen of Scots?"
+      },
+      "answers": [
+        {
+          "en": "Spain",
+          "fr": "Espagne",
+          "tl": "Espanya"
+        },
+        {
+          "en": "Portugal",
+          "fr": "Portugal",
+          "tl": "Portugal"
+        },
+        {
+          "en": "Sweden",
+          "fr": "Suède",
+          "tl": "Sweden"
+        },
+        {
+          "en": "Scotland",
+          "fr": "Écosse",
+          "tl": "Scotland"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-021",
+      "prompt": {
+        "en": "Which French king is also known as Saint Louis?",
+        "fr": "Quel roi de France est aussi connu sous le nom de Saint Louis ?",
+        "tl": "Sinong hari ng Pransiya ang tinatawag ding San Louis?"
+      },
+      "answers": [
+        {
+          "en": "Louis IX (Saint Louis)",
+          "fr": "Louis IX (Saint Louis)",
+          "tl": "Louis IX (San Louis)"
+        },
+        {
+          "en": "Louis XIII",
+          "fr": "Louis XIII",
+          "tl": "Louis XIII"
+        },
+        {
+          "en": "Louis XV",
+          "fr": "Louis XV",
+          "tl": "Louis XV"
+        },
+        {
+          "en": "Louis XVIII",
+          "fr": "Louis XVIII",
+          "tl": "Louis XVIII"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-022",
+      "prompt": {
+        "en": "Which title describes the wife of a reigning king when she is not herself the sovereign?",
+        "fr": "Quel qualificatif désigne l'épouse d'un roi régnant lorsqu'elle n'est pas elle-même souveraine ?",
+        "tl": "Anong titulo ang tumutukoy sa asawa ng naghaharing hari kung hindi siya ang mismong monarka?"
+      },
+      "answers": [
+        {
+          "en": "Viceroy",
+          "fr": "Vice-roi",
+          "tl": "Biseroy"
+        },
+        {
+          "en": "Consort",
+          "fr": "Consort",
+          "tl": "Konsorte"
+        },
+        {
+          "en": "Regnant",
+          "fr": "Régnante",
+          "tl": "Naghaharing monarka"
+        },
+        {
+          "en": "Elector",
+          "fr": "Électeur",
+          "tl": "Elektor"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-023",
+      "prompt": {
+        "en": "Which title describes a queen who rules in her own right?",
+        "fr": "Quel qualificatif désigne une reine qui détient elle-même la couronne ?",
+        "tl": "Anong titulo ang tumutukoy sa reyna na monarka sa sarili niyang karapatan?"
+      },
+      "answers": [
+        {
+          "en": "Regent",
+          "fr": "Régent",
+          "tl": "Rehente"
+        },
+        {
+          "en": "Viceroy",
+          "fr": "Vice-roi",
+          "tl": "Biseroy"
+        },
+        {
+          "en": "Regnant",
+          "fr": "Régnante",
+          "tl": "Naghaharing monarka"
+        },
+        {
+          "en": "Consort",
+          "fr": "Consort",
+          "tl": "Konsorte"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-024",
+      "prompt": {
+        "en": "Which French king was supported by Joan of Arc and crowned at Reims in 1429?",
+        "fr": "Quel roi de France, soutenu par Jeanne d'Arc, fut sacré à Reims en 1429 ?",
+        "tl": "Sinong hari ng Pransiya ang sinuportahan ni Joan of Arc at kinoronahan sa Reims noong 1429?"
+      },
+      "answers": [
+        {
+          "en": "Louis XIV",
+          "fr": "Louis XIV",
+          "tl": "Louis XIV"
+        },
+        {
+          "en": "Henry IV of France",
+          "fr": "Henri IV de France",
+          "tl": "Henry IV ng Pransiya"
+        },
+        {
+          "en": "Francis I",
+          "fr": "François Ier",
+          "tl": "Francis I"
+        },
+        {
+          "en": "Charles VII of France",
+          "fr": "Charles VII de France",
+          "tl": "Charles VII ng Pransiya"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-025",
+      "prompt": {
+        "en": "Which queen ruled England during much of Shakespeare's early career?",
+        "fr": "Quelle reine gouvernait l'Angleterre pendant une grande partie des débuts de Shakespeare ?",
+        "tl": "Sinong reyna ang namuno sa Inglatera sa malaking bahagi ng unang karera ni Shakespeare?"
+      },
+      "answers": [
+        {
+          "en": "Elizabeth I",
+          "fr": "Élisabeth Ire",
+          "tl": "Elizabeth I"
+        },
+        {
+          "en": "Victoria",
+          "fr": "Victoria",
+          "tl": "Victoria"
+        },
+        {
+          "en": "Elizabeth II",
+          "fr": "Élisabeth II",
+          "tl": "Elizabeth II"
+        },
+        {
+          "en": "Anne",
+          "fr": "Anne",
+          "tl": "Anne"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "kings-026",
+      "prompt": {
+        "en": "Who conquered England in 1066?",
+        "fr": "Qui a conquis l'Angleterre en 1066 ?",
+        "tl": "Sino ang sumakop sa Inglatera noong 1066?"
+      },
+      "answers": [
+        {
+          "en": "Charles II of England",
+          "fr": "Charles II d'Angleterre",
+          "tl": "Charles II ng Inglatera"
+        },
+        {
+          "en": "William I the Conqueror",
+          "fr": "Guillaume Ier le Conquérant",
+          "tl": "William I the Conqueror"
+        },
+        {
+          "en": "Henry VIII",
+          "fr": "Henri VIII",
+          "tl": "Henry VIII"
+        },
+        {
+          "en": "George I",
+          "fr": "George Ier",
+          "tl": "George I"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-027",
+      "prompt": {
+        "en": "Which battle in 1066 led to William the Conqueror taking the English throne?",
+        "fr": "Quelle bataille de 1066 permit à Guillaume le Conquérant de prendre le trône anglais ?",
+        "tl": "Anong labanan noong 1066 ang nagbigay-daan sa pagkuha ni William the Conqueror sa trono ng Inglatera?"
+      },
+      "answers": [
+        {
+          "en": "Battle of Bosworth",
+          "fr": "Bataille de Bosworth",
+          "tl": "Labanan sa Bosworth"
+        },
+        {
+          "en": "Battle of Agincourt",
+          "fr": "Bataille d'Azincourt",
+          "tl": "Labanan sa Agincourt"
+        },
+        {
+          "en": "Battle of Hastings",
+          "fr": "Bataille de Hastings",
+          "tl": "Labanan sa Hastings"
+        },
+        {
+          "en": "Battle of Waterloo",
+          "fr": "Bataille de Waterloo",
+          "tl": "Labanan sa Waterloo"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-028",
+      "prompt": {
+        "en": "Which king accepted Magna Carta in 1215?",
+        "fr": "Quel roi accepta la Magna Carta en 1215 ?",
+        "tl": "Sinong hari ang tumanggap sa Magna Carta noong 1215?"
+      },
+      "answers": [
+        {
+          "en": "Richard III",
+          "fr": "Richard III",
+          "tl": "Richard III"
+        },
+        {
+          "en": "Henry VIII",
+          "fr": "Henri VIII",
+          "tl": "Henry VIII"
+        },
+        {
+          "en": "George III",
+          "fr": "George III",
+          "tl": "George III"
+        },
+        {
+          "en": "John of England",
+          "fr": "Jean sans Terre",
+          "tl": "John ng Inglatera"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-029",
+      "prompt": {
+        "en": "Which dynasty did Henry VIII belong to?",
+        "fr": "À quelle dynastie Henri VIII appartenait-il ?",
+        "tl": "Sa anong dinastiya kabilang si Henry VIII?"
+      },
+      "answers": [
+        {
+          "en": "Tudor",
+          "fr": "Tudor",
+          "tl": "Tudor"
+        },
+        {
+          "en": "Stuart",
+          "fr": "Stuart",
+          "tl": "Stuart"
+        },
+        {
+          "en": "Windsor",
+          "fr": "Windsor",
+          "tl": "Windsor"
+        },
+        {
+          "en": "Bourbon",
+          "fr": "Bourbon",
+          "tl": "Bourbon"
+        }
       ],
       "correct": 0,
       "difficulty": 2
     },
     {
-      "id": "king2",
+      "id": "kings-030",
       "prompt": {
-        "en": "Which English king had six wives?",
-        "fr": "Quel roi d’Angleterre eut six épouses ?",
-        "tl": "Sinong hari ng Inglatera ang nagkaroon ng anim na asawa?"
+        "en": "Which dynasty did Louis XIV belong to?",
+        "fr": "À quelle dynastie Louis XIV appartenait-il ?",
+        "tl": "Sa anong dinastiya kabilang si Louis XIV?"
       },
       "answers": [
-        "Henry VIII",
-        "Henry V",
-        "Charles I",
-        "George VI"
+        {
+          "en": "Bernadotte",
+          "fr": "Bernadotte",
+          "tl": "Bernadotte"
+        },
+        {
+          "en": "Bourbon",
+          "fr": "Bourbon",
+          "tl": "Bourbon"
+        },
+        {
+          "en": "Tudor",
+          "fr": "Tudor",
+          "tl": "Tudor"
+        },
+        {
+          "en": "Romanov",
+          "fr": "Romanov",
+          "tl": "Romanov"
+        }
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": 2
     },
     {
-      "id": "king3",
+      "id": "kings-031",
       "prompt": {
-        "en": "Which emperor was crowned in Rome on Christmas Day in the year 800?",
-        "fr": "Quel empereur fut couronné à Rome le jour de Noël de l’an 800 ?",
-        "tl": "Sinong emperador ang kinoronahan sa Roma noong Pasko ng taong 800?"
+        "en": "Who was crowned emperor in Rome on Christmas Day in 800?",
+        "fr": "Qui fut couronné empereur à Rome le jour de Noël en 800 ?",
+        "tl": "Sino ang kinoronahang emperador sa Roma noong Pasko ng taong 800?"
       },
       "answers": [
+        {
+          "en": "Hugh Capet",
+          "fr": "Hugues Capet",
+          "tl": "Hugh Capet"
+        },
+        {
+          "en": "Louis IX (Saint Louis)",
+          "fr": "Louis IX (Saint Louis)",
+          "tl": "Louis IX (San Louis)"
+        },
         {
           "en": "Charlemagne",
           "fr": "Charlemagne",
           "tl": "Charlemagne"
         },
-        "Napoleon I",
-        "Charles V",
-        "Otto I"
+        {
+          "en": "Clovis I",
+          "fr": "Clovis Ier",
+          "tl": "Clovis I"
+        }
       ],
-      "correct": 0,
+      "correct": 2,
       "difficulty": 2
     },
     {
-      "id": "king4",
+      "id": "kings-032",
       "prompt": {
-        "en": "Which French king was executed in 1793?",
-        "fr": "Quel roi de France fut exécuté en 1793 ?",
-        "tl": "Sinong hari ng Pransiya ang pinatay noong 1793?"
-      },
-      "answers": [
-        "Louis XVI",
-        "Louis XIV",
-        "Louis XV",
-        "Charles X"
-      ],
-      "correct": 0,
-      "difficulty": 2
-    },
-    {
-      "id": "king5",
-      "prompt": {
-        "en": "Which English king is associated with the Magna Carta of 1215?",
-        "fr": "Quel roi d’Angleterre est associé à la Magna Carta de 1215 ?",
-        "tl": "Sinong hari ng Inglatera ang kaugnay ng Magna Carta noong 1215?"
+        "en": "Which king issued the Edict of Nantes in 1598?",
+        "fr": "Quel roi promulgua l'édit de Nantes en 1598 ?",
+        "tl": "Sinong hari ang naglabas ng Edikto ng Nantes noong 1598?"
       },
       "answers": [
         {
-          "en": "John",
-          "fr": "Jean sans Terre",
-          "tl": "John"
+          "en": "Louis XIV",
+          "fr": "Louis XIV",
+          "tl": "Louis XIV"
         },
-        "Richard II",
-        "Edward VI",
-        "George I"
+        {
+          "en": "Francis I",
+          "fr": "François Ier",
+          "tl": "Francis I"
+        },
+        {
+          "en": "Charles VII of France",
+          "fr": "Charles VII de France",
+          "tl": "Charles VII ng Pransiya"
+        },
+        {
+          "en": "Henry IV of France",
+          "fr": "Henri IV de France",
+          "tl": "Henry IV ng Pransiya"
+        }
       ],
-      "correct": 0,
-      "difficulty": 3
+      "correct": 3,
+      "difficulty": 2
     },
     {
-      "id": "king6",
+      "id": "kings-033",
       "prompt": {
-        "en": "Which queen began her reign in the United Kingdom in 1837?",
-        "fr": "Quelle reine commença son règne au Royaume-Uni en 1837 ?",
-        "tl": "Sinong reyna ang nagsimulang maghari sa United Kingdom noong 1837?"
+        "en": "Which king was executed during the French Revolution in 1793?",
+        "fr": "Quel roi fut exécuté pendant la Révolution française en 1793 ?",
+        "tl": "Sinong hari ang binitay noong Rebolusyong Pranses sa 1793?"
       },
       "answers": [
-        "Victoria",
-        "Elizabeth I",
-        "Mary I",
-        "Anne"
+        {
+          "en": "Louis XVI",
+          "fr": "Louis XVI",
+          "tl": "Louis XVI"
+        },
+        {
+          "en": "Louis XV",
+          "fr": "Louis XV",
+          "tl": "Louis XV"
+        },
+        {
+          "en": "Louis XVIII",
+          "fr": "Louis XVIII",
+          "tl": "Louis XVIII"
+        },
+        {
+          "en": "Charles X of France",
+          "fr": "Charles X de France",
+          "tl": "Charles X ng Pransiya"
+        }
       ],
       "correct": 0,
       "difficulty": 2
     },
     {
-      "id": "king7",
+      "id": "kings-034",
       "prompt": {
-        "en": "Which French king is associated with the Edict of Nantes in 1598?",
-        "fr": "Quel roi de France est associé à l’édit de Nantes en 1598 ?",
-        "tl": "Sinong hari ng Pransiya ang kaugnay ng Edict of Nantes noong 1598?"
+        "en": "Which English king was executed in 1649?",
+        "fr": "Quel roi d'Angleterre fut exécuté en 1649 ?",
+        "tl": "Sinong hari ng Inglatera ang binitay noong 1649?"
       },
       "answers": [
-        "Henri IV",
-        "Louis XIII",
-        "François II",
-        "Charles VIII"
+        {
+          "en": "William III of Orange",
+          "fr": "Guillaume III d'Orange",
+          "tl": "William III of Orange"
+        },
+        {
+          "en": "Charles I of England",
+          "fr": "Charles Ier d'Angleterre",
+          "tl": "Charles I ng Inglatera"
+        },
+        {
+          "en": "Charles II of England",
+          "fr": "Charles II d'Angleterre",
+          "tl": "Charles II ng Inglatera"
+        },
+        {
+          "en": "James II",
+          "fr": "Jacques II",
+          "tl": "James II"
+        }
       ],
-      "correct": 0,
-      "difficulty": 3
+      "correct": 1,
+      "difficulty": 2
     },
     {
-      "id": "king8",
+      "id": "kings-035",
       "prompt": {
-        "en": "Which queen ruled England when the Spanish Armada sailed against it in 1588?",
-        "fr": "Quelle reine régnait sur l’Angleterre lors de l’expédition de l’Armada espagnole en 1588 ?",
-        "tl": "Sinong reyna ang namumuno sa Inglatera nang dumating ang Spanish Armada noong 1588?"
+        "en": "Which king returned to the English throne at the Restoration of 1660?",
+        "fr": "Quel roi monta sur le trône anglais lors de la Restauration de 1660 ?",
+        "tl": "Sinong hari ang umupo sa trono ng Inglatera sa Restoration ng 1660?"
       },
       "answers": [
-        "Elizabeth I",
-        "Victoria",
-        "Mary II",
-        "Elizabeth II"
+        {
+          "en": "George I",
+          "fr": "George Ier",
+          "tl": "George I"
+        },
+        {
+          "en": "James VI of Scotland / I of England",
+          "fr": "Jacques VI d'Écosse / Ier d'Angleterre",
+          "tl": "James VI ng Scotland / I ng Inglatera"
+        },
+        {
+          "en": "Charles II of England",
+          "fr": "Charles II d'Angleterre",
+          "tl": "Charles II ng Inglatera"
+        },
+        {
+          "en": "Charles I of England",
+          "fr": "Charles Ier d'Angleterre",
+          "tl": "Charles I ng Inglatera"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-036",
+      "prompt": {
+        "en": "Which queen of Castile helped finance Columbus's voyage of 1492?",
+        "fr": "Quelle reine de Castille contribua au financement du voyage de Colomb en 1492 ?",
+        "tl": "Sinong reyna ng Castile ang tumulong pondohan ang paglalakbay ni Columbus noong 1492?"
+      },
+      "answers": [
+        {
+          "en": "Elizabeth I",
+          "fr": "Élisabeth Ire",
+          "tl": "Elizabeth I"
+        },
+        {
+          "en": "Maria Theresa",
+          "fr": "Marie-Thérèse d'Autriche",
+          "tl": "Maria Theresa"
+        },
+        {
+          "en": "Christina of Sweden",
+          "fr": "Christine de Suède",
+          "tl": "Christina ng Sweden"
+        },
+        {
+          "en": "Isabella I of Castile",
+          "fr": "Isabelle Ire de Castille",
+          "tl": "Isabella I ng Castile"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-037",
+      "prompt": {
+        "en": "Which king of Aragon married Isabella of Castile?",
+        "fr": "Quel roi d'Aragon épousa Isabelle de Castille ?",
+        "tl": "Sinong hari ng Aragon ang nagpakasal kay Isabella ng Castile?"
+      },
+      "answers": [
+        {
+          "en": "Ferdinand II of Aragon",
+          "fr": "Ferdinand II d'Aragon",
+          "tl": "Ferdinand II ng Aragon"
+        },
+        {
+          "en": "Philip II of Spain",
+          "fr": "Philippe II d'Espagne",
+          "tl": "Philip II ng Espanya"
+        },
+        {
+          "en": "Philip V of Spain",
+          "fr": "Philippe V d'Espagne",
+          "tl": "Philip V ng Espanya"
+        },
+        {
+          "en": "Charles II of Spain",
+          "fr": "Charles II d'Espagne",
+          "tl": "Charles II ng Espanya"
+        }
       ],
       "correct": 0,
       "difficulty": 2
     },
     {
-      "id": "king9",
+      "id": "kings-038",
       "prompt": {
-        "en": "Which French king commissioned the Château de Chambord?",
-        "fr": "Quel roi de France commanda le château de Chambord ?",
-        "tl": "Sinong hari ng Pransiya ang nagpagawa ng Château de Chambord?"
+        "en": "Which country did Philip II send the Armada from in 1588?",
+        "fr": "Depuis quel pays Philippe II envoya-t-il l'Armada en 1588 ?",
+        "tl": "Mula sa anong bansa ipinadala ni Philip II ang Armada noong 1588?"
       },
       "answers": [
-        "François I",
-        "Louis XI",
-        "Henri III",
-        "Louis XVIII"
+        {
+          "en": "Portugal",
+          "fr": "Portugal",
+          "tl": "Portugal"
+        },
+        {
+          "en": "Spain",
+          "fr": "Espagne",
+          "tl": "Espanya"
+        },
+        {
+          "en": "France",
+          "fr": "France",
+          "tl": "Pransiya"
+        },
+        {
+          "en": "Denmark",
+          "fr": "Danemark",
+          "tl": "Denmark"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-039",
+      "prompt": {
+        "en": "Which queen was on England's throne when the Armada sailed in 1588?",
+        "fr": "Quelle reine occupait le trône anglais lors de l'expédition de l'Armada en 1588 ?",
+        "tl": "Sinong reyna ang nasa trono ng Inglatera nang maglayag ang Armada noong 1588?"
+      },
+      "answers": [
+        {
+          "en": "Victoria",
+          "fr": "Victoria",
+          "tl": "Victoria"
+        },
+        {
+          "en": "Anne",
+          "fr": "Anne",
+          "tl": "Anne"
+        },
+        {
+          "en": "Elizabeth I",
+          "fr": "Élisabeth Ire",
+          "tl": "Elizabeth I"
+        },
+        {
+          "en": "Mary I of England",
+          "fr": "Marie Ire d'Angleterre",
+          "tl": "Mary I ng Inglatera"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-040",
+      "prompt": {
+        "en": "Which king founded Saint Petersburg in 1703?",
+        "fr": "Quel souverain fonda Saint-Pétersbourg en 1703 ?",
+        "tl": "Sinong monarka ang nagtatag ng Saint Petersburg noong 1703?"
+      },
+      "answers": [
+        {
+          "en": "Ivan IV the Terrible",
+          "fr": "Ivan IV le Terrible",
+          "tl": "Ivan IV the Terrible"
+        },
+        {
+          "en": "Nicholas II",
+          "fr": "Nicolas II",
+          "tl": "Nicholas II"
+        },
+        {
+          "en": "Michael I Romanov",
+          "fr": "Michel Ier Romanov",
+          "tl": "Michael I Romanov"
+        },
+        {
+          "en": "Peter I the Great",
+          "fr": "Pierre Ier le Grand",
+          "tl": "Peter I the Great"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-041",
+      "prompt": {
+        "en": "Which dynasty ruled Russia from 1613 until 1917?",
+        "fr": "Quelle dynastie régna sur la Russie de 1613 à 1917 ?",
+        "tl": "Anong dinastiya ang naghari sa Russia mula 1613 hanggang 1917?"
+      },
+      "answers": [
+        {
+          "en": "Romanov",
+          "fr": "Romanov",
+          "tl": "Romanov"
+        },
+        {
+          "en": "Habsburg",
+          "fr": "Habsbourg",
+          "tl": "Habsburg"
+        },
+        {
+          "en": "Bourbon",
+          "fr": "Bourbon",
+          "tl": "Bourbon"
+        },
+        {
+          "en": "Tudor",
+          "fr": "Tudor",
+          "tl": "Tudor"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-042",
+      "prompt": {
+        "en": "Who was Russia's last reigning emperor?",
+        "fr": "Qui fut le dernier empereur régnant de Russie ?",
+        "tl": "Sino ang huling nagharing emperador ng Russia?"
+      },
+      "answers": [
+        {
+          "en": "Michael I Romanov",
+          "fr": "Michel Ier Romanov",
+          "tl": "Michael I Romanov"
+        },
+        {
+          "en": "Nicholas II",
+          "fr": "Nicolas II",
+          "tl": "Nicholas II"
+        },
+        {
+          "en": "Peter I the Great",
+          "fr": "Pierre Ier le Grand",
+          "tl": "Peter I the Great"
+        },
+        {
+          "en": "Ivan IV the Terrible",
+          "fr": "Ivan IV le Terrible",
+          "tl": "Ivan IV the Terrible"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-043",
+      "prompt": {
+        "en": "Which king abdicated the British throne in 1936?",
+        "fr": "Quel roi abdiqua le trône britannique en 1936 ?",
+        "tl": "Sinong hari ang nagbitiw sa trono ng Britanya noong 1936?"
+      },
+      "answers": [
+        {
+          "en": "George V",
+          "fr": "George V",
+          "tl": "George V"
+        },
+        {
+          "en": "George III",
+          "fr": "George III",
+          "tl": "George III"
+        },
+        {
+          "en": "Edward VIII",
+          "fr": "Édouard VIII",
+          "tl": "Edward VIII"
+        },
+        {
+          "en": "George VI",
+          "fr": "George VI",
+          "tl": "George VI"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-044",
+      "prompt": {
+        "en": "Who was Elizabeth II's father?",
+        "fr": "Qui était le père d'Élisabeth II ?",
+        "tl": "Sino ang ama ni Elizabeth II?"
+      },
+      "answers": [
+        {
+          "en": "George V",
+          "fr": "George V",
+          "tl": "George V"
+        },
+        {
+          "en": "Edward VIII",
+          "fr": "Édouard VIII",
+          "tl": "Edward VIII"
+        },
+        {
+          "en": "George III",
+          "fr": "George III",
+          "tl": "George III"
+        },
+        {
+          "en": "George VI",
+          "fr": "George VI",
+          "tl": "George VI"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-045",
+      "prompt": {
+        "en": "Which royal house adopted the name Windsor in 1917 under George V?",
+        "fr": "Quel nom la maison royale britannique adopta-t-elle en 1917 sous George V ?",
+        "tl": "Anong pangalan ang pinili ng maharlikang sambahayan ng Britanya noong 1917 sa panahon ni George V?"
+      },
+      "answers": [
+        {
+          "en": "Windsor",
+          "fr": "Windsor",
+          "tl": "Windsor"
+        },
+        {
+          "en": "Tudor",
+          "fr": "Tudor",
+          "tl": "Tudor"
+        },
+        {
+          "en": "Stuart",
+          "fr": "Stuart",
+          "tl": "Stuart"
+        },
+        {
+          "en": "Hanover",
+          "fr": "Hanovre",
+          "tl": "Hanover"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-046",
+      "prompt": {
+        "en": "Who became the first king of independent Belgium in 1831?",
+        "fr": "Qui devint le premier roi de la Belgique indépendante en 1831 ?",
+        "tl": "Sino ang naging unang hari ng malayang Belgium noong 1831?"
+      },
+      "answers": [
+        {
+          "en": "Victor Emmanuel II",
+          "fr": "Victor-Emmanuel II",
+          "tl": "Victor Emmanuel II"
+        },
+        {
+          "en": "Leopold I of Belgium",
+          "fr": "Léopold Ier de Belgique",
+          "tl": "Leopold I ng Belgium"
+        },
+        {
+          "en": "William I of the Netherlands",
+          "fr": "Guillaume Ier des Pays-Bas",
+          "tl": "William I ng Netherlands"
+        },
+        {
+          "en": "Haakon VII of Norway",
+          "fr": "Haakon VII de Norvège",
+          "tl": "Haakon VII ng Norway"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-047",
+      "prompt": {
+        "en": "Who became the first king of unified Italy in 1861?",
+        "fr": "Qui devint le premier roi de l'Italie unifiée en 1861 ?",
+        "tl": "Sino ang naging unang hari ng pinag-isang Italya noong 1861?"
+      },
+      "answers": [
+        {
+          "en": "Juan Carlos I",
+          "fr": "Juan Carlos Ier",
+          "tl": "Juan Carlos I"
+        },
+        {
+          "en": "William I of the Netherlands",
+          "fr": "Guillaume Ier des Pays-Bas",
+          "tl": "William I ng Netherlands"
+        },
+        {
+          "en": "Victor Emmanuel II",
+          "fr": "Victor-Emmanuel II",
+          "tl": "Victor Emmanuel II"
+        },
+        {
+          "en": "Leopold I of Belgium",
+          "fr": "Léopold Ier de Belgique",
+          "tl": "Leopold I ng Belgium"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-048",
+      "prompt": {
+        "en": "Which French king succeeded Louis XIV in 1715?",
+        "fr": "Quel roi de France succéda à Louis XIV en 1715 ?",
+        "tl": "Sinong hari ng Pransiya ang humalili kay Louis XIV noong 1715?"
+      },
+      "answers": [
+        {
+          "en": "Louis XVI",
+          "fr": "Louis XVI",
+          "tl": "Louis XVI"
+        },
+        {
+          "en": "Louis XIII",
+          "fr": "Louis XIII",
+          "tl": "Louis XIII"
+        },
+        {
+          "en": "Louis XVIII",
+          "fr": "Louis XVIII",
+          "tl": "Louis XVIII"
+        },
+        {
+          "en": "Louis XV",
+          "fr": "Louis XV",
+          "tl": "Louis XV"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-049",
+      "prompt": {
+        "en": "In which city were many French kings traditionally crowned?",
+        "fr": "Dans quelle ville de nombreux rois de France étaient-ils traditionnellement sacrés ?",
+        "tl": "Saang lungsod tradisyonal na kinoronahan ang maraming hari ng Pransiya?"
+      },
+      "answers": [
+        {
+          "en": "Reims",
+          "fr": "Reims",
+          "tl": "Reims"
+        },
+        {
+          "en": "Lyon",
+          "fr": "Lyon",
+          "tl": "Lyon"
+        },
+        {
+          "en": "Marseille",
+          "fr": "Marseille",
+          "tl": "Marseille"
+        },
+        {
+          "en": "Bordeaux",
+          "fr": "Bordeaux",
+          "tl": "Bordeaux"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-050",
+      "prompt": {
+        "en": "Which abbey hosted Elizabeth II's coronation in 1953?",
+        "fr": "Quelle abbaye accueillit le couronnement d'Élisabeth II en 1953 ?",
+        "tl": "Saang abadia ginanap ang koronasyon ni Elizabeth II noong 1953?"
+      },
+      "answers": [
+        {
+          "en": "Saint Peter's Basilica",
+          "fr": "Basilique Saint-Pierre",
+          "tl": "Basilika ni San Pedro"
+        },
+        {
+          "en": "Westminster Abbey",
+          "fr": "Abbaye de Westminster",
+          "tl": "Abadia ng Westminster"
+        },
+        {
+          "en": "Notre-Dame de Paris",
+          "fr": "Notre-Dame de Paris",
+          "tl": "Notre-Dame de Paris"
+        },
+        {
+          "en": "Basilica of Saint-Denis",
+          "fr": "Basilique Saint-Denis",
+          "tl": "Basilika ng Saint-Denis"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "kings-051",
+      "prompt": {
+        "en": "Which king founded the Capetian dynasty in 987?",
+        "fr": "Quel roi fonda la dynastie capétienne en 987 ?",
+        "tl": "Sinong hari ang nagtatag ng dinastiyang Capetian noong 987?"
+      },
+      "answers": [
+        {
+          "en": "Clovis I",
+          "fr": "Clovis Ier",
+          "tl": "Clovis I"
+        },
+        {
+          "en": "Philip II Augustus",
+          "fr": "Philippe II Auguste",
+          "tl": "Philip II Augustus"
+        },
+        {
+          "en": "Hugh Capet",
+          "fr": "Hugues Capet",
+          "tl": "Hugh Capet"
+        },
+        {
+          "en": "Charlemagne",
+          "fr": "Charlemagne",
+          "tl": "Charlemagne"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-052",
+      "prompt": {
+        "en": "Which French king won the Battle of Bouvines in 1214?",
+        "fr": "Quel roi de France remporta la bataille de Bouvines en 1214 ?",
+        "tl": "Sinong hari ng Pransiya ang nanalo sa Labanan sa Bouvines noong 1214?"
+      },
+      "answers": [
+        {
+          "en": "Louis IX (Saint Louis)",
+          "fr": "Louis IX (Saint Louis)",
+          "tl": "Louis IX (San Louis)"
+        },
+        {
+          "en": "Philip IV the Fair",
+          "fr": "Philippe IV le Bel",
+          "tl": "Philip IV the Fair"
+        },
+        {
+          "en": "Charles VII of France",
+          "fr": "Charles VII de France",
+          "tl": "Charles VII ng Pransiya"
+        },
+        {
+          "en": "Philip II Augustus",
+          "fr": "Philippe II Auguste",
+          "tl": "Philip II Augustus"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-053",
+      "prompt": {
+        "en": "Which French king was defeated and captured at Pavia in 1525?",
+        "fr": "Quel roi de France fut vaincu et capturé à Pavie en 1525 ?",
+        "tl": "Sinong hari ng Pransiya ang natalo at nabihag sa Pavia noong 1525?"
+      },
+      "answers": [
+        {
+          "en": "Francis I",
+          "fr": "François Ier",
+          "tl": "Francis I"
+        },
+        {
+          "en": "Henry IV of France",
+          "fr": "Henri IV de France",
+          "tl": "Henry IV ng Pransiya"
+        },
+        {
+          "en": "Louis XIII",
+          "fr": "Louis XIII",
+          "tl": "Louis XIII"
+        },
+        {
+          "en": "Charles VII of France",
+          "fr": "Charles VII de France",
+          "tl": "Charles VII ng Pransiya"
+        }
       ],
       "correct": 0,
       "difficulty": 3
+    },
+    {
+      "id": "kings-054",
+      "prompt": {
+        "en": "Which king died in 1559 after being injured in a joust?",
+        "fr": "Quel roi mourut en 1559 après avoir été blessé lors d'un tournoi ?",
+        "tl": "Sinong hari ang namatay noong 1559 matapos masugatan sa isang joust?"
+      },
+      "answers": [
+        {
+          "en": "Louis XIII",
+          "fr": "Louis XIII",
+          "tl": "Louis XIII"
+        },
+        {
+          "en": "Henry II of France",
+          "fr": "Henri II de France",
+          "tl": "Henry II ng Pransiya"
+        },
+        {
+          "en": "Francis I",
+          "fr": "François Ier",
+          "tl": "Francis I"
+        },
+        {
+          "en": "Henry IV of France",
+          "fr": "Henri IV de France",
+          "tl": "Henry IV ng Pransiya"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-055",
+      "prompt": {
+        "en": "Which French king revoked the Edict of Nantes in 1685?",
+        "fr": "Quel roi de France révoqua l'édit de Nantes en 1685 ?",
+        "tl": "Sinong hari ng Pransiya ang nagpawalang-bisa sa Edikto ng Nantes noong 1685?"
+      },
+      "answers": [
+        {
+          "en": "Louis XV",
+          "fr": "Louis XV",
+          "tl": "Louis XV"
+        },
+        {
+          "en": "Louis XVI",
+          "fr": "Louis XVI",
+          "tl": "Louis XVI"
+        },
+        {
+          "en": "Louis XIV",
+          "fr": "Louis XIV",
+          "tl": "Louis XIV"
+        },
+        {
+          "en": "Louis XIII",
+          "fr": "Louis XIII",
+          "tl": "Louis XIII"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-056",
+      "prompt": {
+        "en": "Which monarch was already king of Scotland before inheriting England's crown in 1603?",
+        "fr": "Quel monarque était déjà roi d'Écosse avant d'hériter de la couronne anglaise en 1603 ?",
+        "tl": "Sinong monarka ang hari na ng Scotland bago manahin ang korona ng Inglatera noong 1603?"
+      },
+      "answers": [
+        {
+          "en": "James II",
+          "fr": "Jacques II",
+          "tl": "James II"
+        },
+        {
+          "en": "Charles I of England",
+          "fr": "Charles Ier d'Angleterre",
+          "tl": "Charles I ng Inglatera"
+        },
+        {
+          "en": "William III of Orange",
+          "fr": "Guillaume III d'Orange",
+          "tl": "William III of Orange"
+        },
+        {
+          "en": "James VI of Scotland / I of England",
+          "fr": "Jacques VI d'Écosse / Ier d'Angleterre",
+          "tl": "James VI ng Scotland / I ng Inglatera"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-057",
+      "prompt": {
+        "en": "Under which queen did the 1707 union create the Kingdom of Great Britain?",
+        "fr": "Sous quelle reine l'union de 1707 créa-t-elle le royaume de Grande-Bretagne ?",
+        "tl": "Sa ilalim ng sinong reyna nabuo ang Kaharian ng Great Britain sa unyon ng 1707?"
+      },
+      "answers": [
+        {
+          "en": "Anne",
+          "fr": "Anne",
+          "tl": "Anne"
+        },
+        {
+          "en": "Elizabeth I",
+          "fr": "Élisabeth Ire",
+          "tl": "Elizabeth I"
+        },
+        {
+          "en": "Mary I of England",
+          "fr": "Marie Ire d'Angleterre",
+          "tl": "Mary I ng Inglatera"
+        },
+        {
+          "en": "Victoria",
+          "fr": "Victoria",
+          "tl": "Victoria"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-058",
+      "prompt": {
+        "en": "Which king was displaced by the Glorious Revolution of 1688?",
+        "fr": "Quel roi fut écarté par la Glorieuse Révolution de 1688 ?",
+        "tl": "Sinong hari ang naalis sa Glorious Revolution ng 1688?"
+      },
+      "answers": [
+        {
+          "en": "Henry VIII",
+          "fr": "Henri VIII",
+          "tl": "Henry VIII"
+        },
+        {
+          "en": "James II",
+          "fr": "Jacques II",
+          "tl": "James II"
+        },
+        {
+          "en": "Charles II of England",
+          "fr": "Charles II d'Angleterre",
+          "tl": "Charles II ng Inglatera"
+        },
+        {
+          "en": "George I",
+          "fr": "George Ier",
+          "tl": "George I"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-059",
+      "prompt": {
+        "en": "Which king established the Tudor dynasty after Bosworth in 1485?",
+        "fr": "Quel roi établit la dynastie Tudor après Bosworth en 1485 ?",
+        "tl": "Sinong hari ang nagtatag ng dinastiyang Tudor matapos ang Bosworth noong 1485?"
+      },
+      "answers": [
+        {
+          "en": "Richard III",
+          "fr": "Richard III",
+          "tl": "Richard III"
+        },
+        {
+          "en": "Edward IV",
+          "fr": "Édouard IV",
+          "tl": "Edward IV"
+        },
+        {
+          "en": "Henry VII",
+          "fr": "Henri VII",
+          "tl": "Henry VII"
+        },
+        {
+          "en": "Henry VIII",
+          "fr": "Henri VIII",
+          "tl": "Henry VIII"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-060",
+      "prompt": {
+        "en": "Which English king won the Battle of Agincourt in 1415?",
+        "fr": "Quel roi d'Angleterre remporta la bataille d'Azincourt en 1415 ?",
+        "tl": "Sinong hari ng Inglatera ang nanalo sa Labanan sa Agincourt noong 1415?"
+      },
+      "answers": [
+        {
+          "en": "Henry VII",
+          "fr": "Henri VII",
+          "tl": "Henry VII"
+        },
+        {
+          "en": "Richard I the Lionheart",
+          "fr": "Richard Ier Cœur de Lion",
+          "tl": "Richard I the Lionheart"
+        },
+        {
+          "en": "Edward I",
+          "fr": "Édouard Ier",
+          "tl": "Edward I"
+        },
+        {
+          "en": "Henry V",
+          "fr": "Henri V",
+          "tl": "Henry V"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-061",
+      "prompt": {
+        "en": "Which Scottish king won at Bannockburn in 1314?",
+        "fr": "Quel roi d'Écosse remporta la bataille de Bannockburn en 1314 ?",
+        "tl": "Sinong hari ng Scotland ang nanalo sa Bannockburn noong 1314?"
+      },
+      "answers": [
+        {
+          "en": "Robert the Bruce",
+          "fr": "Robert Bruce",
+          "tl": "Robert the Bruce"
+        },
+        {
+          "en": "James VI of Scotland / I of England",
+          "fr": "Jacques VI d'Écosse / Ier d'Angleterre",
+          "tl": "James VI ng Scotland / I ng Inglatera"
+        },
+        {
+          "en": "Cnut (Canute)",
+          "fr": "Knut le Grand",
+          "tl": "Cnut (Canute)"
+        },
+        {
+          "en": "Alfred the Great",
+          "fr": "Alfred le Grand",
+          "tl": "Alfred the Great"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-062",
+      "prompt": {
+        "en": "Which Hanoverian king ruled Britain during the American War of Independence?",
+        "fr": "Quel roi de la maison de Hanovre régnait sur la Grande-Bretagne pendant la guerre d'indépendance américaine ?",
+        "tl": "Sinong hari ng Hanover ang naghari sa Britanya noong Digmaan ng Kalayaan ng Amerika?"
+      },
+      "answers": [
+        {
+          "en": "George VI",
+          "fr": "George VI",
+          "tl": "George VI"
+        },
+        {
+          "en": "George III",
+          "fr": "George III",
+          "tl": "George III"
+        },
+        {
+          "en": "George I",
+          "fr": "George Ier",
+          "tl": "George I"
+        },
+        {
+          "en": "George V",
+          "fr": "George V",
+          "tl": "George V"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-063",
+      "prompt": {
+        "en": "Which king became Spain's first Bourbon monarch in 1700?",
+        "fr": "Quel roi devint le premier Bourbon sur le trône espagnol en 1700 ?",
+        "tl": "Sinong hari ang naging unang Bourbon sa trono ng Espanya noong 1700?"
+      },
+      "answers": [
+        {
+          "en": "Charles II of Spain",
+          "fr": "Charles II d'Espagne",
+          "tl": "Charles II ng Espanya"
+        },
+        {
+          "en": "Ferdinand II of Aragon",
+          "fr": "Ferdinand II d'Aragon",
+          "tl": "Ferdinand II ng Aragon"
+        },
+        {
+          "en": "Philip V of Spain",
+          "fr": "Philippe V d'Espagne",
+          "tl": "Philip V ng Espanya"
+        },
+        {
+          "en": "Philip II of Spain",
+          "fr": "Philippe II d'Espagne",
+          "tl": "Philip II ng Espanya"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-064",
+      "prompt": {
+        "en": "Which ruler was both Charles I of Spain and Holy Roman Emperor Charles V?",
+        "fr": "Quel souverain fut à la fois Charles Ier d'Espagne et l'empereur Charles Quint ?",
+        "tl": "Sinong monarka ang parehong Charles I ng Espanya at Emperador Charles V?"
+      },
+      "answers": [
+        {
+          "en": "Charles IV, Holy Roman Emperor",
+          "fr": "Charles IV, empereur germanique",
+          "tl": "Charles IV, Emperador ng Banal na Imperyong Romano"
+        },
+        {
+          "en": "Charles II of Spain",
+          "fr": "Charles II d'Espagne",
+          "tl": "Charles II ng Espanya"
+        },
+        {
+          "en": "Philip II of Spain",
+          "fr": "Philippe II d'Espagne",
+          "tl": "Philip II ng Espanya"
+        },
+        {
+          "en": "Charles V",
+          "fr": "Charles Quint",
+          "tl": "Charles V"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-065",
+      "prompt": {
+        "en": "Which Portuguese king's reign saw Vasco da Gama reach India in 1498?",
+        "fr": "Sous quel roi du Portugal Vasco de Gama atteignit-il l'Inde en 1498 ?",
+        "tl": "Sa paghahari ng sinong hari ng Portugal narating ni Vasco da Gama ang India noong 1498?"
+      },
+      "answers": [
+        {
+          "en": "Manuel I of Portugal",
+          "fr": "Manuel Ier de Portugal",
+          "tl": "Manuel I ng Portugal"
+        },
+        {
+          "en": "Afonso I of Portugal",
+          "fr": "Alphonse Ier de Portugal",
+          "tl": "Afonso I ng Portugal"
+        },
+        {
+          "en": "John I of Portugal",
+          "fr": "Jean Ier de Portugal",
+          "tl": "John I ng Portugal"
+        },
+        {
+          "en": "John IV of Portugal",
+          "fr": "Jean IV de Portugal",
+          "tl": "John IV ng Portugal"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-066",
+      "prompt": {
+        "en": "Which queen abdicated Sweden's throne in 1654?",
+        "fr": "Quelle reine abdiqua le trône de Suède en 1654 ?",
+        "tl": "Sinong reyna ang nagbitiw sa trono ng Sweden noong 1654?"
+      },
+      "answers": [
+        {
+          "en": "Isabella I of Castile",
+          "fr": "Isabelle Ire de Castille",
+          "tl": "Isabella I ng Castile"
+        },
+        {
+          "en": "Christina of Sweden",
+          "fr": "Christine de Suède",
+          "tl": "Christina ng Sweden"
+        },
+        {
+          "en": "Margaret I of Denmark",
+          "fr": "Marguerite Ire de Danemark",
+          "tl": "Margaret I ng Denmark"
+        },
+        {
+          "en": "Maria Theresa",
+          "fr": "Marie-Thérèse d'Autriche",
+          "tl": "Maria Theresa"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-067",
+      "prompt": {
+        "en": "Which Swedish king was killed at Lützen in 1632?",
+        "fr": "Quel roi de Suède fut tué à Lützen en 1632 ?",
+        "tl": "Sinong hari ng Sweden ang napatay sa Lützen noong 1632?"
+      },
+      "answers": [
+        {
+          "en": "Charles XII of Sweden",
+          "fr": "Charles XII de Suède",
+          "tl": "Charles XII ng Sweden"
+        },
+        {
+          "en": "Charles XIV John (Bernadotte)",
+          "fr": "Charles XIV Jean (Bernadotte)",
+          "tl": "Charles XIV John (Bernadotte)"
+        },
+        {
+          "en": "Gustav II Adolf",
+          "fr": "Gustave II Adolphe",
+          "tl": "Gustav II Adolf"
+        },
+        {
+          "en": "Gustav I Vasa",
+          "fr": "Gustave Ier Vasa",
+          "tl": "Gustav I Vasa"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-068",
+      "prompt": {
+        "en": "Which Swedish royal dynasty was founded by a former marshal of Napoleon?",
+        "fr": "Quelle dynastie royale suédoise fut fondée par un ancien maréchal de Napoléon ?",
+        "tl": "Anong dinastiya sa Sweden ang itinatag ng dating marshal ni Napoleon?"
+      },
+      "answers": [
+        {
+          "en": "Romanov",
+          "fr": "Romanov",
+          "tl": "Romanov"
+        },
+        {
+          "en": "Habsburg",
+          "fr": "Habsbourg",
+          "tl": "Habsburg"
+        },
+        {
+          "en": "Savoy",
+          "fr": "Savoie",
+          "tl": "Savoy"
+        },
+        {
+          "en": "Bernadotte",
+          "fr": "Bernadotte",
+          "tl": "Bernadotte"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-069",
+      "prompt": {
+        "en": "Which ruler is closely associated with the Kalmar Union of 1397?",
+        "fr": "Quelle souveraine est étroitement associée à l'union de Kalmar de 1397 ?",
+        "tl": "Sinong monarka ang malapit na nauugnay sa Unyon ng Kalmar noong 1397?"
+      },
+      "answers": [
+        {
+          "en": "Margaret I of Denmark",
+          "fr": "Marguerite Ire de Danemark",
+          "tl": "Margaret I ng Denmark"
+        },
+        {
+          "en": "Christina of Sweden",
+          "fr": "Christine de Suède",
+          "tl": "Christina ng Sweden"
+        },
+        {
+          "en": "Isabella I of Castile",
+          "fr": "Isabelle Ire de Castille",
+          "tl": "Isabella I ng Castile"
+        },
+        {
+          "en": "Anne",
+          "fr": "Anne",
+          "tl": "Anne"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-070",
+      "prompt": {
+        "en": "Which king took Norway's throne after independence from Sweden in 1905?",
+        "fr": "Quel roi monta sur le trône de Norvège après l'indépendance vis-à-vis de la Suède en 1905 ?",
+        "tl": "Sinong hari ang umupo sa trono ng Norway matapos ang paglaya nito mula sa Sweden noong 1905?"
+      },
+      "answers": [
+        {
+          "en": "Charles XII of Sweden",
+          "fr": "Charles XII de Suède",
+          "tl": "Charles XII ng Sweden"
+        },
+        {
+          "en": "Haakon VII of Norway",
+          "fr": "Haakon VII de Norvège",
+          "tl": "Haakon VII ng Norway"
+        },
+        {
+          "en": "Christian IV of Denmark",
+          "fr": "Christian IV de Danemark",
+          "tl": "Christian IV ng Denmark"
+        },
+        {
+          "en": "Frederick VII of Denmark",
+          "fr": "Frédéric VII de Danemark",
+          "tl": "Frederick VII ng Denmark"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-071",
+      "prompt": {
+        "en": "Which Prussian king was known as Frederick the Great?",
+        "fr": "Quel roi de Prusse fut appelé Frédéric le Grand ?",
+        "tl": "Sinong hari ng Prussia ang kilala bilang Frederick the Great?"
+      },
+      "answers": [
+        {
+          "en": "Franz Joseph I",
+          "fr": "François-Joseph Ier",
+          "tl": "Franz Joseph I"
+        },
+        {
+          "en": "Joseph II",
+          "fr": "Joseph II",
+          "tl": "Joseph II"
+        },
+        {
+          "en": "Frederick II of Prussia",
+          "fr": "Frédéric II de Prusse",
+          "tl": "Frederick II ng Prussia"
+        },
+        {
+          "en": "Frederick VII of Denmark",
+          "fr": "Frédéric VII de Danemark",
+          "tl": "Frederick VII ng Denmark"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-072",
+      "prompt": {
+        "en": "Which Habsburg ruler was Marie Antoinette's mother?",
+        "fr": "Quelle souveraine Habsbourg était la mère de Marie-Antoinette ?",
+        "tl": "Sinong monarkang Habsburg ang ina ni Marie Antoinette?"
+      },
+      "answers": [
+        {
+          "en": "Catherine II the Great",
+          "fr": "Catherine II la Grande",
+          "tl": "Catherine II the Great"
+        },
+        {
+          "en": "Christina of Sweden",
+          "fr": "Christine de Suède",
+          "tl": "Christina ng Sweden"
+        },
+        {
+          "en": "Isabella I of Castile",
+          "fr": "Isabelle Ire de Castille",
+          "tl": "Isabella I ng Castile"
+        },
+        {
+          "en": "Maria Theresa",
+          "fr": "Marie-Thérèse d'Autriche",
+          "tl": "Maria Theresa"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-073",
+      "prompt": {
+        "en": "Which ruler reigned as Russian empress from 1762 to 1796?",
+        "fr": "Quelle souveraine régna comme impératrice de Russie de 1762 à 1796 ?",
+        "tl": "Sinong monarka ang naging emperatris ng Russia mula 1762 hanggang 1796?"
+      },
+      "answers": [
+        {
+          "en": "Catherine II the Great",
+          "fr": "Catherine II la Grande",
+          "tl": "Catherine II the Great"
+        },
+        {
+          "en": "Maria Theresa",
+          "fr": "Marie-Thérèse d'Autriche",
+          "tl": "Maria Theresa"
+        },
+        {
+          "en": "Christina of Sweden",
+          "fr": "Christine de Suède",
+          "tl": "Christina ng Sweden"
+        },
+        {
+          "en": "Victoria",
+          "fr": "Victoria",
+          "tl": "Victoria"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-074",
+      "prompt": {
+        "en": "Which French king was overthrown in the July Revolution of 1830?",
+        "fr": "Quel roi de France fut renversé par la révolution de Juillet 1830 ?",
+        "tl": "Sinong hari ng Pransiya ang napatalsik sa Rebolusyon ng Hulyo 1830?"
+      },
+      "answers": [
+        {
+          "en": "Louis-Philippe I",
+          "fr": "Louis-Philippe Ier",
+          "tl": "Louis-Philippe I"
+        },
+        {
+          "en": "Charles X of France",
+          "fr": "Charles X de France",
+          "tl": "Charles X ng Pransiya"
+        },
+        {
+          "en": "Louis XVI",
+          "fr": "Louis XVI",
+          "tl": "Louis XVI"
+        },
+        {
+          "en": "Louis XVIII",
+          "fr": "Louis XVIII",
+          "tl": "Louis XVIII"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-075",
+      "prompt": {
+        "en": "Which king of the French abdicated during the Revolution of 1848?",
+        "fr": "Quel roi des Français abdiqua pendant la révolution de 1848 ?",
+        "tl": "Sinong hari ng mga Pranses ang nagbitiw noong Rebolusyon ng 1848?"
+      },
+      "answers": [
+        {
+          "en": "Louis XVIII",
+          "fr": "Louis XVIII",
+          "tl": "Louis XVIII"
+        },
+        {
+          "en": "Louis XVI",
+          "fr": "Louis XVI",
+          "tl": "Louis XVI"
+        },
+        {
+          "en": "Louis-Philippe I",
+          "fr": "Louis-Philippe Ier",
+          "tl": "Louis-Philippe I"
+        },
+        {
+          "en": "Charles X of France",
+          "fr": "Charles X de France",
+          "tl": "Charles X ng Pransiya"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "kings-076",
+      "prompt": {
+        "en": "Which emperor issued the Golden Bull of 1356 regulating imperial elections?",
+        "fr": "Quel empereur promulgua la Bulle d'or de 1356 réglementant l'élection impériale ?",
+        "tl": "Sinong emperador ang naglabas ng Golden Bull ng 1356 na nagtakda ng mga patakaran sa pagpili ng emperador?"
+      },
+      "answers": [
+        {
+          "en": "Charles V",
+          "fr": "Charles Quint",
+          "tl": "Charles V"
+        },
+        {
+          "en": "Otto I",
+          "fr": "Otton Ier",
+          "tl": "Otto I"
+        },
+        {
+          "en": "Rudolf I of Habsburg",
+          "fr": "Rodolphe Ier de Habsbourg",
+          "tl": "Rudolf I ng Habsburg"
+        },
+        {
+          "en": "Charles IV, Holy Roman Emperor",
+          "fr": "Charles IV, empereur germanique",
+          "tl": "Charles IV, Emperador ng Banal na Imperyong Romano"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-077",
+      "prompt": {
+        "en": "Which ruler was crowned emperor in 962, a key date in the Holy Roman Empire's history?",
+        "fr": "Quel souverain fut couronné empereur en 962, date majeure de l'histoire du Saint-Empire ?",
+        "tl": "Sinong monarka ang kinoronahang emperador noong 962, mahalagang petsa sa kasaysayan ng Banal na Imperyong Romano?"
+      },
+      "answers": [
+        {
+          "en": "Otto I",
+          "fr": "Otton Ier",
+          "tl": "Otto I"
+        },
+        {
+          "en": "Charlemagne",
+          "fr": "Charlemagne",
+          "tl": "Charlemagne"
+        },
+        {
+          "en": "Charles IV, Holy Roman Emperor",
+          "fr": "Charles IV, empereur germanique",
+          "tl": "Charles IV, Emperador ng Banal na Imperyong Romano"
+        },
+        {
+          "en": "Rudolf I of Habsburg",
+          "fr": "Rodolphe Ier de Habsbourg",
+          "tl": "Rudolf I ng Habsburg"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-078",
+      "prompt": {
+        "en": "Which Habsburg was elected King of the Romans in 1273?",
+        "fr": "Quel Habsbourg fut élu roi des Romains en 1273 ?",
+        "tl": "Sinong Habsburg ang nahalal na Hari ng mga Romano noong 1273?"
+      },
+      "answers": [
+        {
+          "en": "Joseph II",
+          "fr": "Joseph II",
+          "tl": "Joseph II"
+        },
+        {
+          "en": "Rudolf I of Habsburg",
+          "fr": "Rodolphe Ier de Habsbourg",
+          "tl": "Rudolf I ng Habsburg"
+        },
+        {
+          "en": "Charles V",
+          "fr": "Charles Quint",
+          "tl": "Charles V"
+        },
+        {
+          "en": "Franz Joseph I",
+          "fr": "François-Joseph Ier",
+          "tl": "Franz Joseph I"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-079",
+      "prompt": {
+        "en": "Which ruler founded Charles University in Prague in 1348?",
+        "fr": "Quel souverain fonda l'université Charles à Prague en 1348 ?",
+        "tl": "Sinong monarka ang nagtatag ng Charles University sa Prague noong 1348?"
+      },
+      "answers": [
+        {
+          "en": "Otto I",
+          "fr": "Otton Ier",
+          "tl": "Otto I"
+        },
+        {
+          "en": "Frederick II of Prussia",
+          "fr": "Frédéric II de Prusse",
+          "tl": "Frederick II ng Prussia"
+        },
+        {
+          "en": "Charles IV, Holy Roman Emperor",
+          "fr": "Charles IV, empereur germanique",
+          "tl": "Charles IV, Emperador ng Banal na Imperyong Romano"
+        },
+        {
+          "en": "Charles V",
+          "fr": "Charles Quint",
+          "tl": "Charles V"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-080",
+      "prompt": {
+        "en": "Which French king ordered the arrest of the Knights Templar in 1307?",
+        "fr": "Quel roi de France ordonna l'arrestation des Templiers en 1307 ?",
+        "tl": "Sinong hari ng Pransiya ang nag-utos na dakpin ang mga Knights Templar noong 1307?"
+      },
+      "answers": [
+        {
+          "en": "Philip II Augustus",
+          "fr": "Philippe II Auguste",
+          "tl": "Philip II Augustus"
+        },
+        {
+          "en": "Louis IX (Saint Louis)",
+          "fr": "Louis IX (Saint Louis)",
+          "tl": "Louis IX (San Louis)"
+        },
+        {
+          "en": "Francis I",
+          "fr": "François Ier",
+          "tl": "Francis I"
+        },
+        {
+          "en": "Philip IV the Fair",
+          "fr": "Philippe IV le Bel",
+          "tl": "Philip IV the Fair"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-081",
+      "prompt": {
+        "en": "Which city was Charlemagne's principal palace and court center?",
+        "fr": "Quelle ville accueillait le principal palais et centre de cour de Charlemagne ?",
+        "tl": "Anong lungsod ang pangunahing sentro ng palasyo at korte ni Charlemagne?"
+      },
+      "answers": [
+        {
+          "en": "Aachen",
+          "fr": "Aix-la-Chapelle",
+          "tl": "Aachen"
+        },
+        {
+          "en": "Vienna",
+          "fr": "Vienne",
+          "tl": "Vienna"
+        },
+        {
+          "en": "Madrid",
+          "fr": "Madrid",
+          "tl": "Madrid"
+        },
+        {
+          "en": "Lisbon",
+          "fr": "Lisbonne",
+          "tl": "Lisbon"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-082",
+      "prompt": {
+        "en": "Which dynasty did Clovis I belong to?",
+        "fr": "À quelle dynastie Clovis Ier appartenait-il ?",
+        "tl": "Sa anong dinastiya kabilang si Clovis I?"
+      },
+      "answers": [
+        {
+          "en": "Valois",
+          "fr": "Valois",
+          "tl": "Valois"
+        },
+        {
+          "en": "Merovingian",
+          "fr": "Mérovingienne",
+          "tl": "Merovingian"
+        },
+        {
+          "en": "Carolingian",
+          "fr": "Carolingienne",
+          "tl": "Carolingian"
+        },
+        {
+          "en": "Capetian",
+          "fr": "Capétienne",
+          "tl": "Capetian"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-083",
+      "prompt": {
+        "en": "Which king established the Aviz dynasty after the 1385 Portuguese succession crisis?",
+        "fr": "Quel roi établit la dynastie d'Aviz à l'issue de la crise de succession portugaise de 1385 ?",
+        "tl": "Sinong hari ang nagtatag ng dinastiyang Aviz matapos ang krisis sa paghalili sa Portugal noong 1385?"
+      },
+      "answers": [
+        {
+          "en": "Manuel I of Portugal",
+          "fr": "Manuel Ier de Portugal",
+          "tl": "Manuel I ng Portugal"
+        },
+        {
+          "en": "Afonso I of Portugal",
+          "fr": "Alphonse Ier de Portugal",
+          "tl": "Afonso I ng Portugal"
+        },
+        {
+          "en": "John I of Portugal",
+          "fr": "Jean Ier de Portugal",
+          "tl": "John I ng Portugal"
+        },
+        {
+          "en": "John IV of Portugal",
+          "fr": "Jean IV de Portugal",
+          "tl": "John IV ng Portugal"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-084",
+      "prompt": {
+        "en": "Which king restored a Portuguese royal dynasty independent of the Spanish crown in 1640?",
+        "fr": "Quel roi rétablit une dynastie portugaise indépendante de la couronne espagnole en 1640 ?",
+        "tl": "Sinong hari ang nagbalik ng malayang dinastiya ng Portugal mula sa korona ng Espanya noong 1640?"
+      },
+      "answers": [
+        {
+          "en": "John I of Portugal",
+          "fr": "Jean Ier de Portugal",
+          "tl": "John I ng Portugal"
+        },
+        {
+          "en": "Manuel I of Portugal",
+          "fr": "Manuel Ier de Portugal",
+          "tl": "Manuel I ng Portugal"
+        },
+        {
+          "en": "Afonso I of Portugal",
+          "fr": "Alphonse Ier de Portugal",
+          "tl": "Afonso I ng Portugal"
+        },
+        {
+          "en": "John IV of Portugal",
+          "fr": "Jean IV de Portugal",
+          "tl": "John IV ng Portugal"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-085",
+      "prompt": {
+        "en": "Which dynasty did John IV of Portugal belong to?",
+        "fr": "À quelle dynastie Jean IV de Portugal appartenait-il ?",
+        "tl": "Sa anong dinastiya kabilang si John IV ng Portugal?"
+      },
+      "answers": [
+        {
+          "en": "Braganza",
+          "fr": "Bragance",
+          "tl": "Braganza"
+        },
+        {
+          "en": "Aviz",
+          "fr": "Aviz",
+          "tl": "Aviz"
+        },
+        {
+          "en": "Habsburg",
+          "fr": "Habsbourg",
+          "tl": "Habsburg"
+        },
+        {
+          "en": "Bourbon",
+          "fr": "Bourbon",
+          "tl": "Bourbon"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-086",
+      "prompt": {
+        "en": "Which Spanish king's death without an heir in 1700 triggered a succession crisis?",
+        "fr": "La mort sans héritier de quel roi espagnol en 1700 déclencha une crise de succession ?",
+        "tl": "Ang pagkamatay nang walang tagapagmana ng sinong hari ng Espanya noong 1700 ang nagpasimula ng krisis sa paghalili?"
+      },
+      "answers": [
+        {
+          "en": "Ferdinand II of Aragon",
+          "fr": "Ferdinand II d'Aragon",
+          "tl": "Ferdinand II ng Aragon"
+        },
+        {
+          "en": "Charles II of Spain",
+          "fr": "Charles II d'Espagne",
+          "tl": "Charles II ng Espanya"
+        },
+        {
+          "en": "Philip II of Spain",
+          "fr": "Philippe II d'Espagne",
+          "tl": "Philip II ng Espanya"
+        },
+        {
+          "en": "Philip V of Spain",
+          "fr": "Philippe V d'Espagne",
+          "tl": "Philip V ng Espanya"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-087",
+      "prompt": {
+        "en": "Which Scandinavian king is associated with the large Jelling stone and gave his nickname to Bluetooth?",
+        "fr": "Quel roi scandinave est associé à la grande pierre de Jelling et a donné son surnom au Bluetooth ?",
+        "tl": "Sinong hari ng Scandinavia ang nauugnay sa malaking batong Jelling at pinagmulan ng pangalang Bluetooth?"
+      },
+      "answers": [
+        {
+          "en": "Christian IV of Denmark",
+          "fr": "Christian IV de Danemark",
+          "tl": "Christian IV ng Denmark"
+        },
+        {
+          "en": "Gustav I Vasa",
+          "fr": "Gustave Ier Vasa",
+          "tl": "Gustav I Vasa"
+        },
+        {
+          "en": "Harald Bluetooth",
+          "fr": "Harald à la Dent bleue",
+          "tl": "Harald Bluetooth"
+        },
+        {
+          "en": "Cnut (Canute)",
+          "fr": "Knut le Grand",
+          "tl": "Cnut (Canute)"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-088",
+      "prompt": {
+        "en": "Which Danish king signed the constitution of 1849?",
+        "fr": "Quel roi danois signa la Constitution de 1849 ?",
+        "tl": "Sinong hari ng Denmark ang lumagda sa konstitusyon ng 1849?"
+      },
+      "answers": [
+        {
+          "en": "Christian IV of Denmark",
+          "fr": "Christian IV de Danemark",
+          "tl": "Christian IV ng Denmark"
+        },
+        {
+          "en": "Harald Bluetooth",
+          "fr": "Harald à la Dent bleue",
+          "tl": "Harald Bluetooth"
+        },
+        {
+          "en": "Haakon VII of Norway",
+          "fr": "Haakon VII de Norvège",
+          "tl": "Haakon VII ng Norway"
+        },
+        {
+          "en": "Frederick VII of Denmark",
+          "fr": "Frédéric VII de Danemark",
+          "tl": "Frederick VII ng Denmark"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-089",
+      "prompt": {
+        "en": "Which Swedish king was defeated by Peter the Great at Poltava in 1709?",
+        "fr": "Quel roi de Suède fut vaincu par Pierre le Grand à Poltava en 1709 ?",
+        "tl": "Sinong hari ng Sweden ang natalo kay Peter the Great sa Poltava noong 1709?"
+      },
+      "answers": [
+        {
+          "en": "Charles XII of Sweden",
+          "fr": "Charles XII de Suède",
+          "tl": "Charles XII ng Sweden"
+        },
+        {
+          "en": "Gustav I Vasa",
+          "fr": "Gustave Ier Vasa",
+          "tl": "Gustav I Vasa"
+        },
+        {
+          "en": "Gustav II Adolf",
+          "fr": "Gustave II Adolphe",
+          "tl": "Gustav II Adolf"
+        },
+        {
+          "en": "Charles XIV John (Bernadotte)",
+          "fr": "Charles XIV Jean (Bernadotte)",
+          "tl": "Charles XIV John (Bernadotte)"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-090",
+      "prompt": {
+        "en": "Which monarch was born Jean-Baptiste Bernadotte?",
+        "fr": "Quel monarque est né sous le nom de Jean-Baptiste Bernadotte ?",
+        "tl": "Sinong monarka ang isinilang na Jean-Baptiste Bernadotte?"
+      },
+      "answers": [
+        {
+          "en": "Haakon VII of Norway",
+          "fr": "Haakon VII de Norvège",
+          "tl": "Haakon VII ng Norway"
+        },
+        {
+          "en": "Charles XIV John (Bernadotte)",
+          "fr": "Charles XIV Jean (Bernadotte)",
+          "tl": "Charles XIV John (Bernadotte)"
+        },
+        {
+          "en": "Charles XII of Sweden",
+          "fr": "Charles XII de Suède",
+          "tl": "Charles XII ng Sweden"
+        },
+        {
+          "en": "Gustav II Adolf",
+          "fr": "Gustave II Adolphe",
+          "tl": "Gustav II Adolf"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-091",
+      "prompt": {
+        "en": "Which Polish king led the relief of Vienna in 1683?",
+        "fr": "Quel roi de Pologne mena les secours à Vienne en 1683 ?",
+        "tl": "Sinong hari ng Poland ang namuno sa pagsaklolo sa Vienna noong 1683?"
+      },
+      "answers": [
+        {
+          "en": "Władysław II Jagiełło",
+          "fr": "Ladislas II Jagellon",
+          "tl": "Władysław II Jagiełło"
+        },
+        {
+          "en": "Stephen I of Hungary",
+          "fr": "Étienne Ier de Hongrie",
+          "tl": "Stephen I ng Hungary"
+        },
+        {
+          "en": "John III Sobieski",
+          "fr": "Jean III Sobieski",
+          "tl": "John III Sobieski"
+        },
+        {
+          "en": "Casimir III the Great",
+          "fr": "Casimir III le Grand",
+          "tl": "Casimir III the Great"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-092",
+      "prompt": {
+        "en": "Which Polish king founded the University of Kraków in 1364?",
+        "fr": "Quel roi de Pologne fonda l'université de Cracovie en 1364 ?",
+        "tl": "Sinong hari ng Poland ang nagtatag ng Unibersidad ng Kraków noong 1364?"
+      },
+      "answers": [
+        {
+          "en": "John III Sobieski",
+          "fr": "Jean III Sobieski",
+          "tl": "John III Sobieski"
+        },
+        {
+          "en": "Władysław II Jagiełło",
+          "fr": "Ladislas II Jagellon",
+          "tl": "Władysław II Jagiełło"
+        },
+        {
+          "en": "Stephen I of Hungary",
+          "fr": "Étienne Ier de Hongrie",
+          "tl": "Stephen I ng Hungary"
+        },
+        {
+          "en": "Casimir III the Great",
+          "fr": "Casimir III le Grand",
+          "tl": "Casimir III the Great"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-093",
+      "prompt": {
+        "en": "Which Lithuanian ruler became king of Poland in 1386 as Władysław II?",
+        "fr": "Quel souverain lituanien devint roi de Pologne en 1386 sous le nom de Ladislas II ?",
+        "tl": "Sinong pinuno ng Lithuania ang naging hari ng Poland noong 1386 bilang Władysław II?"
+      },
+      "answers": [
+        {
+          "en": "Władysław II Jagiełło",
+          "fr": "Ladislas II Jagellon",
+          "tl": "Władysław II Jagiełło"
+        },
+        {
+          "en": "Casimir III the Great",
+          "fr": "Casimir III le Grand",
+          "tl": "Casimir III the Great"
+        },
+        {
+          "en": "John III Sobieski",
+          "fr": "Jean III Sobieski",
+          "tl": "John III Sobieski"
+        },
+        {
+          "en": "Otto I",
+          "fr": "Otton Ier",
+          "tl": "Otto I"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-094",
+      "prompt": {
+        "en": "Who is traditionally recognized as Hungary's first Christian king?",
+        "fr": "Qui est traditionnellement reconnu comme le premier roi chrétien de Hongrie ?",
+        "tl": "Sino ang tradisyonal na kinikilalang unang Kristiyanong hari ng Hungary?"
+      },
+      "answers": [
+        {
+          "en": "Charles IV, Holy Roman Emperor",
+          "fr": "Charles IV, empereur germanique",
+          "tl": "Charles IV, Emperador ng Banal na Imperyong Romano"
+        },
+        {
+          "en": "Stephen I of Hungary",
+          "fr": "Étienne Ier de Hongrie",
+          "tl": "Stephen I ng Hungary"
+        },
+        {
+          "en": "Casimir III the Great",
+          "fr": "Casimir III le Grand",
+          "tl": "Casimir III the Great"
+        },
+        {
+          "en": "Otto I",
+          "fr": "Otton Ier",
+          "tl": "Otto I"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-095",
+      "prompt": {
+        "en": "Which king ruled England, Denmark and Norway as an 11th-century North Sea empire?",
+        "fr": "Quel roi régna sur l'Angleterre, le Danemark et la Norvège dans un empire de la mer du Nord au XIe siècle ?",
+        "tl": "Sinong hari ang namuno sa Inglatera, Denmark at Norway sa isang imperyo ng Hilagang Dagat noong ika-11 siglo?"
+      },
+      "answers": [
+        {
+          "en": "William I the Conqueror",
+          "fr": "Guillaume Ier le Conquérant",
+          "tl": "William I the Conqueror"
+        },
+        {
+          "en": "Athelstan",
+          "fr": "Æthelstan",
+          "tl": "Athelstan"
+        },
+        {
+          "en": "Cnut (Canute)",
+          "fr": "Knut le Grand",
+          "tl": "Cnut (Canute)"
+        },
+        {
+          "en": "Alfred the Great",
+          "fr": "Alfred le Grand",
+          "tl": "Alfred the Great"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-096",
+      "prompt": {
+        "en": "Which Wessex king is associated with resisting the Vikings and promoting learning in the ninth century?",
+        "fr": "Quel roi du Wessex est associé à la résistance aux Vikings et au développement du savoir au IXe siècle ?",
+        "tl": "Sinong hari ng Wessex ang nauugnay sa paglaban sa mga Viking at pagtataguyod ng pag-aaral noong ika-9 na siglo?"
+      },
+      "answers": [
+        {
+          "en": "Cnut (Canute)",
+          "fr": "Knut le Grand",
+          "tl": "Cnut (Canute)"
+        },
+        {
+          "en": "William I the Conqueror",
+          "fr": "Guillaume Ier le Conquérant",
+          "tl": "William I the Conqueror"
+        },
+        {
+          "en": "Edward I",
+          "fr": "Édouard Ier",
+          "tl": "Edward I"
+        },
+        {
+          "en": "Alfred the Great",
+          "fr": "Alfred le Grand",
+          "tl": "Alfred the Great"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-097",
+      "prompt": {
+        "en": "Which king was killed at Bosworth in 1485, ending the Yorkist line of English kings?",
+        "fr": "Quel roi fut tué à Bosworth en 1485, mettant fin à la lignée des rois anglais d'York ?",
+        "tl": "Sinong hari ang napatay sa Bosworth noong 1485, na nagtapos sa mga haring Yorkist ng Inglatera?"
+      },
+      "answers": [
+        {
+          "en": "Richard III",
+          "fr": "Richard III",
+          "tl": "Richard III"
+        },
+        {
+          "en": "Richard II",
+          "fr": "Richard II",
+          "tl": "Richard II"
+        },
+        {
+          "en": "Edward IV",
+          "fr": "Édouard IV",
+          "tl": "Edward IV"
+        },
+        {
+          "en": "Henry VII",
+          "fr": "Henri VII",
+          "tl": "Henry VII"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-098",
+      "prompt": {
+        "en": "Which English king was the father of both Richard the Lionheart and King John?",
+        "fr": "Quel roi d'Angleterre était le père de Richard Cœur de Lion et de Jean sans Terre ?",
+        "tl": "Sinong hari ng Inglatera ang ama nina Richard the Lionheart at King John?"
+      },
+      "answers": [
+        {
+          "en": "William I the Conqueror",
+          "fr": "Guillaume Ier le Conquérant",
+          "tl": "William I the Conqueror"
+        },
+        {
+          "en": "Henry II of England",
+          "fr": "Henri II d'Angleterre",
+          "tl": "Henry II ng Inglatera"
+        },
+        {
+          "en": "Henry V",
+          "fr": "Henri V",
+          "tl": "Henry V"
+        },
+        {
+          "en": "Edward I",
+          "fr": "Édouard Ier",
+          "tl": "Edward I"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-099",
+      "prompt": {
+        "en": "Which Russian ruler first took the title Tsar of All Russia at his coronation in 1547?",
+        "fr": "Quel souverain russe prit le titre de tsar de toutes les Russies lors de son couronnement en 1547 ?",
+        "tl": "Sinong pinuno ng Russia ang kumuha ng titulong Tsar of All Russia sa koronasyon niya noong 1547?"
+      },
+      "answers": [
+        {
+          "en": "Michael I Romanov",
+          "fr": "Michel Ier Romanov",
+          "tl": "Michael I Romanov"
+        },
+        {
+          "en": "Nicholas II",
+          "fr": "Nicolas II",
+          "tl": "Nicholas II"
+        },
+        {
+          "en": "Ivan IV the Terrible",
+          "fr": "Ivan IV le Terrible",
+          "tl": "Ivan IV the Terrible"
+        },
+        {
+          "en": "Peter I the Great",
+          "fr": "Pierre Ier le Grand",
+          "tl": "Peter I the Great"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "kings-100",
+      "prompt": {
+        "en": "Which Habsburg emperor was crowned King of Hungary under the Austro-Hungarian Compromise in 1867?",
+        "fr": "Quel empereur Habsbourg fut couronné roi de Hongrie dans le cadre du compromis austro-hongrois de 1867 ?",
+        "tl": "Sinong emperador na Habsburg ang kinoronahang hari ng Hungary sa ilalim ng Kasunduang Austro-Hungarian noong 1867?"
+      },
+      "answers": [
+        {
+          "en": "Joseph II",
+          "fr": "Joseph II",
+          "tl": "Joseph II"
+        },
+        {
+          "en": "Charles V",
+          "fr": "Charles Quint",
+          "tl": "Charles V"
+        },
+        {
+          "en": "Rudolf I of Habsburg",
+          "fr": "Rodolphe Ier de Habsbourg",
+          "tl": "Rudolf I ng Habsburg"
+        },
+        {
+          "en": "Franz Joseph I",
+          "fr": "François-Joseph Ier",
+          "tl": "Franz Joseph I"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
     }
   ]
 }

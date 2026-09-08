@@ -10,11 +10,139 @@
   "language": "en",
   "questions": [
     {
-      "id": "fruit0",
+      "id": "fruits-001",
       "prompt": {
-        "en": "Which long, curved fruit usually has yellow skin when ripe?",
-        "fr": "Quel fruit long et courbé a généralement la peau jaune à maturité ?",
-        "tl": "Anong mahaba at kurbadong prutas ang karaniwang dilaw kapag hinog?"
+        "en": "Which long, curved fruit usually turns yellow when ripe?",
+        "fr": "Quel fruit long et courbé devient généralement jaune en mûrissant ?",
+        "tl": "Anong mahaba at kurbadong prutas ang karaniwang dumidilaw kapag hinog?"
+      },
+      "answers": [
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        },
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        },
+        {
+          "en": "Pear",
+          "fr": "Poire",
+          "tl": "Peras"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-002",
+      "prompt": {
+        "en": "Which fruit has a crown of pointed leaves?",
+        "fr": "Quel fruit porte une couronne de feuilles pointues ?",
+        "tl": "Anong prutas ang may koronang matutulis na dahon?"
+      },
+      "answers": [
+        {
+          "en": "Kiwifruit",
+          "fr": "Kiwi",
+          "tl": "Kiwi"
+        },
+        {
+          "en": "Pineapple",
+          "fr": "Ananas",
+          "tl": "Pinya"
+        },
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        },
+        {
+          "en": "Plum",
+          "fr": "Prune",
+          "tl": "Plum"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-003",
+      "prompt": {
+        "en": "Which large fruit often has red flesh and a green rind?",
+        "fr": "Quel gros fruit a souvent une chair rouge et une écorce verte ?",
+        "tl": "Anong malaking prutas ang madalas may pulang laman at berdeng balat?"
+      },
+      "answers": [
+        {
+          "en": "Coconut",
+          "fr": "Noix de coco",
+          "tl": "Niyog"
+        },
+        {
+          "en": "Pear",
+          "fr": "Poire",
+          "tl": "Peras"
+        },
+        {
+          "en": "Watermelon",
+          "fr": "Pastèque",
+          "tl": "Pakwan"
+        },
+        {
+          "en": "Peach",
+          "fr": "Pêche",
+          "tl": "Peach"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-004",
+      "prompt": {
+        "en": "Which fruit grows in bunches on a grapevine?",
+        "fr": "Quel fruit pousse en grappes sur une vigne ?",
+        "tl": "Anong prutas ang tumutubo nang kumpol sa puno ng ubas?"
+      },
+      "answers": [
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        },
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        },
+        {
+          "en": "Cherry",
+          "fr": "Cerise",
+          "tl": "Seresa"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-005",
+      "prompt": {
+        "en": "Which fruit is traditionally used in a banana split?",
+        "fr": "Quel fruit utilise-t-on dans un banana split ?",
+        "tl": "Anong prutas ang ginagamit sa banana split?"
       },
       "answers": [
         {
@@ -28,137 +156,137 @@
           "tl": "Mangga"
         },
         {
-          "en": "Grape",
-          "fr": "Raisin",
-          "tl": "Ubas"
+          "en": "Pear",
+          "fr": "Poire",
+          "tl": "Peras"
         },
         {
-          "en": "Lemon",
-          "fr": "Citron",
-          "tl": "Limon"
+          "en": "Plum",
+          "fr": "Prune",
+          "tl": "Plum"
         }
       ],
       "correct": 0,
       "difficulty": 1
     },
     {
-      "id": "fruit1",
+      "id": "fruits-006",
       "prompt": {
-        "en": "Which tropical fruit has a rough skin and a crown of pointed leaves?",
-        "fr": "Quel fruit tropical a une peau rugueuse et une couronne de feuilles pointues ?",
-        "tl": "Anong tropikal na prutas ang may magaspang na balat at koronang matutulis na dahon?"
+        "en": "Which fruit gives orange juice its name?",
+        "fr": "Quel fruit donne son nom au jus d'orange ?",
+        "tl": "Anong prutas ang ginagamit sa orange juice?"
       },
       "answers": [
         {
-          "en": "Pineapple",
-          "fr": "Ananas",
-          "tl": "Pinya"
+          "en": "Kiwifruit",
+          "fr": "Kiwi",
+          "tl": "Kiwi"
         },
         {
-          "en": "Watermelon",
-          "fr": "Pastèque",
-          "tl": "Pakwan"
+          "en": "Orange",
+          "fr": "Orange",
+          "tl": "Kahel"
         },
         {
-          "en": "Coconut",
-          "fr": "Noix de coco",
-          "tl": "Niyog"
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-007",
+      "prompt": {
+        "en": "Which yellow citrus fruit is usually very sour?",
+        "fr": "Quel agrume jaune est généralement très acide ?",
+        "tl": "Anong dilaw na sitrus ang karaniwang napakaasim?"
+      },
+      "answers": [
+        {
+          "en": "Peach",
+          "fr": "Pêche",
+          "tl": "Peach"
+        },
+        {
+          "en": "Date",
+          "fr": "Datte",
+          "tl": "Datiles"
+        },
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        },
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-008",
+      "prompt": {
+        "en": "Which fruit has white flesh inside a hard brown shell?",
+        "fr": "Quel fruit contient une chair blanche dans une coque brune et dure ?",
+        "tl": "Anong prutas ang may puting laman sa loob ng matigas na kayumangging bao?"
+      },
+      "answers": [
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        },
+        {
+          "en": "Plum",
+          "fr": "Prune",
+          "tl": "Plum"
         },
         {
           "en": "Strawberry",
           "fr": "Fraise",
           "tl": "Strawberry"
-        }
-      ],
-      "correct": 0,
-      "difficulty": 1
-    },
-    {
-      "id": "fruit2",
-      "prompt": {
-        "en": "Which fruit has a large flat stone and orange flesh, and is famously grown in Guimaras?",
-        "fr": "Quel fruit à noyau plat et à chair orangée est notamment cultivé à Guimaras ?",
-        "tl": "Anong prutas na may malaking patag na buto at kahel na laman ang tanyag sa Guimaras?"
-      },
-      "answers": [
-        {
-          "en": "Mango",
-          "fr": "Mangue",
-          "tl": "Mangga"
-        },
-        {
-          "en": "Grape",
-          "fr": "Raisin",
-          "tl": "Ubas"
-        },
-        {
-          "en": "Lemon",
-          "fr": "Citron",
-          "tl": "Limon"
-        },
-        {
-          "en": "Avocado",
-          "fr": "Avocat",
-          "tl": "Abokado"
-        }
-      ],
-      "correct": 0,
-      "difficulty": 1
-    },
-    {
-      "id": "fruit3",
-      "prompt": {
-        "en": "Which large fruit usually has green skin, red flesh and many black seeds?",
-        "fr": "Quel gros fruit a généralement une peau verte, une chair rouge et de nombreux pépins noirs ?",
-        "tl": "Anong malaking prutas ang karaniwang may berdeng balat, pulang laman at maraming itim na buto?"
-      },
-      "answers": [
-        {
-          "en": "Watermelon",
-          "fr": "Pastèque",
-          "tl": "Pakwan"
         },
         {
           "en": "Coconut",
           "fr": "Noix de coco",
           "tl": "Niyog"
-        },
-        {
-          "en": "Strawberry",
-          "fr": "Fraise",
-          "tl": "Strawberry"
-        },
-        {
-          "en": "Papaya",
-          "fr": "Papaye",
-          "tl": "Papaya"
         }
       ],
-      "correct": 0,
+      "correct": 3,
       "difficulty": 1
     },
     {
-      "id": "fruit4",
+      "id": "fruits-009",
       "prompt": {
-        "en": "Which small fruit grows in bunches and is dried to make raisins?",
-        "fr": "Quel petit fruit pousse en grappes et se sèche pour devenir un raisin sec ?",
-        "tl": "Anong maliit na prutas na kumpol-kumpol ang pinatutuyo upang gawing pasas?"
+        "en": "Which fruit usually has brown fuzzy skin and green flesh with tiny black seeds?",
+        "fr": "Quel fruit a généralement une peau brune duveteuse et une chair verte à petits pépins noirs ?",
+        "tl": "Anong prutas ang karaniwang may mabalahibong kayumangging balat at berdeng laman na may maliliit na itim na buto?"
       },
       "answers": [
         {
-          "en": "Grape",
-          "fr": "Raisin",
-          "tl": "Ubas"
+          "en": "Kiwifruit",
+          "fr": "Kiwi",
+          "tl": "Kiwi"
         },
         {
-          "en": "Lemon",
-          "fr": "Citron",
-          "tl": "Limon"
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
         },
         {
-          "en": "Avocado",
-          "fr": "Avocat",
-          "tl": "Abokado"
+          "en": "Orange",
+          "fr": "Orange",
+          "tl": "Kahel"
         },
         {
           "en": "Banana",
@@ -170,17 +298,17 @@
       "difficulty": 1
     },
     {
-      "id": "fruit5",
+      "id": "fruits-010",
       "prompt": {
-        "en": "Which fruit has a hard fibrous shell, white flesh and water inside?",
-        "fr": "Quel fruit a une coque fibreuse dure, une chair blanche et de l’eau à l’intérieur ?",
-        "tl": "Anong prutas ang may matigas na mabuhok na bao, puting laman at tubig sa loob?"
+        "en": "Which red fruit has tiny seed-like dots on its outside?",
+        "fr": "Quel fruit rouge porte de petits points ressemblant à des graines à l'extérieur ?",
+        "tl": "Anong pulang prutas ang may maliliit na tuldok na parang buto sa labas?"
       },
       "answers": [
         {
-          "en": "Coconut",
-          "fr": "Noix de coco",
-          "tl": "Niyog"
+          "en": "Plum",
+          "fr": "Prune",
+          "tl": "Plum"
         },
         {
           "en": "Strawberry",
@@ -188,73 +316,9 @@
           "tl": "Strawberry"
         },
         {
-          "en": "Papaya",
-          "fr": "Papaye",
-          "tl": "Papaya"
-        },
-        {
-          "en": "Pineapple",
-          "fr": "Ananas",
-          "tl": "Pinya"
-        }
-      ],
-      "correct": 0,
-      "difficulty": 1
-    },
-    {
-      "id": "fruit6",
-      "prompt": {
-        "en": "Which sour yellow citrus fruit is commonly squeezed into lemonade?",
-        "fr": "Quel agrume jaune et acide presse-t-on pour faire de la citronnade ?",
-        "tl": "Anong maasim at dilaw na citrus ang pinipiga para gumawa ng lemonade?"
-      },
-      "answers": [
-        {
-          "en": "Lemon",
-          "fr": "Citron",
-          "tl": "Limon"
-        },
-        {
-          "en": "Avocado",
-          "fr": "Avocat",
-          "tl": "Abokado"
-        },
-        {
-          "en": "Banana",
-          "fr": "Banane",
-          "tl": "Saging"
-        },
-        {
-          "en": "Mango",
-          "fr": "Mangue",
-          "tl": "Mangga"
-        }
-      ],
-      "correct": 0,
-      "difficulty": 1
-    },
-    {
-      "id": "fruit7",
-      "prompt": {
-        "en": "Which red fruit has tiny seed-like dots on its surface and a green leafy top?",
-        "fr": "Quel fruit rouge porte de petits points semblables à des graines sur sa surface et une collerette verte ?",
-        "tl": "Anong pulang prutas ang may maliliit na tuldok na parang buto sa labas at berdeng dahon sa itaas?"
-      },
-      "answers": [
-        {
-          "en": "Strawberry",
-          "fr": "Fraise",
-          "tl": "Strawberry"
-        },
-        {
-          "en": "Papaya",
-          "fr": "Papaye",
-          "tl": "Papaya"
-        },
-        {
-          "en": "Pineapple",
-          "fr": "Ananas",
-          "tl": "Pinya"
+          "en": "Cherry",
+          "fr": "Cerise",
+          "tl": "Seresa"
         },
         {
           "en": "Watermelon",
@@ -262,31 +326,31 @@
           "tl": "Pakwan"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": 1
     },
     {
-      "id": "fruit8",
+      "id": "fruits-011",
       "prompt": {
-        "en": "Which creamy green fruit has one large round stone and is used for guacamole?",
-        "fr": "Quel fruit crémeux et vert a un gros noyau rond et sert à préparer le guacamole ?",
-        "tl": "Anong kremang berdeng prutas na may malaking bilog na buto ang ginagamit sa guacamole?"
+        "en": "Which fruit is often shaped like a bell, with a narrow top and wider bottom?",
+        "fr": "Quel fruit a souvent une forme de cloche, étroite en haut et large en bas ?",
+        "tl": "Anong prutas ang madalas hugis-kampana, makitid sa itaas at malapad sa ibaba?"
       },
       "answers": [
         {
-          "en": "Avocado",
-          "fr": "Avocat",
-          "tl": "Abokado"
+          "en": "Orange",
+          "fr": "Orange",
+          "tl": "Kahel"
         },
         {
-          "en": "Banana",
-          "fr": "Banane",
-          "tl": "Saging"
+          "en": "Coconut",
+          "fr": "Noix de coco",
+          "tl": "Niyog"
         },
         {
-          "en": "Mango",
-          "fr": "Mangue",
-          "tl": "Mangga"
+          "en": "Pear",
+          "fr": "Poire",
+          "tl": "Peras"
         },
         {
           "en": "Grape",
@@ -294,15 +358,527 @@
           "tl": "Ubas"
         }
       ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-012",
+      "prompt": {
+        "en": "Which fruit has fuzzy skin and a single large stone, unlike a smooth nectarine?",
+        "fr": "Quel fruit a une peau duveteuse et un gros noyau, contrairement à la nectarine lisse ?",
+        "tl": "Anong prutas ang may mabalahibong balat at malaking buto, di tulad ng makinis na nectarine?"
+      },
+      "answers": [
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        },
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        },
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        },
+        {
+          "en": "Peach",
+          "fr": "Pêche",
+          "tl": "Peach"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-013",
+      "prompt": {
+        "en": "Which small red stone fruit often hangs from a slender stalk?",
+        "fr": "Quel petit fruit rouge à noyau pend souvent à une fine queue ?",
+        "tl": "Anong maliit at pulang prutas na may matigas na buto ang madalas nakabitin sa manipis na tangkay?"
+      },
+      "answers": [
+        {
+          "en": "Cherry",
+          "fr": "Cerise",
+          "tl": "Seresa"
+        },
+        {
+          "en": "Pineapple",
+          "fr": "Ananas",
+          "tl": "Pinya"
+        },
+        {
+          "en": "Pear",
+          "fr": "Poire",
+          "tl": "Peras"
+        },
+        {
+          "en": "Watermelon",
+          "fr": "Pastèque",
+          "tl": "Pakwan"
+        }
+      ],
       "correct": 0,
       "difficulty": 1
     },
     {
-      "id": "fruit9",
+      "id": "fruits-014",
       "prompt": {
-        "en": "Which tropical fruit has orange flesh and a central cavity full of small black seeds?",
-        "fr": "Quel fruit tropical a une chair orange et une cavité remplie de petits pépins noirs ?",
-        "tl": "Anong tropikal na prutas ang may kahel na laman at gitnang puno ng maliliit na itim na buto?"
+        "en": "Which tropical fruit often has orange flesh and many black seeds in its central cavity?",
+        "fr": "Quel fruit tropical a souvent une chair orange et de nombreuses graines noires dans sa cavité centrale ?",
+        "tl": "Anong tropikal na prutas ang madalas may kulay-kahel na laman at maraming itim na buto sa gitna?"
+      },
+      "answers": [
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        },
+        {
+          "en": "Papaya",
+          "fr": "Papaye",
+          "tl": "Papaya"
+        },
+        {
+          "en": "Coconut",
+          "fr": "Noix de coco",
+          "tl": "Niyog"
+        },
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-015",
+      "prompt": {
+        "en": "Which fruit is the main ingredient of guacamole?",
+        "fr": "Quel fruit est l'ingrédient principal du guacamole ?",
+        "tl": "Anong prutas ang pangunahing sangkap ng guacamole?"
+      },
+      "answers": [
+        {
+          "en": "Orange",
+          "fr": "Orange",
+          "tl": "Kahel"
+        },
+        {
+          "en": "Peach",
+          "fr": "Pêche",
+          "tl": "Peach"
+        },
+        {
+          "en": "Avocado",
+          "fr": "Avocat",
+          "tl": "Abokado"
+        },
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-016",
+      "prompt": {
+        "en": "Which fruit is commonly dried to make raisins?",
+        "fr": "Quel fruit sèche-t-on pour obtenir des raisins secs ?",
+        "tl": "Anong prutas ang pinatutuyo para maging pasas?"
+      },
+      "answers": [
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        },
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        },
+        {
+          "en": "Coconut",
+          "fr": "Noix de coco",
+          "tl": "Niyog"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-017",
+      "prompt": {
+        "en": "What do we call a dried plum?",
+        "fr": "Comment appelle-t-on une prune séchée ?",
+        "tl": "Ano ang tawag sa pinatuyong plum sa Ingles?"
+      },
+      "answers": [
+        {
+          "en": "Prune",
+          "fr": "Pruneau",
+          "tl": "Pinatuyong plum"
+        },
+        {
+          "en": "Raisin",
+          "fr": "Raisin sec",
+          "tl": "Pasas"
+        },
+        {
+          "en": "Date",
+          "fr": "Datte",
+          "tl": "Datiles"
+        },
+        {
+          "en": "Dried fig",
+          "fr": "Figue sèche",
+          "tl": "Pinatuyong igos"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-018",
+      "prompt": {
+        "en": "Which taste best describes unsweetened lemon juice?",
+        "fr": "Quelle saveur décrit le mieux un jus de citron non sucré ?",
+        "tl": "Anong lasa ang pinakaangkop sa katas ng limon na walang asukal?"
+      },
+      "answers": [
+        {
+          "en": "Bitter",
+          "fr": "Amer",
+          "tl": "Mapait"
+        },
+        {
+          "en": "Sour",
+          "fr": "Acide",
+          "tl": "Maasim"
+        },
+        {
+          "en": "Salty",
+          "fr": "Salé",
+          "tl": "Maalat"
+        },
+        {
+          "en": "Spicy",
+          "fr": "Piquant",
+          "tl": "Maanghang"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-019",
+      "prompt": {
+        "en": "What is the outer covering of an apple called?",
+        "fr": "Comment appelle-t-on l'enveloppe extérieure d'une pomme ?",
+        "tl": "Ano ang tawag sa panlabas na takip ng mansanas?"
+      },
+      "answers": [
+        {
+          "en": "Juice",
+          "fr": "Jus",
+          "tl": "Katas"
+        },
+        {
+          "en": "Seed",
+          "fr": "Graine",
+          "tl": "Buto"
+        },
+        {
+          "en": "Skin",
+          "fr": "Peau",
+          "tl": "Balat"
+        },
+        {
+          "en": "Core",
+          "fr": "Trognon",
+          "tl": "Ubod"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-020",
+      "prompt": {
+        "en": "Which fruit is commonly pressed to make cider?",
+        "fr": "Quel fruit presse-t-on couramment pour faire du cidre ?",
+        "tl": "Anong prutas ang karaniwang pinipiga para gumawa ng cider?"
+      },
+      "answers": [
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        },
+        {
+          "en": "Coconut",
+          "fr": "Noix de coco",
+          "tl": "Niyog"
+        },
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        },
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-021",
+      "prompt": {
+        "en": "Which fruit grows on a date palm?",
+        "fr": "Quel fruit pousse sur un palmier-dattier ?",
+        "tl": "Anong prutas ang tumutubo sa palma ng datiles?"
+      },
+      "answers": [
+        {
+          "en": "Date",
+          "fr": "Datte",
+          "tl": "Datiles"
+        },
+        {
+          "en": "Fig",
+          "fr": "Figue",
+          "tl": "Igos"
+        },
+        {
+          "en": "Kiwifruit",
+          "fr": "Kiwi",
+          "tl": "Kiwi"
+        },
+        {
+          "en": "Plum",
+          "fr": "Prune",
+          "tl": "Plum"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-022",
+      "prompt": {
+        "en": "Which part of a peach contains its seed?",
+        "fr": "Quelle partie de la pêche renferme sa graine ?",
+        "tl": "Saang bahagi ng peach nakapaloob ang buto nito?"
+      },
+      "answers": [
+        {
+          "en": "Juice",
+          "fr": "Jus",
+          "tl": "Katas"
+        },
+        {
+          "en": "Stone (pit)",
+          "fr": "Noyau",
+          "tl": "Matigas na bato ng prutas"
+        },
+        {
+          "en": "Leaf",
+          "fr": "Feuille",
+          "tl": "Dahon"
+        },
+        {
+          "en": "Petal",
+          "fr": "Pétale",
+          "tl": "Talulot"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-023",
+      "prompt": {
+        "en": "Which fruit is commonly squeezed to make calamansi juice in the Philippines?",
+        "fr": "Quel fruit presse-t-on pour faire du jus de calamondin aux Philippines ?",
+        "tl": "Anong prutas ang pinipiga para sa kalamansi juice sa Pilipinas?"
+      },
+      "answers": [
+        {
+          "en": "Pear",
+          "fr": "Poire",
+          "tl": "Peras"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        },
+        {
+          "en": "Calamansi",
+          "fr": "Calamondin",
+          "tl": "Kalamansi"
+        },
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-024",
+      "prompt": {
+        "en": "Which process removes water to preserve fruit as dried fruit?",
+        "fr": "Quel procédé retire l'eau pour conserver des fruits séchés ?",
+        "tl": "Anong proseso ang nag-aalis ng tubig para makagawa ng pinatuyong prutas?"
+      },
+      "answers": [
+        {
+          "en": "Freezing",
+          "fr": "Congélation",
+          "tl": "Pagyeyelo"
+        },
+        {
+          "en": "Peeling",
+          "fr": "Épluchage",
+          "tl": "Pagbabalat"
+        },
+        {
+          "en": "Slicing",
+          "fr": "Découpe",
+          "tl": "Paghiwa"
+        },
+        {
+          "en": "Drying",
+          "fr": "Séchage",
+          "tl": "Pagpapatuyo"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-025",
+      "prompt": {
+        "en": "Which animals commonly carry pollen between apple blossoms?",
+        "fr": "Quels animaux transportent couramment le pollen entre les fleurs de pommier ?",
+        "tl": "Anong mga hayop ang karaniwang nagdadala ng polen sa mga bulaklak ng mansanas?"
+      },
+      "answers": [
+        {
+          "en": "Bees",
+          "fr": "Abeilles",
+          "tl": "Mga bubuyog"
+        },
+        {
+          "en": "Fish",
+          "fr": "Poissons",
+          "tl": "Mga isda"
+        },
+        {
+          "en": "Earthworms",
+          "fr": "Vers de terre",
+          "tl": "Mga bulating lupa"
+        },
+        {
+          "en": "Snails",
+          "fr": "Escargots",
+          "tl": "Mga kuhol"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "fruits-026",
+      "prompt": {
+        "en": "Which fruit makes star-shaped slices when cut across?",
+        "fr": "Quel fruit donne des tranches en forme d'étoile ?",
+        "tl": "Anong prutas ang hugis-bituin kapag hiniwa nang pahalang?"
+      },
+      "answers": [
+        {
+          "en": "Fig",
+          "fr": "Figue",
+          "tl": "Igos"
+        },
+        {
+          "en": "Starfruit",
+          "fr": "Carambole",
+          "tl": "Balimbing"
+        },
+        {
+          "en": "Lychee",
+          "fr": "Litchi",
+          "tl": "Litsiyas"
+        },
+        {
+          "en": "Guava",
+          "fr": "Goyave",
+          "tl": "Bayabas"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-027",
+      "prompt": {
+        "en": "Which fruit has a hairy-looking red or yellow rind?",
+        "fr": "Quel fruit a une écorce rouge ou jaune d'aspect chevelu ?",
+        "tl": "Anong prutas ang may pula o dilaw na balat na parang mabuhok?"
+      },
+      "answers": [
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        },
+        {
+          "en": "Plum",
+          "fr": "Prune",
+          "tl": "Plum"
+        },
+        {
+          "en": "Rambutan",
+          "fr": "Ramboutan",
+          "tl": "Rambutan"
+        },
+        {
+          "en": "Mangosteen",
+          "fr": "Mangoustan",
+          "tl": "Mangosteen"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-028",
+      "prompt": {
+        "en": "Which fruit has a thick purple rind surrounding white segments?",
+        "fr": "Quel fruit a une épaisse écorce violette entourant des quartiers blancs ?",
+        "tl": "Anong prutas ang may makapal na lilang balat na nakapalibot sa puting laman na hati-hati?"
       },
       "answers": [
         {
@@ -311,23 +887,2327 @@
           "tl": "Papaya"
         },
         {
-          "en": "Pineapple",
-          "fr": "Ananas",
-          "tl": "Pinya"
+          "en": "Peach",
+          "fr": "Pêche",
+          "tl": "Peach"
         },
         {
-          "en": "Watermelon",
-          "fr": "Pastèque",
-          "tl": "Pakwan"
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
         },
         {
-          "en": "Coconut",
-          "fr": "Noix de coco",
-          "tl": "Niyog"
+          "en": "Mangosteen",
+          "fr": "Mangoustan",
+          "tl": "Mangosteen"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-029",
+      "prompt": {
+        "en": "Which tropical fruit is especially known for its strong smell and spiky husk?",
+        "fr": "Quel fruit tropical est particulièrement connu pour sa forte odeur et sa coque épineuse ?",
+        "tl": "Anong tropikal na prutas ang kilala sa matapang na amoy at matinik na balat?"
+      },
+      "answers": [
+        {
+          "en": "Durian",
+          "fr": "Durian",
+          "tl": "Durian"
+        },
+        {
+          "en": "Lychee",
+          "fr": "Litchi",
+          "tl": "Litsiyas"
+        },
+        {
+          "en": "Guava",
+          "fr": "Goyave",
+          "tl": "Bayabas"
+        },
+        {
+          "en": "Orange",
+          "fr": "Orange",
+          "tl": "Kahel"
         }
       ],
       "correct": 0,
       "difficulty": 2
+    },
+    {
+      "id": "fruits-030",
+      "prompt": {
+        "en": "Which very large fruit grows directly on the trunk and major branches of its tree?",
+        "fr": "Quel très gros fruit pousse directement sur le tronc et les grosses branches de son arbre ?",
+        "tl": "Anong napakalaking prutas ang tumutubo mismo sa katawan at malalaking sanga ng puno?"
+      },
+      "answers": [
+        {
+          "en": "Blueberry",
+          "fr": "Myrtille",
+          "tl": "Blueberry"
+        },
+        {
+          "en": "Jackfruit",
+          "fr": "Jacque",
+          "tl": "Langka"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        },
+        {
+          "en": "Cherry",
+          "fr": "Cerise",
+          "tl": "Seresa"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-031",
+      "prompt": {
+        "en": "Which fruit comes from certain climbing cacti?",
+        "fr": "Quel fruit provient de certains cactus grimpants ?",
+        "tl": "Anong prutas ang galing sa ilang uri ng gumagapang na cactus?"
+      },
+      "answers": [
+        {
+          "en": "Mango",
+          "fr": "Mangue",
+          "tl": "Mangga"
+        },
+        {
+          "en": "Raspberry",
+          "fr": "Framboise",
+          "tl": "Raspberry"
+        },
+        {
+          "en": "Dragon fruit",
+          "fr": "Pitaya",
+          "tl": "Dragon fruit"
+        },
+        {
+          "en": "Pear",
+          "fr": "Poire",
+          "tl": "Peras"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-032",
+      "prompt": {
+        "en": "Which fruit is used to give many versions of Filipino sinigang their sourness?",
+        "fr": "Quel fruit apporte l'acidité à de nombreuses versions du sinigang philippin ?",
+        "tl": "Anong prutas ang pampaasim sa maraming bersiyon ng sinigang?"
+      },
+      "answers": [
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        },
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        },
+        {
+          "en": "Date",
+          "fr": "Datte",
+          "tl": "Datiles"
+        },
+        {
+          "en": "Tamarind",
+          "fr": "Tamarin",
+          "tl": "Sampalok"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-033",
+      "prompt": {
+        "en": "Which fruit is called guyabano in the Philippines?",
+        "fr": "Quel fruit est appelé guyabano aux Philippines ?",
+        "tl": "Alin ang tawag sa guyabano sa Ingles?"
+      },
+      "answers": [
+        {
+          "en": "Soursop",
+          "fr": "Corossol",
+          "tl": "Guyabano"
+        },
+        {
+          "en": "Lychee",
+          "fr": "Litchi",
+          "tl": "Litsiyas"
+        },
+        {
+          "en": "Fig",
+          "fr": "Figue",
+          "tl": "Igos"
+        },
+        {
+          "en": "Apricot",
+          "fr": "Abricot",
+          "tl": "Aprikot"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-034",
+      "prompt": {
+        "en": "Which fruit is called bayabas in Tagalog?",
+        "fr": "Quel fruit est appelé bayabas en tagalog ?",
+        "tl": "Alin ang tawag sa bayabas sa Ingles?"
+      },
+      "answers": [
+        {
+          "en": "Coconut",
+          "fr": "Noix de coco",
+          "tl": "Niyog"
+        },
+        {
+          "en": "Guava",
+          "fr": "Goyave",
+          "tl": "Bayabas"
+        },
+        {
+          "en": "Mango",
+          "fr": "Mangue",
+          "tl": "Mangga"
+        },
+        {
+          "en": "Plum",
+          "fr": "Prune",
+          "tl": "Plum"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-035",
+      "prompt": {
+        "en": "Which fruit is called langka in Tagalog?",
+        "fr": "Quel fruit est appelé langka en tagalog ?",
+        "tl": "Alin ang tawag sa langka sa Ingles?"
+      },
+      "answers": [
+        {
+          "en": "Lychee",
+          "fr": "Litchi",
+          "tl": "Litsiyas"
+        },
+        {
+          "en": "Peach",
+          "fr": "Pêche",
+          "tl": "Peach"
+        },
+        {
+          "en": "Jackfruit",
+          "fr": "Jacque",
+          "tl": "Langka"
+        },
+        {
+          "en": "Durian",
+          "fr": "Durian",
+          "tl": "Durian"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-036",
+      "prompt": {
+        "en": "Which fruit usually has a bumpy pink-red shell and translucent white flesh around one brown seed?",
+        "fr": "Quel fruit a généralement une coque rose-rouge bosselée et une chair blanche translucide autour d'une graine brune ?",
+        "tl": "Anong prutas ang karaniwang may bukol-bukol na rosas-pulang balat at puting malinaw-linaw na laman sa paligid ng isang kayumangging buto?"
+      },
+      "answers": [
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        },
+        {
+          "en": "Kiwifruit",
+          "fr": "Kiwi",
+          "tl": "Kiwi"
+        },
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        },
+        {
+          "en": "Lychee",
+          "fr": "Litchi",
+          "tl": "Litsiyas"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-037",
+      "prompt": {
+        "en": "Which fruit contains many juicy red arils separated by pale membranes?",
+        "fr": "Quel fruit contient de nombreux arilles rouges et juteux séparés par des membranes claires ?",
+        "tl": "Anong prutas ang may maraming makatas na pulang aril na pinaghihiwalay ng maputlang lamad?"
+      },
+      "answers": [
+        {
+          "en": "Pomegranate",
+          "fr": "Grenade",
+          "tl": "Granada"
+        },
+        {
+          "en": "Pear",
+          "fr": "Poire",
+          "tl": "Peras"
+        },
+        {
+          "en": "Plum",
+          "fr": "Prune",
+          "tl": "Plum"
+        },
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-038",
+      "prompt": {
+        "en": "Which orange autumn fruit is also called kaki?",
+        "fr": "Quel fruit orange d'automne porte aussi le nom de kaki ?",
+        "tl": "Anong kulay-kahel na prutas ng taglagas ang tinatawag ding kaki?"
+      },
+      "answers": [
+        {
+          "en": "Mango",
+          "fr": "Mangue",
+          "tl": "Mangga"
+        },
+        {
+          "en": "Persimmon",
+          "fr": "Kaki",
+          "tl": "Persimmon"
+        },
+        {
+          "en": "Orange",
+          "fr": "Orange",
+          "tl": "Kahel"
+        },
+        {
+          "en": "Apricot",
+          "fr": "Abricot",
+          "tl": "Aprikot"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-039",
+      "prompt": {
+        "en": "Which aromatic yellow fruit is often cooked into paste because its raw flesh is hard and astringent?",
+        "fr": "Quel fruit jaune parfumé est souvent cuit en pâte car sa chair crue est dure et astringente ?",
+        "tl": "Anong mabangong dilaw na prutas ang madalas gawing paste dahil matigas at mapakla kapag hilaw?"
+      },
+      "answers": [
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        },
+        {
+          "en": "Quince",
+          "fr": "Coing",
+          "tl": "Quince"
+        },
+        {
+          "en": "Pineapple",
+          "fr": "Ananas",
+          "tl": "Pinya"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-040",
+      "prompt": {
+        "en": "Which fruit is essentially a smooth-skinned peach?",
+        "fr": "Quel fruit est une pêche à peau lisse ?",
+        "tl": "Anong prutas ang uri ng peach na makinis ang balat?"
+      },
+      "answers": [
+        {
+          "en": "Plum",
+          "fr": "Prune",
+          "tl": "Plum"
+        },
+        {
+          "en": "Apricot",
+          "fr": "Abricot",
+          "tl": "Aprikot"
+        },
+        {
+          "en": "Cherry",
+          "fr": "Cerise",
+          "tl": "Seresa"
+        },
+        {
+          "en": "Nectarine",
+          "fr": "Nectarine",
+          "tl": "Nectarine"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-041",
+      "prompt": {
+        "en": "Which small tart red fruit is commonly made into a sauce served with Thanksgiving turkey?",
+        "fr": "Quel petit fruit rouge acidulé sert souvent à préparer une sauce pour la dinde de Thanksgiving ?",
+        "tl": "Anong maliit at maasim na pulang prutas ang karaniwang ginagawang sarsa para sa pabo tuwing Thanksgiving?"
+      },
+      "answers": [
+        {
+          "en": "Cranberry",
+          "fr": "Canneberge",
+          "tl": "Cranberry"
+        },
+        {
+          "en": "Lychee",
+          "fr": "Litchi",
+          "tl": "Litsiyas"
+        },
+        {
+          "en": "Date",
+          "fr": "Datte",
+          "tl": "Datiles"
+        },
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-042",
+      "prompt": {
+        "en": "Which fruit is traditionally pressed to make a major Mediterranean cooking oil?",
+        "fr": "Quel fruit presse-t-on traditionnellement pour produire une grande huile de cuisine méditerranéenne ?",
+        "tl": "Anong prutas ang karaniwang pinipiga para sa langis na gamit sa lutuing Mediterranean?"
+      },
+      "answers": [
+        {
+          "en": "Papaya",
+          "fr": "Papaye",
+          "tl": "Papaya"
+        },
+        {
+          "en": "Olive",
+          "fr": "Olive",
+          "tl": "Oliba"
+        },
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-043",
+      "prompt": {
+        "en": "Which of these is botanically a fruit, although usually eaten as a vegetable?",
+        "fr": "Lequel est botaniquement un fruit, bien que généralement consommé comme légume ?",
+        "tl": "Alin ang bunga sa botanika kahit karaniwang kinakain bilang gulay?"
+      },
+      "answers": [
+        {
+          "en": "Lettuce",
+          "fr": "Laitue",
+          "tl": "Litsugas"
+        },
+        {
+          "en": "Potato",
+          "fr": "Pomme de terre",
+          "tl": "Patatas"
+        },
+        {
+          "en": "Tomato",
+          "fr": "Tomate",
+          "tl": "Kamatis"
+        },
+        {
+          "en": "Carrot",
+          "fr": "Carotte",
+          "tl": "Karot"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-044",
+      "prompt": {
+        "en": "Which plant produces bananas?",
+        "fr": "Quel type de plante produit les bananes ?",
+        "tl": "Anong uri ng halaman ang namumunga ng saging?"
+      },
+      "answers": [
+        {
+          "en": "Tree",
+          "fr": "Arbre",
+          "tl": "Puno"
+        },
+        {
+          "en": "Moss",
+          "fr": "Mousse",
+          "tl": "Lumot"
+        },
+        {
+          "en": "Climbing vine",
+          "fr": "Plante grimpante",
+          "tl": "Baging"
+        },
+        {
+          "en": "Large herbaceous plant",
+          "fr": "Grande plante herbacée",
+          "tl": "Malaking halamang mala-damo"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-045",
+      "prompt": {
+        "en": "Which substance makes up most of a fresh watermelon's mass?",
+        "fr": "Quelle substance représente la majeure partie de la masse d'une pastèque fraîche ?",
+        "tl": "Anong sangkap ang bumubuo sa karamihan ng bigat ng sariwang pakwan?"
+      },
+      "answers": [
+        {
+          "en": "Water",
+          "fr": "Eau",
+          "tl": "Tubig"
+        },
+        {
+          "en": "Oil",
+          "fr": "Huile",
+          "tl": "Langis"
+        },
+        {
+          "en": "Salt",
+          "fr": "Sel",
+          "tl": "Asin"
+        },
+        {
+          "en": "Starch",
+          "fr": "Amidon",
+          "tl": "Gawgaw"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-046",
+      "prompt": {
+        "en": "Which nutrient is citrus fruit particularly associated with?",
+        "fr": "À quelle vitamine associe-t-on particulièrement les agrumes ?",
+        "tl": "Anong bitamina ang kilalang taglay ng mga sitrus?"
+      },
+      "answers": [
+        {
+          "en": "Vitamin K",
+          "fr": "Vitamine K",
+          "tl": "Bitamina K"
+        },
+        {
+          "en": "Vitamin C",
+          "fr": "Vitamine C",
+          "tl": "Bitamina C"
+        },
+        {
+          "en": "Vitamin B12",
+          "fr": "Vitamine B12",
+          "tl": "Bitamina B12"
+        },
+        {
+          "en": "Vitamin D",
+          "fr": "Vitamine D",
+          "tl": "Bitamina D"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-047",
+      "prompt": {
+        "en": "Which fruit is a large ancestral citrus species, Citrus maxima?",
+        "fr": "Quel fruit appartient à la grande espèce ancestrale d'agrume Citrus maxima ?",
+        "tl": "Anong prutas ang malaking sinaunang uri ng sitrus na Citrus maxima?"
+      },
+      "answers": [
+        {
+          "en": "Calamansi",
+          "fr": "Calamondin",
+          "tl": "Kalamansi"
+        },
+        {
+          "en": "Mandarin",
+          "fr": "Mandarine",
+          "tl": "Mandarin"
+        },
+        {
+          "en": "Pomelo (Citrus maxima)",
+          "fr": "Pamplemousse (Citrus maxima)",
+          "tl": "Suha (Citrus maxima)"
+        },
+        {
+          "en": "Grapefruit (Citrus × paradisi)",
+          "fr": "Pomélo (Citrus × paradisi)",
+          "tl": "Grapefruit (Citrus × paradisi)"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-048",
+      "prompt": {
+        "en": "Which fruit often has wrinkled purple or yellow skin and a pulp full of edible seeds?",
+        "fr": "Quel fruit a souvent une peau violette ou jaune ridée et une pulpe pleine de graines comestibles ?",
+        "tl": "Anong prutas ang madalas may kulubot na lila o dilaw na balat at laman na maraming nakakain na buto?"
+      },
+      "answers": [
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        },
+        {
+          "en": "Pear",
+          "fr": "Poire",
+          "tl": "Peras"
+        },
+        {
+          "en": "Coconut",
+          "fr": "Noix de coco",
+          "tl": "Niyog"
+        },
+        {
+          "en": "Passion fruit",
+          "fr": "Fruit de la passion",
+          "tl": "Passion fruit"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-049",
+      "prompt": {
+        "en": "What type of plant does the grapevine grow as?",
+        "fr": "Quel est le port de la vigne qui produit le raisin ?",
+        "tl": "Anong anyo ng halaman ang puno ng ubas?"
+      },
+      "answers": [
+        {
+          "en": "Climbing vine",
+          "fr": "Plante grimpante",
+          "tl": "Baging"
+        },
+        {
+          "en": "Moss",
+          "fr": "Mousse",
+          "tl": "Lumot"
+        },
+        {
+          "en": "Tree",
+          "fr": "Arbre",
+          "tl": "Puno"
+        },
+        {
+          "en": "Large herbaceous plant",
+          "fr": "Grande plante herbacée",
+          "tl": "Malaking halamang mala-damo"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-050",
+      "prompt": {
+        "en": "Which fruit has a large flat stone and is often eaten green or ripe in the Philippines?",
+        "fr": "Quel fruit a un gros noyau aplati et se mange vert ou mûr aux Philippines ?",
+        "tl": "Anong prutas ang may malaking lapad na buto at kinakain nang hilaw o hinog sa Pilipinas?"
+      },
+      "answers": [
+        {
+          "en": "Fig",
+          "fr": "Figue",
+          "tl": "Igos"
+        },
+        {
+          "en": "Mango",
+          "fr": "Mangue",
+          "tl": "Mangga"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        },
+        {
+          "en": "Orange",
+          "fr": "Orange",
+          "tl": "Kahel"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "fruits-051",
+      "prompt": {
+        "en": "From which floral structure does a true fruit develop?",
+        "fr": "De quelle structure florale un vrai fruit se développe-t-il ?",
+        "tl": "Saang bahagi ng bulaklak nabubuo ang tunay na bunga?"
+      },
+      "answers": [
+        {
+          "en": "Leaf",
+          "fr": "Feuille",
+          "tl": "Dahon"
+        },
+        {
+          "en": "Petal",
+          "fr": "Pétale",
+          "tl": "Talulot"
+        },
+        {
+          "en": "Flower ovary",
+          "fr": "Ovaire de la fleur",
+          "tl": "Obaryo ng bulaklak"
+        },
+        {
+          "en": "Root",
+          "fr": "Racine",
+          "tl": "Ugat"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-052",
+      "prompt": {
+        "en": "Which botanical fruit type is a peach?",
+        "fr": "Quel type botanique de fruit est la pêche ?",
+        "tl": "Anong uri ng bunga sa botanika ang peach?"
+      },
+      "answers": [
+        {
+          "en": "Pepo",
+          "fr": "Péponide",
+          "tl": "Pepo"
+        },
+        {
+          "en": "Hesperidium",
+          "fr": "Hespéride",
+          "tl": "Hesperidium"
+        },
+        {
+          "en": "Capsule",
+          "fr": "Capsule",
+          "tl": "Kapsula"
+        },
+        {
+          "en": "Drupe",
+          "fr": "Drupe",
+          "tl": "Drupe"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-053",
+      "prompt": {
+        "en": "Which botanical fruit type is an orange?",
+        "fr": "Quel type botanique de fruit est l'orange ?",
+        "tl": "Anong uri ng bunga sa botanika ang kahel?"
+      },
+      "answers": [
+        {
+          "en": "Hesperidium",
+          "fr": "Hespéride",
+          "tl": "Hesperidium"
+        },
+        {
+          "en": "Drupe",
+          "fr": "Drupe",
+          "tl": "Drupe"
+        },
+        {
+          "en": "Pome",
+          "fr": "Fruit à pépins (pomme)",
+          "tl": "Pome"
+        },
+        {
+          "en": "Legume (pod)",
+          "fr": "Gousse",
+          "tl": "Legume (bunga sa supot)"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-054",
+      "prompt": {
+        "en": "Which botanical fruit type is a watermelon?",
+        "fr": "Quel type botanique de fruit est la pastèque ?",
+        "tl": "Anong uri ng bunga sa botanika ang pakwan?"
+      },
+      "answers": [
+        {
+          "en": "Achene",
+          "fr": "Akène",
+          "tl": "Achene"
+        },
+        {
+          "en": "Pepo",
+          "fr": "Péponide",
+          "tl": "Pepo"
+        },
+        {
+          "en": "Pome",
+          "fr": "Fruit à pépins (pomme)",
+          "tl": "Pome"
+        },
+        {
+          "en": "Drupe",
+          "fr": "Drupe",
+          "tl": "Drupe"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-055",
+      "prompt": {
+        "en": "Which botanical fruit type is an apple?",
+        "fr": "Quel type botanique de fruit est la pomme ?",
+        "tl": "Anong uri ng bunga sa botanika ang mansanas?"
+      },
+      "answers": [
+        {
+          "en": "Capsule",
+          "fr": "Capsule",
+          "tl": "Kapsula"
+        },
+        {
+          "en": "Legume (pod)",
+          "fr": "Gousse",
+          "tl": "Legume (bunga sa supot)"
+        },
+        {
+          "en": "Pome",
+          "fr": "Fruit à pépins (pomme)",
+          "tl": "Pome"
+        },
+        {
+          "en": "Hesperidium",
+          "fr": "Hespéride",
+          "tl": "Hesperidium"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-056",
+      "prompt": {
+        "en": "Which of these is a botanical berry?",
+        "fr": "Lequel de ces fruits est une baie au sens botanique ?",
+        "tl": "Alin dito ang berry sa botanika?"
+      },
+      "answers": [
+        {
+          "en": "Peach",
+          "fr": "Pêche",
+          "tl": "Peach"
+        },
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        },
+        {
+          "en": "Strawberry",
+          "fr": "Fraise",
+          "tl": "Strawberry"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-057",
+      "prompt": {
+        "en": "What are the tiny individual fruits on a strawberry's surface called?",
+        "fr": "Comment appelle-t-on les minuscules fruits individuels à la surface d'une fraise ?",
+        "tl": "Ano ang tawag sa maliliit na indibidwal na bunga sa ibabaw ng strawberry?"
+      },
+      "answers": [
+        {
+          "en": "Achene",
+          "fr": "Akène",
+          "tl": "Achene"
+        },
+        {
+          "en": "Drupe",
+          "fr": "Drupe",
+          "tl": "Drupe"
+        },
+        {
+          "en": "Pepo",
+          "fr": "Péponide",
+          "tl": "Pepo"
+        },
+        {
+          "en": "Capsule",
+          "fr": "Capsule",
+          "tl": "Kapsula"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-058",
+      "prompt": {
+        "en": "Which plant tissue makes up most of a strawberry's fleshy part?",
+        "fr": "Quel tissu végétal constitue l'essentiel de la partie charnue d'une fraise ?",
+        "tl": "Anong bahagi ng halaman ang bumubuo sa karamihan ng malaman na bahagi ng strawberry?"
+      },
+      "answers": [
+        {
+          "en": "Pollen",
+          "fr": "Pollen",
+          "tl": "Polen"
+        },
+        {
+          "en": "Flower receptacle",
+          "fr": "Réceptacle floral",
+          "tl": "Receptacle ng bulaklak"
+        },
+        {
+          "en": "Root",
+          "fr": "Racine",
+          "tl": "Ugat"
+        },
+        {
+          "en": "Leaf",
+          "fr": "Feuille",
+          "tl": "Dahon"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-059",
+      "prompt": {
+        "en": "Which gas acts as a plant hormone promoting ripening in many fruits?",
+        "fr": "Quel gaz agit comme hormone végétale favorisant la maturation de nombreux fruits ?",
+        "tl": "Anong gas ang hormone ng halaman na tumutulong sa paghinog ng maraming prutas?"
+      },
+      "answers": [
+        {
+          "en": "Nitrogen",
+          "fr": "Azote",
+          "tl": "Nitroheno"
+        },
+        {
+          "en": "Helium",
+          "fr": "Hélium",
+          "tl": "Helyo"
+        },
+        {
+          "en": "Ethylene",
+          "fr": "Éthylène",
+          "tl": "Etileno"
+        },
+        {
+          "en": "Oxygen",
+          "fr": "Oxygène",
+          "tl": "Oksiheno"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-060",
+      "prompt": {
+        "en": "Which substance helps fruit jam form a gel?",
+        "fr": "Quelle substance aide la confiture à prendre en gel ?",
+        "tl": "Anong sangkap ang tumutulong para mamuo ang jam?"
+      },
+      "answers": [
+        {
+          "en": "Gluten",
+          "fr": "Gluten",
+          "tl": "Gluten"
+        },
+        {
+          "en": "Chlorophyll",
+          "fr": "Chlorophylle",
+          "tl": "Kloropila"
+        },
+        {
+          "en": "Salt",
+          "fr": "Sel",
+          "tl": "Asin"
+        },
+        {
+          "en": "Pectin",
+          "fr": "Pectine",
+          "tl": "Pektin"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-061",
+      "prompt": {
+        "en": "Which fruit contains the enzyme bromelain?",
+        "fr": "Quel fruit contient l'enzyme bromélaïne ?",
+        "tl": "Anong prutas ang may enzyme na bromelain?"
+      },
+      "answers": [
+        {
+          "en": "Pineapple",
+          "fr": "Ananas",
+          "tl": "Pinya"
+        },
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        },
+        {
+          "en": "Pear",
+          "fr": "Poire",
+          "tl": "Peras"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-062",
+      "prompt": {
+        "en": "Which fruit gives its name to the enzyme papain?",
+        "fr": "Quel fruit donne son nom à l'enzyme papaïne ?",
+        "tl": "Anong prutas ang pinagmulan ng pangalan ng enzyme na papain?"
+      },
+      "answers": [
+        {
+          "en": "Fig",
+          "fr": "Figue",
+          "tl": "Igos"
+        },
+        {
+          "en": "Papaya",
+          "fr": "Papaye",
+          "tl": "Papaya"
+        },
+        {
+          "en": "Plum",
+          "fr": "Prune",
+          "tl": "Plum"
+        },
+        {
+          "en": "Peach",
+          "fr": "Pêche",
+          "tl": "Peach"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-063",
+      "prompt": {
+        "en": "Which family includes apples, pears and peaches?",
+        "fr": "Quelle famille comprend les pommes, les poires et les pêches ?",
+        "tl": "Anong pamilya ng halaman ang kinabibilangan ng mansanas, peras at peach?"
+      },
+      "answers": [
+        {
+          "en": "Nightshade family (Solanaceae)",
+          "fr": "Solanacées",
+          "tl": "Solanaceae"
+        },
+        {
+          "en": "Rue family (Rutaceae)",
+          "fr": "Rutacées",
+          "tl": "Rutaceae"
+        },
+        {
+          "en": "Rose family (Rosaceae)",
+          "fr": "Rosacées",
+          "tl": "Pamilyang rosas (Rosaceae)"
+        },
+        {
+          "en": "Grass family (Poaceae)",
+          "fr": "Poacées",
+          "tl": "Pamilyang damo (Poaceae)"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-064",
+      "prompt": {
+        "en": "Which family includes oranges and lemons?",
+        "fr": "Quelle famille comprend les oranges et les citrons ?",
+        "tl": "Anong pamilya ang kinabibilangan ng kahel at limon?"
+      },
+      "answers": [
+        {
+          "en": "Rose family (Rosaceae)",
+          "fr": "Rosacées",
+          "tl": "Pamilyang rosas (Rosaceae)"
+        },
+        {
+          "en": "Grass family (Poaceae)",
+          "fr": "Poacées",
+          "tl": "Pamilyang damo (Poaceae)"
+        },
+        {
+          "en": "Cactus family (Cactaceae)",
+          "fr": "Cactacées",
+          "tl": "Pamilyang cactus (Cactaceae)"
+        },
+        {
+          "en": "Rue family (Rutaceae)",
+          "fr": "Rutacées",
+          "tl": "Rutaceae"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-065",
+      "prompt": {
+        "en": "Which family includes tomatoes?",
+        "fr": "À quelle famille appartiennent les tomates ?",
+        "tl": "Anong pamilya ang kinabibilangan ng kamatis?"
+      },
+      "answers": [
+        {
+          "en": "Nightshade family (Solanaceae)",
+          "fr": "Solanacées",
+          "tl": "Solanaceae"
+        },
+        {
+          "en": "Rose family (Rosaceae)",
+          "fr": "Rosacées",
+          "tl": "Pamilyang rosas (Rosaceae)"
+        },
+        {
+          "en": "Laurel family (Lauraceae)",
+          "fr": "Lauracées",
+          "tl": "Lauraceae"
+        },
+        {
+          "en": "Mulberry family (Moraceae)",
+          "fr": "Moracées",
+          "tl": "Moraceae"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-066",
+      "prompt": {
+        "en": "Which pigments commonly give blueberries their blue-purple color?",
+        "fr": "Quels pigments donnent généralement aux myrtilles leur couleur bleu-violet ?",
+        "tl": "Anong mga pigment ang karaniwang nagbibigay ng asul-lilang kulay sa blueberry?"
+      },
+      "answers": [
+        {
+          "en": "Cellulose",
+          "fr": "Cellulose",
+          "tl": "Selulosa"
+        },
+        {
+          "en": "Anthocyanins",
+          "fr": "Anthocyanes",
+          "tl": "Anthocyanin"
+        },
+        {
+          "en": "Chlorophyll",
+          "fr": "Chlorophylle",
+          "tl": "Kloropila"
+        },
+        {
+          "en": "Pectin",
+          "fr": "Pectine",
+          "tl": "Pektin"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-067",
+      "prompt": {
+        "en": "Which pigments commonly contribute to the orange color of apricots?",
+        "fr": "Quels pigments contribuent généralement à la couleur orange des abricots ?",
+        "tl": "Anong mga pigment ang karaniwang nagbibigay ng kulay-kahel sa aprikot?"
+      },
+      "answers": [
+        {
+          "en": "Pectin",
+          "fr": "Pectine",
+          "tl": "Pektin"
+        },
+        {
+          "en": "Gluten",
+          "fr": "Gluten",
+          "tl": "Gluten"
+        },
+        {
+          "en": "Carotenoids",
+          "fr": "Caroténoïdes",
+          "tl": "Carotenoid"
+        },
+        {
+          "en": "Chlorophyll",
+          "fr": "Chlorophylle",
+          "tl": "Kloropila"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-068",
+      "prompt": {
+        "en": "During banana ripening, much of the starch is converted into what?",
+        "fr": "En mûrissant, une grande partie de l'amidon de la banane se transforme en quoi ?",
+        "tl": "Sa paghinog ng saging, ano ang nagiging anyo ng karamihan sa gawgaw nito?"
+      },
+      "answers": [
+        {
+          "en": "Salt",
+          "fr": "Sel",
+          "tl": "Asin"
+        },
+        {
+          "en": "Cellulose",
+          "fr": "Cellulose",
+          "tl": "Selulosa"
+        },
+        {
+          "en": "Oil",
+          "fr": "Huile",
+          "tl": "Langis"
+        },
+        {
+          "en": "Sugar",
+          "fr": "Sucre",
+          "tl": "Asukal"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-069",
+      "prompt": {
+        "en": "Which fruit can continue ripening substantially after harvest?",
+        "fr": "Quel fruit peut continuer à mûrir nettement après la récolte ?",
+        "tl": "Anong prutas ang maaaring patuloy na mahinog nang malaki matapos pitasin?"
+      },
+      "answers": [
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        },
+        {
+          "en": "Strawberry",
+          "fr": "Fraise",
+          "tl": "Strawberry"
+        },
+        {
+          "en": "Orange",
+          "fr": "Orange",
+          "tl": "Kahel"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-070",
+      "prompt": {
+        "en": "Which fruit is formed from many flowers joined together?",
+        "fr": "Quel fruit se forme à partir de nombreuses fleurs réunies ?",
+        "tl": "Anong prutas ang nabubuo mula sa maraming bulaklak na nagsama-sama?"
+      },
+      "answers": [
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        },
+        {
+          "en": "Pineapple",
+          "fr": "Ananas",
+          "tl": "Pinya"
+        },
+        {
+          "en": "Peach",
+          "fr": "Pêche",
+          "tl": "Peach"
+        },
+        {
+          "en": "Grape",
+          "fr": "Raisin",
+          "tl": "Ubas"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-071",
+      "prompt": {
+        "en": "Which fruit consists of a cluster of small drupelets from one flower?",
+        "fr": "Quel fruit est un assemblage de petites drupéoles issues d'une seule fleur ?",
+        "tl": "Anong prutas ang kumpol ng maliliit na drupe mula sa iisang bulaklak?"
+      },
+      "answers": [
+        {
+          "en": "Apple",
+          "fr": "Pomme",
+          "tl": "Mansanas"
+        },
+        {
+          "en": "Banana",
+          "fr": "Banane",
+          "tl": "Saging"
+        },
+        {
+          "en": "Raspberry",
+          "fr": "Framboise",
+          "tl": "Raspberry"
+        },
+        {
+          "en": "Orange",
+          "fr": "Orange",
+          "tl": "Kahel"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-072",
+      "prompt": {
+        "en": "Which familiar fruit is a fibrous drupe, despite its English name ending in 'nut'?",
+        "fr": "Quel fruit familier est une drupe fibreuse, malgré le mot « noix » dans son nom français ?",
+        "tl": "Anong pamilyar na prutas ang fibrous drupe kahit nagtatapos sa 'nut' ang pangalan nito sa Ingles?"
+      },
+      "answers": [
+        {
+          "en": "Peanut",
+          "fr": "Arachide",
+          "tl": "Mani"
+        },
+        {
+          "en": "Chestnut",
+          "fr": "Châtaigne",
+          "tl": "Kastanyas"
+        },
+        {
+          "en": "Almond",
+          "fr": "Amande",
+          "tl": "Almond"
+        },
+        {
+          "en": "Coconut",
+          "fr": "Noix de coco",
+          "tl": "Niyog"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-073",
+      "prompt": {
+        "en": "Which fruit produces the edible seed sold as an almond?",
+        "fr": "Quel fruit produit la graine comestible vendue sous le nom d'amande ?",
+        "tl": "Anong uri ng bunga ang pinagmumulan ng butong ibinebentang almond?"
+      },
+      "answers": [
+        {
+          "en": "Drupe",
+          "fr": "Drupe",
+          "tl": "Drupe"
+        },
+        {
+          "en": "Hesperidium",
+          "fr": "Hespéride",
+          "tl": "Hesperidium"
+        },
+        {
+          "en": "Pepo",
+          "fr": "Péponide",
+          "tl": "Pepo"
+        },
+        {
+          "en": "Pome",
+          "fr": "Fruit à pépins (pomme)",
+          "tl": "Pome"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-074",
+      "prompt": {
+        "en": "Which part of the coconut is the fibrous coir obtained from?",
+        "fr": "De quelle partie de la noix de coco provient la fibre de coco ?",
+        "tl": "Saang bahagi ng niyog kinukuha ang bunot?"
+      },
+      "answers": [
+        {
+          "en": "Petal",
+          "fr": "Pétale",
+          "tl": "Talulot"
+        },
+        {
+          "en": "Fibrous husk",
+          "fr": "Enveloppe fibreuse",
+          "tl": "Mabunot na balat"
+        },
+        {
+          "en": "Seed",
+          "fr": "Graine",
+          "tl": "Buto"
+        },
+        {
+          "en": "Leaf",
+          "fr": "Feuille",
+          "tl": "Dahon"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-075",
+      "prompt": {
+        "en": "What develops from a fertilized ovule in a flowering plant?",
+        "fr": "Que devient un ovule fécondé chez une plante à fleurs ?",
+        "tl": "Ano ang nabubuo mula sa napertilisa na ovule ng halamang namumulaklak?"
+      },
+      "answers": [
+        {
+          "en": "Leaf",
+          "fr": "Feuille",
+          "tl": "Dahon"
+        },
+        {
+          "en": "Pollen",
+          "fr": "Pollen",
+          "tl": "Polen"
+        },
+        {
+          "en": "Seed",
+          "fr": "Graine",
+          "tl": "Buto"
+        },
+        {
+          "en": "Petal",
+          "fr": "Pétale",
+          "tl": "Talulot"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "fruits-076",
+      "prompt": {
+        "en": "What is fruit development without fertilization called?",
+        "fr": "Comment appelle-t-on le développement d'un fruit sans fécondation ?",
+        "tl": "Ano ang tawag sa pagbuo ng bunga nang walang pertilisasyon?"
+      },
+      "answers": [
+        {
+          "en": "Germination",
+          "fr": "Germination",
+          "tl": "Pagsibol"
+        },
+        {
+          "en": "Pollination",
+          "fr": "Pollinisation",
+          "tl": "Polinasyon"
+        },
+        {
+          "en": "Photosynthesis",
+          "fr": "Photosynthèse",
+          "tl": "Potosintesis"
+        },
+        {
+          "en": "Parthenocarpy",
+          "fr": "Parthénocarpie",
+          "tl": "Parthenocarpy"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-077",
+      "prompt": {
+        "en": "What term describes fruit with a pronounced respiration and ethylene surge during ripening?",
+        "fr": "Quel terme désigne un fruit dont la maturation s'accompagne d'un pic de respiration et d'éthylène ?",
+        "tl": "Ano ang tawag sa bungang may matinding pagtaas ng respirasyon at etileno habang nahihinog?"
+      },
+      "answers": [
+        {
+          "en": "Climacteric",
+          "fr": "Climactérique",
+          "tl": "Climacteric"
+        },
+        {
+          "en": "Deciduous",
+          "fr": "Caduc",
+          "tl": "Nalalagas ang mga dahon"
+        },
+        {
+          "en": "Evergreen",
+          "fr": "Persistant",
+          "tl": "Laging may dahon"
+        },
+        {
+          "en": "Aquatic",
+          "fr": "Aquatique",
+          "tl": "Nabubuhay sa tubig"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-078",
+      "prompt": {
+        "en": "Which pericarp layer forms the hard stone of a peach?",
+        "fr": "Quelle couche du péricarpe forme le noyau dur d'une pêche ?",
+        "tl": "Anong sapin ng pericarp ang bumubuo sa matigas na bato ng peach?"
+      },
+      "answers": [
+        {
+          "en": "Flower receptacle",
+          "fr": "Réceptacle floral",
+          "tl": "Receptacle ng bulaklak"
+        },
+        {
+          "en": "Endocarp",
+          "fr": "Endocarpe",
+          "tl": "Endocarp"
+        },
+        {
+          "en": "Mesocarp",
+          "fr": "Mésocarpe",
+          "tl": "Mesocarp"
+        },
+        {
+          "en": "Exocarp",
+          "fr": "Exocarpe",
+          "tl": "Exocarp"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-079",
+      "prompt": {
+        "en": "Which pericarp layer forms most of a peach's edible flesh?",
+        "fr": "Quelle couche du péricarpe forme l'essentiel de la chair comestible d'une pêche ?",
+        "tl": "Anong sapin ng pericarp ang bumubuo sa karamihan ng nakakain na laman ng peach?"
+      },
+      "answers": [
+        {
+          "en": "Exocarp",
+          "fr": "Exocarpe",
+          "tl": "Exocarp"
+        },
+        {
+          "en": "Embryo",
+          "fr": "Embryon",
+          "tl": "Embriyo"
+        },
+        {
+          "en": "Mesocarp",
+          "fr": "Mésocarpe",
+          "tl": "Mesocarp"
+        },
+        {
+          "en": "Endocarp",
+          "fr": "Endocarpe",
+          "tl": "Endocarp"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-080",
+      "prompt": {
+        "en": "Which pericarp layer is the outermost?",
+        "fr": "Quelle couche du péricarpe est la plus externe ?",
+        "tl": "Anong sapin ng pericarp ang pinakalabas?"
+      },
+      "answers": [
+        {
+          "en": "Mesocarp",
+          "fr": "Mésocarpe",
+          "tl": "Mesocarp"
+        },
+        {
+          "en": "Endocarp",
+          "fr": "Endocarpe",
+          "tl": "Endocarp"
+        },
+        {
+          "en": "Embryo",
+          "fr": "Embryon",
+          "tl": "Embriyo"
+        },
+        {
+          "en": "Exocarp",
+          "fr": "Exocarpe",
+          "tl": "Exocarp"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-081",
+      "prompt": {
+        "en": "Which genus contains cultivated apples?",
+        "fr": "Quel genre comprend les pommiers cultivés ?",
+        "tl": "Anong genus ang kinabibilangan ng mga nililinang na mansanas?"
+      },
+      "answers": [
+        {
+          "en": "Malus",
+          "fr": "Malus",
+          "tl": "Malus"
+        },
+        {
+          "en": "Prunus",
+          "fr": "Prunus",
+          "tl": "Prunus"
+        },
+        {
+          "en": "Vitis",
+          "fr": "Vitis",
+          "tl": "Vitis"
+        },
+        {
+          "en": "Citrus",
+          "fr": "Citrus",
+          "tl": "Citrus"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-082",
+      "prompt": {
+        "en": "Which genus contains peaches, plums and cherries?",
+        "fr": "Quel genre comprend les pêchers, les pruniers et les cerisiers ?",
+        "tl": "Anong genus ang kinabibilangan ng peach, plum at seresa?"
+      },
+      "answers": [
+        {
+          "en": "Fragaria",
+          "fr": "Fragaria",
+          "tl": "Fragaria"
+        },
+        {
+          "en": "Prunus",
+          "fr": "Prunus",
+          "tl": "Prunus"
+        },
+        {
+          "en": "Malus",
+          "fr": "Malus",
+          "tl": "Malus"
+        },
+        {
+          "en": "Musa",
+          "fr": "Musa",
+          "tl": "Musa"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-083",
+      "prompt": {
+        "en": "Which genus contains grapevines?",
+        "fr": "Quel genre comprend les vignes à raisin ?",
+        "tl": "Anong genus ang kinabibilangan ng mga puno ng ubas?"
+      },
+      "answers": [
+        {
+          "en": "Rubus",
+          "fr": "Rubus",
+          "tl": "Rubus"
+        },
+        {
+          "en": "Citrus",
+          "fr": "Citrus",
+          "tl": "Citrus"
+        },
+        {
+          "en": "Vitis",
+          "fr": "Vitis",
+          "tl": "Vitis"
+        },
+        {
+          "en": "Ficus",
+          "fr": "Ficus",
+          "tl": "Ficus"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-084",
+      "prompt": {
+        "en": "Which genus contains bananas?",
+        "fr": "Quel genre comprend les bananiers ?",
+        "tl": "Anong genus ang kinabibilangan ng mga saging?"
+      },
+      "answers": [
+        {
+          "en": "Malus",
+          "fr": "Malus",
+          "tl": "Malus"
+        },
+        {
+          "en": "Prunus",
+          "fr": "Prunus",
+          "tl": "Prunus"
+        },
+        {
+          "en": "Vitis",
+          "fr": "Vitis",
+          "tl": "Vitis"
+        },
+        {
+          "en": "Musa",
+          "fr": "Musa",
+          "tl": "Musa"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-085",
+      "prompt": {
+        "en": "Which genus contains strawberries?",
+        "fr": "Quel genre comprend les fraisiers ?",
+        "tl": "Anong genus ang kinabibilangan ng mga strawberry?"
+      },
+      "answers": [
+        {
+          "en": "Fragaria",
+          "fr": "Fragaria",
+          "tl": "Fragaria"
+        },
+        {
+          "en": "Ficus",
+          "fr": "Ficus",
+          "tl": "Ficus"
+        },
+        {
+          "en": "Citrus",
+          "fr": "Citrus",
+          "tl": "Citrus"
+        },
+        {
+          "en": "Musa",
+          "fr": "Musa",
+          "tl": "Musa"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-086",
+      "prompt": {
+        "en": "Which genus contains raspberries and blackberries?",
+        "fr": "Quel genre comprend les framboisiers et les ronces à mûres ?",
+        "tl": "Anong genus ang kinabibilangan ng raspberry at blackberry?"
+      },
+      "answers": [
+        {
+          "en": "Prunus",
+          "fr": "Prunus",
+          "tl": "Prunus"
+        },
+        {
+          "en": "Rubus",
+          "fr": "Rubus",
+          "tl": "Rubus"
+        },
+        {
+          "en": "Vitis",
+          "fr": "Vitis",
+          "tl": "Vitis"
+        },
+        {
+          "en": "Malus",
+          "fr": "Malus",
+          "tl": "Malus"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-087",
+      "prompt": {
+        "en": "Which genus contains the common fig?",
+        "fr": "À quel genre appartient le figuier commun ?",
+        "tl": "Anong genus ang kinabibilangan ng karaniwang igos?"
+      },
+      "answers": [
+        {
+          "en": "Citrus",
+          "fr": "Citrus",
+          "tl": "Citrus"
+        },
+        {
+          "en": "Musa",
+          "fr": "Musa",
+          "tl": "Musa"
+        },
+        {
+          "en": "Ficus",
+          "fr": "Ficus",
+          "tl": "Ficus"
+        },
+        {
+          "en": "Fragaria",
+          "fr": "Fragaria",
+          "tl": "Fragaria"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-088",
+      "prompt": {
+        "en": "Which family contains pineapple?",
+        "fr": "À quelle famille appartient l'ananas ?",
+        "tl": "Anong pamilya ang kinabibilangan ng pinya?"
+      },
+      "answers": [
+        {
+          "en": "Rose family (Rosaceae)",
+          "fr": "Rosacées",
+          "tl": "Pamilyang rosas (Rosaceae)"
+        },
+        {
+          "en": "Grass family (Poaceae)",
+          "fr": "Poacées",
+          "tl": "Pamilyang damo (Poaceae)"
+        },
+        {
+          "en": "Mulberry family (Moraceae)",
+          "fr": "Moracées",
+          "tl": "Moraceae"
+        },
+        {
+          "en": "Bromeliad family (Bromeliaceae)",
+          "fr": "Broméliacées",
+          "tl": "Bromeliaceae"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-089",
+      "prompt": {
+        "en": "Which family contains avocado?",
+        "fr": "À quelle famille appartient l'avocatier ?",
+        "tl": "Anong pamilya ang kinabibilangan ng abokado?"
+      },
+      "answers": [
+        {
+          "en": "Laurel family (Lauraceae)",
+          "fr": "Lauracées",
+          "tl": "Lauraceae"
+        },
+        {
+          "en": "Rose family (Rosaceae)",
+          "fr": "Rosacées",
+          "tl": "Pamilyang rosas (Rosaceae)"
+        },
+        {
+          "en": "Cactus family (Cactaceae)",
+          "fr": "Cactacées",
+          "tl": "Pamilyang cactus (Cactaceae)"
+        },
+        {
+          "en": "Rue family (Rutaceae)",
+          "fr": "Rutacées",
+          "tl": "Rutaceae"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-090",
+      "prompt": {
+        "en": "Which family contains jackfruit and common figs?",
+        "fr": "Quelle famille comprend le jacquier et le figuier commun ?",
+        "tl": "Anong pamilya ang kinabibilangan ng langka at karaniwang igos?"
+      },
+      "answers": [
+        {
+          "en": "Nightshade family (Solanaceae)",
+          "fr": "Solanacées",
+          "tl": "Solanaceae"
+        },
+        {
+          "en": "Mulberry family (Moraceae)",
+          "fr": "Moracées",
+          "tl": "Moraceae"
+        },
+        {
+          "en": "Laurel family (Lauraceae)",
+          "fr": "Lauracées",
+          "tl": "Lauraceae"
+        },
+        {
+          "en": "Bromeliad family (Bromeliaceae)",
+          "fr": "Broméliacées",
+          "tl": "Bromeliaceae"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-091",
+      "prompt": {
+        "en": "Which family contains dragon fruit plants?",
+        "fr": "À quelle famille appartiennent les plantes produisant les pitayas ?",
+        "tl": "Anong pamilya ang kinabibilangan ng mga halamang namumunga ng dragon fruit?"
+      },
+      "answers": [
+        {
+          "en": "Grass family (Poaceae)",
+          "fr": "Poacées",
+          "tl": "Pamilyang damo (Poaceae)"
+        },
+        {
+          "en": "Laurel family (Lauraceae)",
+          "fr": "Lauracées",
+          "tl": "Lauraceae"
+        },
+        {
+          "en": "Cactus family (Cactaceae)",
+          "fr": "Cactacées",
+          "tl": "Pamilyang cactus (Cactaceae)"
+        },
+        {
+          "en": "Rose family (Rosaceae)",
+          "fr": "Rosacées",
+          "tl": "Pamilyang rosas (Rosaceae)"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-092",
+      "prompt": {
+        "en": "Which term classifies a pineapple by its origin from an inflorescence?",
+        "fr": "Quel terme classe l'ananas selon son origine à partir d'une inflorescence ?",
+        "tl": "Anong uri ang pinya batay sa pagbuo nito mula sa isang kumpol ng mga bulaklak?"
+      },
+      "answers": [
+        {
+          "en": "Aggregate fruit",
+          "fr": "Fruit agrégé",
+          "tl": "Aggregate fruit"
+        },
+        {
+          "en": "Simple fruit",
+          "fr": "Fruit simple",
+          "tl": "Simpleng bunga"
+        },
+        {
+          "en": "Dry fruit",
+          "fr": "Fruit sec",
+          "tl": "Tuyong bunga"
+        },
+        {
+          "en": "Multiple fruit",
+          "fr": "Fruit multiple (infrutescence)",
+          "tl": "Multiple fruit"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-093",
+      "prompt": {
+        "en": "Which term classifies a raspberry formed from separate ovaries of one flower?",
+        "fr": "Quel terme classe la framboise formée à partir des ovaires séparés d'une seule fleur ?",
+        "tl": "Anong uri ang raspberry na nabuo mula sa magkakahiwalay na obaryo ng iisang bulaklak?"
+      },
+      "answers": [
+        {
+          "en": "Aggregate fruit",
+          "fr": "Fruit agrégé",
+          "tl": "Aggregate fruit"
+        },
+        {
+          "en": "Multiple fruit",
+          "fr": "Fruit multiple (infrutescence)",
+          "tl": "Multiple fruit"
+        },
+        {
+          "en": "Capsule",
+          "fr": "Capsule",
+          "tl": "Kapsula"
+        },
+        {
+          "en": "Legume (pod)",
+          "fr": "Gousse",
+          "tl": "Legume (bunga sa supot)"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-094",
+      "prompt": {
+        "en": "What is the botanical fruit type of the peanut pod?",
+        "fr": "Quel est le type botanique de la gousse d'arachide ?",
+        "tl": "Anong uri ng bunga sa botanika ang supot ng mani?"
+      },
+      "answers": [
+        {
+          "en": "Hesperidium",
+          "fr": "Hespéride",
+          "tl": "Hesperidium"
+        },
+        {
+          "en": "Legume (pod)",
+          "fr": "Gousse",
+          "tl": "Legume (bunga sa supot)"
+        },
+        {
+          "en": "Drupe",
+          "fr": "Drupe",
+          "tl": "Drupe"
+        },
+        {
+          "en": "Pome",
+          "fr": "Fruit à pépins (pomme)",
+          "tl": "Pome"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-095",
+      "prompt": {
+        "en": "Which compounds are chiefly responsible for the astringency of unripe astringent persimmons?",
+        "fr": "Quels composés expliquent principalement l'astringence des kakis astringents non mûrs ?",
+        "tl": "Anong mga sangkap ang pangunahing sanhi ng pagkapakla ng mga hilaw na astringent persimmon?"
+      },
+      "answers": [
+        {
+          "en": "Starch",
+          "fr": "Amidon",
+          "tl": "Gawgaw"
+        },
+        {
+          "en": "Chlorophyll",
+          "fr": "Chlorophylle",
+          "tl": "Kloropila"
+        },
+        {
+          "en": "Tannins",
+          "fr": "Tanins",
+          "tl": "Tannin"
+        },
+        {
+          "en": "Pectin",
+          "fr": "Pectine",
+          "tl": "Pektin"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-096",
+      "prompt": {
+        "en": "Which protein-digesting enzyme makes fresh pineapple interfere with gelatin setting?",
+        "fr": "Quelle enzyme qui dégrade les protéines permet à l'ananas frais d'empêcher la gélatine de prendre ?",
+        "tl": "Anong enzyme na tumutunaw ng protina sa sariwang pinya ang nakahahadlang sa pagbuo ng gelatin?"
+      },
+      "answers": [
+        {
+          "en": "Lactase",
+          "fr": "Lactase",
+          "tl": "Lactase"
+        },
+        {
+          "en": "Amylase",
+          "fr": "Amylase",
+          "tl": "Amylase"
+        },
+        {
+          "en": "Papain",
+          "fr": "Papaïne",
+          "tl": "Papain"
+        },
+        {
+          "en": "Bromelain",
+          "fr": "Bromélaïne",
+          "tl": "Bromelain"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-097",
+      "prompt": {
+        "en": "Which protein-digesting enzyme is extracted from papaya latex?",
+        "fr": "Quelle enzyme qui dégrade les protéines est extraite du latex de papaye ?",
+        "tl": "Anong enzyme na tumutunaw ng protina ang kinukuha sa latex ng papaya?"
+      },
+      "answers": [
+        {
+          "en": "Papain",
+          "fr": "Papaïne",
+          "tl": "Papain"
+        },
+        {
+          "en": "Bromelain",
+          "fr": "Bromélaïne",
+          "tl": "Bromelain"
+        },
+        {
+          "en": "Lactase",
+          "fr": "Lactase",
+          "tl": "Lactase"
+        },
+        {
+          "en": "Amylase",
+          "fr": "Amylase",
+          "tl": "Amylase"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-098",
+      "prompt": {
+        "en": "Which process transfers pollen to a flower's stigma?",
+        "fr": "Quel processus transporte le pollen jusqu'au stigmate d'une fleur ?",
+        "tl": "Anong proseso ang paglilipat ng polen sa stigma ng bulaklak?"
+      },
+      "answers": [
+        {
+          "en": "Photosynthesis",
+          "fr": "Photosynthèse",
+          "tl": "Potosintesis"
+        },
+        {
+          "en": "Pollination",
+          "fr": "Pollinisation",
+          "tl": "Polinasyon"
+        },
+        {
+          "en": "Germination",
+          "fr": "Germination",
+          "tl": "Pagsibol"
+        },
+        {
+          "en": "Parthenocarpy",
+          "fr": "Parthénocarpie",
+          "tl": "Parthenocarpy"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-099",
+      "prompt": {
+        "en": "Which botanical fruit type is an avocado?",
+        "fr": "Quel type botanique de fruit est l'avocat ?",
+        "tl": "Anong uri ng bunga sa botanika ang abokado?"
+      },
+      "answers": [
+        {
+          "en": "Pome",
+          "fr": "Fruit à pépins (pomme)",
+          "tl": "Pome"
+        },
+        {
+          "en": "Legume (pod)",
+          "fr": "Gousse",
+          "tl": "Legume (bunga sa supot)"
+        },
+        {
+          "en": "Berry",
+          "fr": "Baie",
+          "tl": "Berry"
+        },
+        {
+          "en": "Drupe",
+          "fr": "Drupe",
+          "tl": "Drupe"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "fruits-100",
+      "prompt": {
+        "en": "Which fruit is a natural hybrid descended from sweet orange and pomelo (Citrus maxima)?",
+        "fr": "Quel fruit est un hybride naturel issu de l'orange douce et du pamplemousse (Citrus maxima) ?",
+        "tl": "Anong prutas ang likas na hybrid mula sa matamis na kahel at suha (Citrus maxima)?"
+      },
+      "answers": [
+        {
+          "en": "Lemon",
+          "fr": "Citron",
+          "tl": "Limon"
+        },
+        {
+          "en": "Mandarin",
+          "fr": "Mandarine",
+          "tl": "Mandarin"
+        },
+        {
+          "en": "Calamansi",
+          "fr": "Calamondin",
+          "tl": "Kalamansi"
+        },
+        {
+          "en": "Grapefruit (Citrus × paradisi)",
+          "fr": "Pomélo (Citrus × paradisi)",
+          "tl": "Grapefruit (Citrus × paradisi)"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
     }
   ]
 }

@@ -1,0 +1,105 @@
+# ISO | country EN / FR / TL | capital EN / FR / TL; 25 rows per difficulty
+# Level 1
+fr|France|France|Pransiya|Paris|Paris|Paris
+gb|United Kingdom|Royaume-Uni|United Kingdom|London|Londres|London
+it|Italy|Italie|Italya|Rome|Rome|Roma
+es|Spain|Espagne|Espanya|Madrid|Madrid|Madrid
+de|Germany|Allemagne|Alemanya|Berlin|Berlin|Berlin
+us|United States|États-Unis|Estados Unidos|Washington, D.C.|Washington|Washington, D.C.
+ca|Canada|Canada|Canada|Ottawa|Ottawa|Ottawa
+jp|Japan|Japon|Hapon|Tokyo|Tokyo|Tokyo
+cn|China|Chine|Tsina|Beijing|Pékin|Beijing
+ph|Philippines|Philippines|Pilipinas|Manila|Manille|Maynila
+au|Australia|Australie|Australia|Canberra|Canberra|Canberra
+br|Brazil|Brésil|Brazil|Brasília|Brasilia|Brasília
+ar|Argentina|Argentine|Argentina|Buenos Aires|Buenos Aires|Buenos Aires
+mx|Mexico|Mexique|Mexico|Mexico City|Mexico|Lungsod ng Mexico
+in|India|Inde|India|New Delhi|New Delhi|New Delhi
+eg|Egypt|Égypte|Ehipto|Cairo|Le Caire|Cairo
+gr|Greece|Grèce|Gresya|Athens|Athènes|Atenas
+pt|Portugal|Portugal|Portugal|Lisbon|Lisbonne|Lisbon
+be|Belgium|Belgique|Belgium|Brussels|Bruxelles|Brussels
+th|Thailand|Thaïlande|Thailand|Bangkok|Bangkok|Bangkok
+vn|Vietnam|Viêt Nam|Vietnam|Hanoi|Hanoï|Hanoi
+kr|South Korea|Corée du Sud|Timog Korea|Seoul|Séoul|Seoul
+ma|Morocco|Maroc|Morocco|Rabat|Rabat|Rabat
+ie|Ireland|Irlande|Ireland|Dublin|Dublin|Dublin
+ru|Russia|Russie|Russia|Moscow|Moscou|Moscow
+# Level 2
+se|Sweden|Suède|Sweden|Stockholm|Stockholm|Stockholm
+no|Norway|Norvège|Norway|Oslo|Oslo|Oslo
+dk|Denmark|Danemark|Denmark|Copenhagen|Copenhague|Copenhagen
+fi|Finland|Finlande|Finland|Helsinki|Helsinki|Helsinki
+pl|Poland|Pologne|Poland|Warsaw|Varsovie|Warsaw
+at|Austria|Autriche|Austria|Vienna|Vienne|Vienna
+hu|Hungary|Hongrie|Hungary|Budapest|Budapest|Budapest
+cz|Czechia|Tchéquie|Czechia|Prague|Prague|Prague
+ro|Romania|Roumanie|Romania|Bucharest|Bucarest|Bucharest
+tr|Türkiye|Turquie|Türkiye|Ankara|Ankara|Ankara
+nz|New Zealand|Nouvelle-Zélande|New Zealand|Wellington|Wellington|Wellington
+pe|Peru|Pérou|Peru|Lima|Lima|Lima
+cl|Chile|Chili|Chile|Santiago|Santiago|Santiago
+co|Colombia|Colombie|Colombia|Bogotá|Bogota|Bogotá
+cu|Cuba|Cuba|Cuba|Havana|La Havane|Havana
+jm|Jamaica|Jamaïque|Jamaica|Kingston|Kingston|Kingston
+sa|Saudi Arabia|Arabie saoudite|Saudi Arabia|Riyadh|Riyad|Riyadh
+ae|United Arab Emirates|Émirats arabes unis|United Arab Emirates|Abu Dhabi|Abou Dabi|Abu Dhabi
+qa|Qatar|Qatar|Qatar|Doha|Doha|Doha
+ke|Kenya|Kenya|Kenya|Nairobi|Nairobi|Nairobi
+dz|Algeria|Algérie|Algeria|Algiers|Alger|Algiers
+tn|Tunisia|Tunisie|Tunisia|Tunis|Tunis|Tunis
+sn|Senegal|Sénégal|Senegal|Dakar|Dakar|Dakar
+np|Nepal|Népal|Nepal|Kathmandu|Katmandou|Kathmandu
+pk|Pakistan|Pakistan|Pakistan|Islamabad|Islamabad|Islamabad
+# Level 3
+hr|Croatia|Croatie|Croatia|Zagreb|Zagreb|Zagreb
+rs|Serbia|Serbie|Serbia|Belgrade|Belgrade|Belgrade
+bg|Bulgaria|Bulgarie|Bulgaria|Sofia|Sofia|Sofia
+sk|Slovakia|Slovaquie|Slovakia|Bratislava|Bratislava|Bratislava
+si|Slovenia|Slovénie|Slovenia|Ljubljana|Ljubljana|Ljubljana
+ee|Estonia|Estonie|Estonia|Tallinn|Tallinn|Tallinn
+lv|Latvia|Lettonie|Latvia|Riga|Riga|Riga
+lt|Lithuania|Lituanie|Lithuania|Vilnius|Vilnius|Vilnius
+is|Iceland|Islande|Iceland|Reykjavík|Reykjavik|Reykjavík
+mt|Malta|Malte|Malta|Valletta|La Valette|Valletta
+cy|Cyprus|Chypre|Cyprus|Nicosia|Nicosie|Nicosia
+uy|Uruguay|Uruguay|Uruguay|Montevideo|Montevideo|Montevideo
+py|Paraguay|Paraguay|Paraguay|Asunción|Asunción|Asunción
+ec|Ecuador|Équateur|Ecuador|Quito|Quito|Quito
+cr|Costa Rica|Costa Rica|Costa Rica|San José|San José|San José
+do|Dominican Republic|République dominicaine|Dominican Republic|Santo Domingo|Saint-Domingue|Santo Domingo
+gh|Ghana|Ghana|Ghana|Accra|Accra|Accra
+cm|Cameroon|Cameroun|Cameroon|Yaoundé|Yaoundé|Yaoundé
+mg|Madagascar|Madagascar|Madagascar|Antananarivo|Antananarivo|Antananarivo
+et|Ethiopia|Éthiopie|Ethiopia|Addis Ababa|Addis-Abeba|Addis Ababa
+mn|Mongolia|Mongolie|Mongolia|Ulaanbaatar|Oulan-Bator|Ulaanbaatar
+kh|Cambodia|Cambodge|Cambodia|Phnom Penh|Phnom Penh|Phnom Penh
+la|Laos|Laos|Laos|Vientiane|Vientiane|Vientiane
+bd|Bangladesh|Bangladesh|Bangladesh|Dhaka|Dacca|Dhaka
+om|Oman|Oman|Oman|Muscat|Mascate|Muscat
+# Level 4
+bt|Bhutan|Bhoutan|Bhutan|Thimphu|Thimphou|Thimphu
+kg|Kyrgyzstan|Kirghizistan|Kyrgyzstan|Bishkek|Bichkek|Bishkek
+tj|Tajikistan|Tadjikistan|Tajikistan|Dushanbe|Douchanbé|Dushanbe
+tm|Turkmenistan|Turkménistan|Turkmenistan|Ashgabat|Achgabat|Ashgabat
+uz|Uzbekistan|Ouzbékistan|Uzbekistan|Tashkent|Tachkent|Tashkent
+bn|Brunei|Brunei|Brunei|Bandar Seri Begawan|Bandar Seri Begawan|Bandar Seri Begawan
+tl|Timor-Leste|Timor oriental|Timor-Leste|Dili|Dili|Dili
+mv|Maldives|Maldives|Maldives|Malé|Malé|Malé
+fj|Fiji|Fidji|Fiji|Suva|Suva|Suva
+ws|Samoa|Samoa|Samoa|Apia|Apia|Apia
+to|Tonga|Tonga|Tonga|Nukuʻalofa|Nukuʻalofa|Nukuʻalofa
+vu|Vanuatu|Vanuatu|Vanuatu|Port Vila|Port-Vila|Port Vila
+sb|Solomon Islands|Îles Salomon|Solomon Islands|Honiara|Honiara|Honiara
+pw|Palau|Palaos|Palau|Ngerulmud|Ngerulmud|Ngerulmud
+fm|Micronesia|Micronésie|Micronesia|Palikir|Palikir|Palikir
+mh|Marshall Islands|Îles Marshall|Marshall Islands|Majuro|Majuro|Majuro
+cv|Cabo Verde|Cap-Vert|Cabo Verde|Praia|Praia|Praia
+km|Comoros|Comores|Comoros|Moroni|Moroni|Moroni
+sc|Seychelles|Seychelles|Seychelles|Victoria|Victoria|Victoria
+ls|Lesotho|Lesotho|Lesotho|Maseru|Maseru|Maseru
+bw|Botswana|Botswana|Botswana|Gaborone|Gaborone|Gaborone
+mw|Malawi|Malawi|Malawi|Lilongwe|Lilongwe|Lilongwe
+sr|Suriname|Suriname|Suriname|Paramaribo|Paramaribo|Paramaribo
+gy|Guyana|Guyana|Guyana|Georgetown|Georgetown|Georgetown
+bz|Belize|Belize|Belize|Belmopan|Belmopan|Belmopan

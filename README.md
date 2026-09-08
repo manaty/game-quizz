@@ -1,6 +1,6 @@
 # The Million Quiz
 
-One reusable Retro Museum activity, with separate questionnaires. Play on a shared screen using phones, alone or with a class. English, French and Tagalog UI and four 10-question starter packs: world flags, fruit, capitals, and European kings/queens.
+One reusable Retro Museum activity, with separate questionnaires. Play on a shared screen using phones, alone or with a class. English, French and Tagalog UI and four 100-question starter packs (25 questions at each of four difficulty levels): world flags, fruit, capitals, and European kings/queens.
 
 ## Play
 
@@ -13,7 +13,7 @@ Node 22+, `npm ci --ignore-scripts`, then `npm start`. Open the printed host URL
 
 Gains are fictional points, with no money or purchases. The game declares no fixed player maximum: the host defaults to a 128-participant resource guard, configurable by the operator. This is not a claim of measured Wi-Fi capacity.
 
-## Ask ChatGPT to contribute a quiz
+## Ask your AI to contribute a quiz
 
 Copy [the submission prompt](public/submit-prompt.txt), append your content instructions, and give it to an assistant. An HTTP-capable assistant can POST to `https://retro-museum.net/api/quizzes/submissions`. Otherwise it produces a JSON file for the [submission page](https://retro-museum.net/quizzes). No GitHub repository, game build or API key is required from a questionnaire author.
 
@@ -25,7 +25,7 @@ Only data is accepted, never user code. Public/private game snapshots expose no 
 
 `npm run build` creates the sandboxed engine/view and submission-page client. `npm test` covers content limits, private answers, stale/duplicate commands, save/restore, all modes, 128 simulated engine participants, and a 100-question match. `node node_modules/@manaty/retro-museum-sdk/validate.js .` performs the SDK compatibility check. These are not substitutes for physical network endurance tests.
 
-Code: MIT. The original bundled questionnaire text and generated flag diagrams are supplied by Manaty under CC BY 4.0. Submitted quizzes retain their declared attribution; code packages include the base engine license and questionnaire attribution.
+Code: MIT. The original bundled questionnaire text is supplied by Manaty under CC BY 4.0. Flag PNGs come from Flagpedia/FlagCDN (public domain); see [content sources and authoring](content/SOURCES.md). Submitted quizzes retain their declared attribution; code packages include the base engine license and questionnaire attribution.
 
 ## Screenshots
 

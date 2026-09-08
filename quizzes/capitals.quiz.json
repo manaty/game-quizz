@@ -10,164 +10,3204 @@
   "language": "en",
   "questions": [
     {
-      "id": "capital0",
+      "id": "capital-fr",
       "prompt": {
         "en": "What is the capital of France?",
-        "fr": "Quelle est la capitale de France ?",
+        "fr": "Quelle est la capitale de ce pays : France ?",
         "tl": "Ano ang kabisera ng Pransiya?"
       },
       "answers": [
-        "Paris",
-        "Rome",
-        "Berlin",
-        "Madrid"
+        {
+          "en": "Paris",
+          "fr": "Paris",
+          "tl": "Paris"
+        },
+        {
+          "en": "Tokyo",
+          "fr": "Tokyo",
+          "tl": "Tokyo"
+        },
+        {
+          "en": "Mexico City",
+          "fr": "Mexico",
+          "tl": "Lungsod ng Mexico"
+        },
+        {
+          "en": "Bangkok",
+          "fr": "Bangkok",
+          "tl": "Bangkok"
+        }
       ],
       "correct": 0,
       "difficulty": 1
     },
     {
-      "id": "capital1",
+      "id": "capital-gb",
       "prompt": {
-        "en": "What is the capital of Japan?",
-        "fr": "Quelle est la capitale de Japon ?",
-        "tl": "Ano ang kabisera ng Hapon?"
+        "en": "What is the capital of United Kingdom?",
+        "fr": "Quelle est la capitale de ce pays : Royaume-Uni ?",
+        "tl": "Ano ang kabisera ng United Kingdom?"
       },
       "answers": [
-        "Tokyo",
-        "Kyoto",
-        "Osaka",
-        "Seoul"
+        {
+          "en": "Hanoi",
+          "fr": "Hanoï",
+          "tl": "Hanoi"
+        },
+        {
+          "en": "London",
+          "fr": "Londres",
+          "tl": "London"
+        },
+        {
+          "en": "Beijing",
+          "fr": "Pékin",
+          "tl": "Beijing"
+        },
+        {
+          "en": "New Delhi",
+          "fr": "New Delhi",
+          "tl": "New Delhi"
+        }
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": 1
     },
     {
-      "id": "capital2",
-      "prompt": {
-        "en": "What is the capital of Philippines?",
-        "fr": "Quelle est la capitale de Philippines ?",
-        "tl": "Ano ang kabisera ng Pilipinas?"
-      },
-      "answers": [
-        "Manila",
-        "Cebu",
-        "Davao",
-        "Baguio"
-      ],
-      "correct": 0,
-      "difficulty": 2
-    },
-    {
-      "id": "capital3",
+      "id": "capital-it",
       "prompt": {
         "en": "What is the capital of Italy?",
-        "fr": "Quelle est la capitale de Italie ?",
+        "fr": "Quelle est la capitale de ce pays : Italie ?",
         "tl": "Ano ang kabisera ng Italya?"
       },
       "answers": [
-        "Rome",
-        "Milan",
-        "Naples",
-        "Venice"
+        {
+          "en": "Cairo",
+          "fr": "Le Caire",
+          "tl": "Cairo"
+        },
+        {
+          "en": "Seoul",
+          "fr": "Séoul",
+          "tl": "Seoul"
+        },
+        {
+          "en": "Rome",
+          "fr": "Rome",
+          "tl": "Roma"
+        },
+        {
+          "en": "Manila",
+          "fr": "Manille",
+          "tl": "Maynila"
+        }
       ],
-      "correct": 0,
-      "difficulty": 2
+      "correct": 2,
+      "difficulty": 1
     },
     {
-      "id": "capital4",
-      "prompt": {
-        "en": "What is the capital of Canada?",
-        "fr": "Quelle est la capitale de Canada ?",
-        "tl": "Ano ang kabisera ng Canada?"
-      },
-      "answers": [
-        "Ottawa",
-        "Toronto",
-        "Montreal",
-        "Vancouver"
-      ],
-      "correct": 0,
-      "difficulty": 2
-    },
-    {
-      "id": "capital5",
-      "prompt": {
-        "en": "What is the capital of Australia?",
-        "fr": "Quelle est la capitale de Australie ?",
-        "tl": "Ano ang kabisera ng Australia?"
-      },
-      "answers": [
-        "Canberra",
-        "Sydney",
-        "Melbourne",
-        "Perth"
-      ],
-      "correct": 0,
-      "difficulty": 2
-    },
-    {
-      "id": "capital6",
-      "prompt": {
-        "en": "What is the capital of Brazil?",
-        "fr": "Quelle est la capitale de Brésil ?",
-        "tl": "Ano ang kabisera ng Brazil?"
-      },
-      "answers": [
-        "Brasília",
-        "Rio de Janeiro",
-        "São Paulo",
-        "Salvador"
-      ],
-      "correct": 0,
-      "difficulty": 2
-    },
-    {
-      "id": "capital7",
-      "prompt": {
-        "en": "What is the capital of Germany?",
-        "fr": "Quelle est la capitale de Allemagne ?",
-        "tl": "Ano ang kabisera ng Alemanya?"
-      },
-      "answers": [
-        "Berlin",
-        "Munich",
-        "Hamburg",
-        "Bonn"
-      ],
-      "correct": 0,
-      "difficulty": 2
-    },
-    {
-      "id": "capital8",
-      "prompt": {
-        "en": "What is the capital of Egypt?",
-        "fr": "Quelle est la capitale de Égypte ?",
-        "tl": "Ano ang kabisera ng Ehipto?"
-      },
-      "answers": [
-        "Cairo",
-        "Alexandria",
-        "Luxor",
-        "Aswan"
-      ],
-      "correct": 0,
-      "difficulty": 2
-    },
-    {
-      "id": "capital9",
+      "id": "capital-es",
       "prompt": {
         "en": "What is the capital of Spain?",
-        "fr": "Quelle est la capitale de Espagne ?",
+        "fr": "Quelle est la capitale de ce pays : Espagne ?",
         "tl": "Ano ang kabisera ng Espanya?"
       },
       "answers": [
-        "Madrid",
-        "Barcelona",
-        "Seville",
-        "Valencia"
+        {
+          "en": "Canberra",
+          "fr": "Canberra",
+          "tl": "Canberra"
+        },
+        {
+          "en": "Athens",
+          "fr": "Athènes",
+          "tl": "Atenas"
+        },
+        {
+          "en": "Rabat",
+          "fr": "Rabat",
+          "tl": "Rabat"
+        },
+        {
+          "en": "Madrid",
+          "fr": "Madrid",
+          "tl": "Madrid"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-de",
+      "prompt": {
+        "en": "What is the capital of Germany?",
+        "fr": "Quelle est la capitale de ce pays : Allemagne ?",
+        "tl": "Ano ang kabisera ng Alemanya?"
+      },
+      "answers": [
+        {
+          "en": "Berlin",
+          "fr": "Berlin",
+          "tl": "Berlin"
+        },
+        {
+          "en": "Brasília",
+          "fr": "Brasilia",
+          "tl": "Brasília"
+        },
+        {
+          "en": "Lisbon",
+          "fr": "Lisbonne",
+          "tl": "Lisbon"
+        },
+        {
+          "en": "Dublin",
+          "fr": "Dublin",
+          "tl": "Dublin"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-us",
+      "prompt": {
+        "en": "What is the capital of United States?",
+        "fr": "Quelle est la capitale de ce pays : États-Unis ?",
+        "tl": "Ano ang kabisera ng Estados Unidos?"
+      },
+      "answers": [
+        {
+          "en": "Moscow",
+          "fr": "Moscou",
+          "tl": "Moscow"
+        },
+        {
+          "en": "Washington, D.C.",
+          "fr": "Washington",
+          "tl": "Washington, D.C."
+        },
+        {
+          "en": "Buenos Aires",
+          "fr": "Buenos Aires",
+          "tl": "Buenos Aires"
+        },
+        {
+          "en": "Brussels",
+          "fr": "Bruxelles",
+          "tl": "Brussels"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-ca",
+      "prompt": {
+        "en": "What is the capital of Canada?",
+        "fr": "Quelle est la capitale de ce pays : Canada ?",
+        "tl": "Ano ang kabisera ng Canada?"
+      },
+      "answers": [
+        {
+          "en": "Bangkok",
+          "fr": "Bangkok",
+          "tl": "Bangkok"
+        },
+        {
+          "en": "Paris",
+          "fr": "Paris",
+          "tl": "Paris"
+        },
+        {
+          "en": "Ottawa",
+          "fr": "Ottawa",
+          "tl": "Ottawa"
+        },
+        {
+          "en": "Mexico City",
+          "fr": "Mexico",
+          "tl": "Lungsod ng Mexico"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-jp",
+      "prompt": {
+        "en": "What is the capital of Japan?",
+        "fr": "Quelle est la capitale de ce pays : Japon ?",
+        "tl": "Ano ang kabisera ng Hapon?"
+      },
+      "answers": [
+        {
+          "en": "New Delhi",
+          "fr": "New Delhi",
+          "tl": "New Delhi"
+        },
+        {
+          "en": "Hanoi",
+          "fr": "Hanoï",
+          "tl": "Hanoi"
+        },
+        {
+          "en": "London",
+          "fr": "Londres",
+          "tl": "London"
+        },
+        {
+          "en": "Tokyo",
+          "fr": "Tokyo",
+          "tl": "Tokyo"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-cn",
+      "prompt": {
+        "en": "What is the capital of China?",
+        "fr": "Quelle est la capitale de ce pays : Chine ?",
+        "tl": "Ano ang kabisera ng Tsina?"
+      },
+      "answers": [
+        {
+          "en": "Beijing",
+          "fr": "Pékin",
+          "tl": "Beijing"
+        },
+        {
+          "en": "Cairo",
+          "fr": "Le Caire",
+          "tl": "Cairo"
+        },
+        {
+          "en": "Seoul",
+          "fr": "Séoul",
+          "tl": "Seoul"
+        },
+        {
+          "en": "Rome",
+          "fr": "Rome",
+          "tl": "Roma"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-ph",
+      "prompt": {
+        "en": "What is the capital of Philippines?",
+        "fr": "Quelle est la capitale de ce pays : Philippines ?",
+        "tl": "Ano ang kabisera ng Pilipinas?"
+      },
+      "answers": [
+        {
+          "en": "Madrid",
+          "fr": "Madrid",
+          "tl": "Madrid"
+        },
+        {
+          "en": "Manila",
+          "fr": "Manille",
+          "tl": "Maynila"
+        },
+        {
+          "en": "Athens",
+          "fr": "Athènes",
+          "tl": "Atenas"
+        },
+        {
+          "en": "Rabat",
+          "fr": "Rabat",
+          "tl": "Rabat"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-au",
+      "prompt": {
+        "en": "What is the capital of Australia?",
+        "fr": "Quelle est la capitale de ce pays : Australie ?",
+        "tl": "Ano ang kabisera ng Australia?"
+      },
+      "answers": [
+        {
+          "en": "Dublin",
+          "fr": "Dublin",
+          "tl": "Dublin"
+        },
+        {
+          "en": "Berlin",
+          "fr": "Berlin",
+          "tl": "Berlin"
+        },
+        {
+          "en": "Canberra",
+          "fr": "Canberra",
+          "tl": "Canberra"
+        },
+        {
+          "en": "Lisbon",
+          "fr": "Lisbonne",
+          "tl": "Lisbon"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-br",
+      "prompt": {
+        "en": "What is the capital of Brazil?",
+        "fr": "Quelle est la capitale de ce pays : Brésil ?",
+        "tl": "Ano ang kabisera ng Brazil?"
+      },
+      "answers": [
+        {
+          "en": "Brussels",
+          "fr": "Bruxelles",
+          "tl": "Brussels"
+        },
+        {
+          "en": "Moscow",
+          "fr": "Moscou",
+          "tl": "Moscow"
+        },
+        {
+          "en": "Washington, D.C.",
+          "fr": "Washington",
+          "tl": "Washington, D.C."
+        },
+        {
+          "en": "Brasília",
+          "fr": "Brasilia",
+          "tl": "Brasília"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-ar",
+      "prompt": {
+        "en": "What is the capital of Argentina?",
+        "fr": "Quelle est la capitale de ce pays : Argentine ?",
+        "tl": "Ano ang kabisera ng Argentina?"
+      },
+      "answers": [
+        {
+          "en": "Buenos Aires",
+          "fr": "Buenos Aires",
+          "tl": "Buenos Aires"
+        },
+        {
+          "en": "Bangkok",
+          "fr": "Bangkok",
+          "tl": "Bangkok"
+        },
+        {
+          "en": "Paris",
+          "fr": "Paris",
+          "tl": "Paris"
+        },
+        {
+          "en": "Ottawa",
+          "fr": "Ottawa",
+          "tl": "Ottawa"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-mx",
+      "prompt": {
+        "en": "What is the capital of Mexico?",
+        "fr": "Quelle est la capitale de ce pays : Mexique ?",
+        "tl": "Ano ang kabisera ng Mexico?"
+      },
+      "answers": [
+        {
+          "en": "Tokyo",
+          "fr": "Tokyo",
+          "tl": "Tokyo"
+        },
+        {
+          "en": "Mexico City",
+          "fr": "Mexico",
+          "tl": "Lungsod ng Mexico"
+        },
+        {
+          "en": "Hanoi",
+          "fr": "Hanoï",
+          "tl": "Hanoi"
+        },
+        {
+          "en": "London",
+          "fr": "Londres",
+          "tl": "London"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-in",
+      "prompt": {
+        "en": "What is the capital of India?",
+        "fr": "Quelle est la capitale de ce pays : Inde ?",
+        "tl": "Ano ang kabisera ng India?"
+      },
+      "answers": [
+        {
+          "en": "Rome",
+          "fr": "Rome",
+          "tl": "Roma"
+        },
+        {
+          "en": "Beijing",
+          "fr": "Pékin",
+          "tl": "Beijing"
+        },
+        {
+          "en": "New Delhi",
+          "fr": "New Delhi",
+          "tl": "New Delhi"
+        },
+        {
+          "en": "Seoul",
+          "fr": "Séoul",
+          "tl": "Seoul"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-eg",
+      "prompt": {
+        "en": "What is the capital of Egypt?",
+        "fr": "Quelle est la capitale de ce pays : Égypte ?",
+        "tl": "Ano ang kabisera ng Ehipto?"
+      },
+      "answers": [
+        {
+          "en": "Rabat",
+          "fr": "Rabat",
+          "tl": "Rabat"
+        },
+        {
+          "en": "Madrid",
+          "fr": "Madrid",
+          "tl": "Madrid"
+        },
+        {
+          "en": "Manila",
+          "fr": "Manille",
+          "tl": "Maynila"
+        },
+        {
+          "en": "Cairo",
+          "fr": "Le Caire",
+          "tl": "Cairo"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-gr",
+      "prompt": {
+        "en": "What is the capital of Greece?",
+        "fr": "Quelle est la capitale de ce pays : Grèce ?",
+        "tl": "Ano ang kabisera ng Gresya?"
+      },
+      "answers": [
+        {
+          "en": "Athens",
+          "fr": "Athènes",
+          "tl": "Atenas"
+        },
+        {
+          "en": "Dublin",
+          "fr": "Dublin",
+          "tl": "Dublin"
+        },
+        {
+          "en": "Berlin",
+          "fr": "Berlin",
+          "tl": "Berlin"
+        },
+        {
+          "en": "Canberra",
+          "fr": "Canberra",
+          "tl": "Canberra"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-pt",
+      "prompt": {
+        "en": "What is the capital of Portugal?",
+        "fr": "Quelle est la capitale de ce pays : Portugal ?",
+        "tl": "Ano ang kabisera ng Portugal?"
+      },
+      "answers": [
+        {
+          "en": "Brasília",
+          "fr": "Brasilia",
+          "tl": "Brasília"
+        },
+        {
+          "en": "Lisbon",
+          "fr": "Lisbonne",
+          "tl": "Lisbon"
+        },
+        {
+          "en": "Moscow",
+          "fr": "Moscou",
+          "tl": "Moscow"
+        },
+        {
+          "en": "Washington, D.C.",
+          "fr": "Washington",
+          "tl": "Washington, D.C."
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-be",
+      "prompt": {
+        "en": "What is the capital of Belgium?",
+        "fr": "Quelle est la capitale de ce pays : Belgique ?",
+        "tl": "Ano ang kabisera ng Belgium?"
+      },
+      "answers": [
+        {
+          "en": "Ottawa",
+          "fr": "Ottawa",
+          "tl": "Ottawa"
+        },
+        {
+          "en": "Buenos Aires",
+          "fr": "Buenos Aires",
+          "tl": "Buenos Aires"
+        },
+        {
+          "en": "Brussels",
+          "fr": "Bruxelles",
+          "tl": "Brussels"
+        },
+        {
+          "en": "Paris",
+          "fr": "Paris",
+          "tl": "Paris"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-th",
+      "prompt": {
+        "en": "What is the capital of Thailand?",
+        "fr": "Quelle est la capitale de ce pays : Thaïlande ?",
+        "tl": "Ano ang kabisera ng Thailand?"
+      },
+      "answers": [
+        {
+          "en": "London",
+          "fr": "Londres",
+          "tl": "London"
+        },
+        {
+          "en": "Tokyo",
+          "fr": "Tokyo",
+          "tl": "Tokyo"
+        },
+        {
+          "en": "Mexico City",
+          "fr": "Mexico",
+          "tl": "Lungsod ng Mexico"
+        },
+        {
+          "en": "Bangkok",
+          "fr": "Bangkok",
+          "tl": "Bangkok"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-vn",
+      "prompt": {
+        "en": "What is the capital of Vietnam?",
+        "fr": "Quelle est la capitale de ce pays : Viêt Nam ?",
+        "tl": "Ano ang kabisera ng Vietnam?"
+      },
+      "answers": [
+        {
+          "en": "Hanoi",
+          "fr": "Hanoï",
+          "tl": "Hanoi"
+        },
+        {
+          "en": "Rome",
+          "fr": "Rome",
+          "tl": "Roma"
+        },
+        {
+          "en": "Beijing",
+          "fr": "Pékin",
+          "tl": "Beijing"
+        },
+        {
+          "en": "New Delhi",
+          "fr": "New Delhi",
+          "tl": "New Delhi"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-kr",
+      "prompt": {
+        "en": "What is the capital of South Korea?",
+        "fr": "Quelle est la capitale de ce pays : Corée du Sud ?",
+        "tl": "Ano ang kabisera ng Timog Korea?"
+      },
+      "answers": [
+        {
+          "en": "Cairo",
+          "fr": "Le Caire",
+          "tl": "Cairo"
+        },
+        {
+          "en": "Seoul",
+          "fr": "Séoul",
+          "tl": "Seoul"
+        },
+        {
+          "en": "Madrid",
+          "fr": "Madrid",
+          "tl": "Madrid"
+        },
+        {
+          "en": "Manila",
+          "fr": "Manille",
+          "tl": "Maynila"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-ma",
+      "prompt": {
+        "en": "What is the capital of Morocco?",
+        "fr": "Quelle est la capitale de ce pays : Maroc ?",
+        "tl": "Ano ang kabisera ng Morocco?"
+      },
+      "answers": [
+        {
+          "en": "Canberra",
+          "fr": "Canberra",
+          "tl": "Canberra"
+        },
+        {
+          "en": "Athens",
+          "fr": "Athènes",
+          "tl": "Atenas"
+        },
+        {
+          "en": "Rabat",
+          "fr": "Rabat",
+          "tl": "Rabat"
+        },
+        {
+          "en": "Berlin",
+          "fr": "Berlin",
+          "tl": "Berlin"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-ie",
+      "prompt": {
+        "en": "What is the capital of Ireland?",
+        "fr": "Quelle est la capitale de ce pays : Irlande ?",
+        "tl": "Ano ang kabisera ng Ireland?"
+      },
+      "answers": [
+        {
+          "en": "Washington, D.C.",
+          "fr": "Washington",
+          "tl": "Washington, D.C."
+        },
+        {
+          "en": "Brasília",
+          "fr": "Brasilia",
+          "tl": "Brasília"
+        },
+        {
+          "en": "Lisbon",
+          "fr": "Lisbonne",
+          "tl": "Lisbon"
+        },
+        {
+          "en": "Dublin",
+          "fr": "Dublin",
+          "tl": "Dublin"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-ru",
+      "prompt": {
+        "en": "What is the capital of Russia?",
+        "fr": "Quelle est la capitale de ce pays : Russie ?",
+        "tl": "Ano ang kabisera ng Russia?"
+      },
+      "answers": [
+        {
+          "en": "Moscow",
+          "fr": "Moscou",
+          "tl": "Moscow"
+        },
+        {
+          "en": "Ottawa",
+          "fr": "Ottawa",
+          "tl": "Ottawa"
+        },
+        {
+          "en": "Buenos Aires",
+          "fr": "Buenos Aires",
+          "tl": "Buenos Aires"
+        },
+        {
+          "en": "Brussels",
+          "fr": "Bruxelles",
+          "tl": "Brussels"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 1
+    },
+    {
+      "id": "capital-se",
+      "prompt": {
+        "en": "What is the capital of Sweden?",
+        "fr": "Quelle est la capitale de ce pays : Suède ?",
+        "tl": "Ano ang kabisera ng Sweden?"
+      },
+      "answers": [
+        {
+          "en": "Nairobi",
+          "fr": "Nairobi",
+          "tl": "Nairobi"
+        },
+        {
+          "en": "Stockholm",
+          "fr": "Stockholm",
+          "tl": "Stockholm"
+        },
+        {
+          "en": "Prague",
+          "fr": "Prague",
+          "tl": "Prague"
+        },
+        {
+          "en": "Bogotá",
+          "fr": "Bogota",
+          "tl": "Bogotá"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-no",
+      "prompt": {
+        "en": "What is the capital of Norway?",
+        "fr": "Quelle est la capitale de ce pays : Norvège ?",
+        "tl": "Ano ang kabisera ng Norway?"
+      },
+      "answers": [
+        {
+          "en": "Havana",
+          "fr": "La Havane",
+          "tl": "Havana"
+        },
+        {
+          "en": "Algiers",
+          "fr": "Alger",
+          "tl": "Algiers"
+        },
+        {
+          "en": "Oslo",
+          "fr": "Oslo",
+          "tl": "Oslo"
+        },
+        {
+          "en": "Bucharest",
+          "fr": "Bucarest",
+          "tl": "Bucharest"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-dk",
+      "prompt": {
+        "en": "What is the capital of Denmark?",
+        "fr": "Quelle est la capitale de ce pays : Danemark ?",
+        "tl": "Ano ang kabisera ng Denmark?"
+      },
+      "answers": [
+        {
+          "en": "Ankara",
+          "fr": "Ankara",
+          "tl": "Ankara"
+        },
+        {
+          "en": "Kingston",
+          "fr": "Kingston",
+          "tl": "Kingston"
+        },
+        {
+          "en": "Tunis",
+          "fr": "Tunis",
+          "tl": "Tunis"
+        },
+        {
+          "en": "Copenhagen",
+          "fr": "Copenhague",
+          "tl": "Copenhagen"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-fi",
+      "prompt": {
+        "en": "What is the capital of Finland?",
+        "fr": "Quelle est la capitale de ce pays : Finlande ?",
+        "tl": "Ano ang kabisera ng Finland?"
+      },
+      "answers": [
+        {
+          "en": "Helsinki",
+          "fr": "Helsinki",
+          "tl": "Helsinki"
+        },
+        {
+          "en": "Wellington",
+          "fr": "Wellington",
+          "tl": "Wellington"
+        },
+        {
+          "en": "Riyadh",
+          "fr": "Riyad",
+          "tl": "Riyadh"
+        },
+        {
+          "en": "Dakar",
+          "fr": "Dakar",
+          "tl": "Dakar"
+        }
       ],
       "correct": 0,
       "difficulty": 2
+    },
+    {
+      "id": "capital-pl",
+      "prompt": {
+        "en": "What is the capital of Poland?",
+        "fr": "Quelle est la capitale de ce pays : Pologne ?",
+        "tl": "Ano ang kabisera ng Poland?"
+      },
+      "answers": [
+        {
+          "en": "Kathmandu",
+          "fr": "Katmandou",
+          "tl": "Kathmandu"
+        },
+        {
+          "en": "Warsaw",
+          "fr": "Varsovie",
+          "tl": "Warsaw"
+        },
+        {
+          "en": "Lima",
+          "fr": "Lima",
+          "tl": "Lima"
+        },
+        {
+          "en": "Abu Dhabi",
+          "fr": "Abou Dabi",
+          "tl": "Abu Dhabi"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-at",
+      "prompt": {
+        "en": "What is the capital of Austria?",
+        "fr": "Quelle est la capitale de ce pays : Autriche ?",
+        "tl": "Ano ang kabisera ng Austria?"
+      },
+      "answers": [
+        {
+          "en": "Doha",
+          "fr": "Doha",
+          "tl": "Doha"
+        },
+        {
+          "en": "Islamabad",
+          "fr": "Islamabad",
+          "tl": "Islamabad"
+        },
+        {
+          "en": "Vienna",
+          "fr": "Vienne",
+          "tl": "Vienna"
+        },
+        {
+          "en": "Santiago",
+          "fr": "Santiago",
+          "tl": "Santiago"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-hu",
+      "prompt": {
+        "en": "What is the capital of Hungary?",
+        "fr": "Quelle est la capitale de ce pays : Hongrie ?",
+        "tl": "Ano ang kabisera ng Hungary?"
+      },
+      "answers": [
+        {
+          "en": "Bogotá",
+          "fr": "Bogota",
+          "tl": "Bogotá"
+        },
+        {
+          "en": "Nairobi",
+          "fr": "Nairobi",
+          "tl": "Nairobi"
+        },
+        {
+          "en": "Stockholm",
+          "fr": "Stockholm",
+          "tl": "Stockholm"
+        },
+        {
+          "en": "Budapest",
+          "fr": "Budapest",
+          "tl": "Budapest"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-cz",
+      "prompt": {
+        "en": "What is the capital of Czechia?",
+        "fr": "Quelle est la capitale de ce pays : Tchéquie ?",
+        "tl": "Ano ang kabisera ng Czechia?"
+      },
+      "answers": [
+        {
+          "en": "Prague",
+          "fr": "Prague",
+          "tl": "Prague"
+        },
+        {
+          "en": "Havana",
+          "fr": "La Havane",
+          "tl": "Havana"
+        },
+        {
+          "en": "Algiers",
+          "fr": "Alger",
+          "tl": "Algiers"
+        },
+        {
+          "en": "Oslo",
+          "fr": "Oslo",
+          "tl": "Oslo"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-ro",
+      "prompt": {
+        "en": "What is the capital of Romania?",
+        "fr": "Quelle est la capitale de ce pays : Roumanie ?",
+        "tl": "Ano ang kabisera ng Romania?"
+      },
+      "answers": [
+        {
+          "en": "Copenhagen",
+          "fr": "Copenhague",
+          "tl": "Copenhagen"
+        },
+        {
+          "en": "Bucharest",
+          "fr": "Bucarest",
+          "tl": "Bucharest"
+        },
+        {
+          "en": "Kingston",
+          "fr": "Kingston",
+          "tl": "Kingston"
+        },
+        {
+          "en": "Tunis",
+          "fr": "Tunis",
+          "tl": "Tunis"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-tr",
+      "prompt": {
+        "en": "What is the capital of Türkiye?",
+        "fr": "Quelle est la capitale de ce pays : Turquie ?",
+        "tl": "Ano ang kabisera ng Türkiye?"
+      },
+      "answers": [
+        {
+          "en": "Dakar",
+          "fr": "Dakar",
+          "tl": "Dakar"
+        },
+        {
+          "en": "Helsinki",
+          "fr": "Helsinki",
+          "tl": "Helsinki"
+        },
+        {
+          "en": "Ankara",
+          "fr": "Ankara",
+          "tl": "Ankara"
+        },
+        {
+          "en": "Riyadh",
+          "fr": "Riyad",
+          "tl": "Riyadh"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-nz",
+      "prompt": {
+        "en": "What is the capital of New Zealand?",
+        "fr": "Quelle est la capitale de ce pays : Nouvelle-Zélande ?",
+        "tl": "Ano ang kabisera ng New Zealand?"
+      },
+      "answers": [
+        {
+          "en": "Abu Dhabi",
+          "fr": "Abou Dabi",
+          "tl": "Abu Dhabi"
+        },
+        {
+          "en": "Kathmandu",
+          "fr": "Katmandou",
+          "tl": "Kathmandu"
+        },
+        {
+          "en": "Warsaw",
+          "fr": "Varsovie",
+          "tl": "Warsaw"
+        },
+        {
+          "en": "Wellington",
+          "fr": "Wellington",
+          "tl": "Wellington"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-pe",
+      "prompt": {
+        "en": "What is the capital of Peru?",
+        "fr": "Quelle est la capitale de ce pays : Pérou ?",
+        "tl": "Ano ang kabisera ng Peru?"
+      },
+      "answers": [
+        {
+          "en": "Lima",
+          "fr": "Lima",
+          "tl": "Lima"
+        },
+        {
+          "en": "Doha",
+          "fr": "Doha",
+          "tl": "Doha"
+        },
+        {
+          "en": "Islamabad",
+          "fr": "Islamabad",
+          "tl": "Islamabad"
+        },
+        {
+          "en": "Vienna",
+          "fr": "Vienne",
+          "tl": "Vienna"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-cl",
+      "prompt": {
+        "en": "What is the capital of Chile?",
+        "fr": "Quelle est la capitale de ce pays : Chili ?",
+        "tl": "Ano ang kabisera ng Chile?"
+      },
+      "answers": [
+        {
+          "en": "Budapest",
+          "fr": "Budapest",
+          "tl": "Budapest"
+        },
+        {
+          "en": "Santiago",
+          "fr": "Santiago",
+          "tl": "Santiago"
+        },
+        {
+          "en": "Nairobi",
+          "fr": "Nairobi",
+          "tl": "Nairobi"
+        },
+        {
+          "en": "Stockholm",
+          "fr": "Stockholm",
+          "tl": "Stockholm"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-co",
+      "prompt": {
+        "en": "What is the capital of Colombia?",
+        "fr": "Quelle est la capitale de ce pays : Colombie ?",
+        "tl": "Ano ang kabisera ng Colombia?"
+      },
+      "answers": [
+        {
+          "en": "Oslo",
+          "fr": "Oslo",
+          "tl": "Oslo"
+        },
+        {
+          "en": "Prague",
+          "fr": "Prague",
+          "tl": "Prague"
+        },
+        {
+          "en": "Bogotá",
+          "fr": "Bogota",
+          "tl": "Bogotá"
+        },
+        {
+          "en": "Algiers",
+          "fr": "Alger",
+          "tl": "Algiers"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-cu",
+      "prompt": {
+        "en": "What is the capital of Cuba?",
+        "fr": "Quelle est la capitale de ce pays : Cuba ?",
+        "tl": "Ano ang kabisera ng Cuba?"
+      },
+      "answers": [
+        {
+          "en": "Tunis",
+          "fr": "Tunis",
+          "tl": "Tunis"
+        },
+        {
+          "en": "Copenhagen",
+          "fr": "Copenhague",
+          "tl": "Copenhagen"
+        },
+        {
+          "en": "Bucharest",
+          "fr": "Bucarest",
+          "tl": "Bucharest"
+        },
+        {
+          "en": "Havana",
+          "fr": "La Havane",
+          "tl": "Havana"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-jm",
+      "prompt": {
+        "en": "What is the capital of Jamaica?",
+        "fr": "Quelle est la capitale de ce pays : Jamaïque ?",
+        "tl": "Ano ang kabisera ng Jamaica?"
+      },
+      "answers": [
+        {
+          "en": "Kingston",
+          "fr": "Kingston",
+          "tl": "Kingston"
+        },
+        {
+          "en": "Dakar",
+          "fr": "Dakar",
+          "tl": "Dakar"
+        },
+        {
+          "en": "Helsinki",
+          "fr": "Helsinki",
+          "tl": "Helsinki"
+        },
+        {
+          "en": "Ankara",
+          "fr": "Ankara",
+          "tl": "Ankara"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-sa",
+      "prompt": {
+        "en": "What is the capital of Saudi Arabia?",
+        "fr": "Quelle est la capitale de ce pays : Arabie saoudite ?",
+        "tl": "Ano ang kabisera ng Saudi Arabia?"
+      },
+      "answers": [
+        {
+          "en": "Wellington",
+          "fr": "Wellington",
+          "tl": "Wellington"
+        },
+        {
+          "en": "Riyadh",
+          "fr": "Riyad",
+          "tl": "Riyadh"
+        },
+        {
+          "en": "Kathmandu",
+          "fr": "Katmandou",
+          "tl": "Kathmandu"
+        },
+        {
+          "en": "Warsaw",
+          "fr": "Varsovie",
+          "tl": "Warsaw"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-ae",
+      "prompt": {
+        "en": "What is the capital of United Arab Emirates?",
+        "fr": "Quelle est la capitale de ce pays : Émirats arabes unis ?",
+        "tl": "Ano ang kabisera ng United Arab Emirates?"
+      },
+      "answers": [
+        {
+          "en": "Vienna",
+          "fr": "Vienne",
+          "tl": "Vienna"
+        },
+        {
+          "en": "Lima",
+          "fr": "Lima",
+          "tl": "Lima"
+        },
+        {
+          "en": "Abu Dhabi",
+          "fr": "Abou Dabi",
+          "tl": "Abu Dhabi"
+        },
+        {
+          "en": "Islamabad",
+          "fr": "Islamabad",
+          "tl": "Islamabad"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-qa",
+      "prompt": {
+        "en": "What is the capital of Qatar?",
+        "fr": "Quelle est la capitale de ce pays : Qatar ?",
+        "tl": "Ano ang kabisera ng Qatar?"
+      },
+      "answers": [
+        {
+          "en": "Stockholm",
+          "fr": "Stockholm",
+          "tl": "Stockholm"
+        },
+        {
+          "en": "Budapest",
+          "fr": "Budapest",
+          "tl": "Budapest"
+        },
+        {
+          "en": "Santiago",
+          "fr": "Santiago",
+          "tl": "Santiago"
+        },
+        {
+          "en": "Doha",
+          "fr": "Doha",
+          "tl": "Doha"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-ke",
+      "prompt": {
+        "en": "What is the capital of Kenya?",
+        "fr": "Quelle est la capitale de ce pays : Kenya ?",
+        "tl": "Ano ang kabisera ng Kenya?"
+      },
+      "answers": [
+        {
+          "en": "Nairobi",
+          "fr": "Nairobi",
+          "tl": "Nairobi"
+        },
+        {
+          "en": "Oslo",
+          "fr": "Oslo",
+          "tl": "Oslo"
+        },
+        {
+          "en": "Prague",
+          "fr": "Prague",
+          "tl": "Prague"
+        },
+        {
+          "en": "Bogotá",
+          "fr": "Bogota",
+          "tl": "Bogotá"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-dz",
+      "prompt": {
+        "en": "What is the capital of Algeria?",
+        "fr": "Quelle est la capitale de ce pays : Algérie ?",
+        "tl": "Ano ang kabisera ng Algeria?"
+      },
+      "answers": [
+        {
+          "en": "Havana",
+          "fr": "La Havane",
+          "tl": "Havana"
+        },
+        {
+          "en": "Algiers",
+          "fr": "Alger",
+          "tl": "Algiers"
+        },
+        {
+          "en": "Copenhagen",
+          "fr": "Copenhague",
+          "tl": "Copenhagen"
+        },
+        {
+          "en": "Bucharest",
+          "fr": "Bucarest",
+          "tl": "Bucharest"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-tn",
+      "prompt": {
+        "en": "What is the capital of Tunisia?",
+        "fr": "Quelle est la capitale de ce pays : Tunisie ?",
+        "tl": "Ano ang kabisera ng Tunisia?"
+      },
+      "answers": [
+        {
+          "en": "Ankara",
+          "fr": "Ankara",
+          "tl": "Ankara"
+        },
+        {
+          "en": "Kingston",
+          "fr": "Kingston",
+          "tl": "Kingston"
+        },
+        {
+          "en": "Tunis",
+          "fr": "Tunis",
+          "tl": "Tunis"
+        },
+        {
+          "en": "Helsinki",
+          "fr": "Helsinki",
+          "tl": "Helsinki"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-sn",
+      "prompt": {
+        "en": "What is the capital of Senegal?",
+        "fr": "Quelle est la capitale de ce pays : Sénégal ?",
+        "tl": "Ano ang kabisera ng Senegal?"
+      },
+      "answers": [
+        {
+          "en": "Warsaw",
+          "fr": "Varsovie",
+          "tl": "Warsaw"
+        },
+        {
+          "en": "Wellington",
+          "fr": "Wellington",
+          "tl": "Wellington"
+        },
+        {
+          "en": "Riyadh",
+          "fr": "Riyad",
+          "tl": "Riyadh"
+        },
+        {
+          "en": "Dakar",
+          "fr": "Dakar",
+          "tl": "Dakar"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-np",
+      "prompt": {
+        "en": "What is the capital of Nepal?",
+        "fr": "Quelle est la capitale de ce pays : Népal ?",
+        "tl": "Ano ang kabisera ng Nepal?"
+      },
+      "answers": [
+        {
+          "en": "Kathmandu",
+          "fr": "Katmandou",
+          "tl": "Kathmandu"
+        },
+        {
+          "en": "Vienna",
+          "fr": "Vienne",
+          "tl": "Vienna"
+        },
+        {
+          "en": "Lima",
+          "fr": "Lima",
+          "tl": "Lima"
+        },
+        {
+          "en": "Abu Dhabi",
+          "fr": "Abou Dabi",
+          "tl": "Abu Dhabi"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-pk",
+      "prompt": {
+        "en": "What is the capital of Pakistan?",
+        "fr": "Quelle est la capitale de ce pays : Pakistan ?",
+        "tl": "Ano ang kabisera ng Pakistan?"
+      },
+      "answers": [
+        {
+          "en": "Doha",
+          "fr": "Doha",
+          "tl": "Doha"
+        },
+        {
+          "en": "Islamabad",
+          "fr": "Islamabad",
+          "tl": "Islamabad"
+        },
+        {
+          "en": "Budapest",
+          "fr": "Budapest",
+          "tl": "Budapest"
+        },
+        {
+          "en": "Santiago",
+          "fr": "Santiago",
+          "tl": "Santiago"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "capital-hr",
+      "prompt": {
+        "en": "What is the capital of Croatia?",
+        "fr": "Quelle est la capitale de ce pays : Croatie ?",
+        "tl": "Ano ang kabisera ng Croatia?"
+      },
+      "answers": [
+        {
+          "en": "Quito",
+          "fr": "Quito",
+          "tl": "Quito"
+        },
+        {
+          "en": "Addis Ababa",
+          "fr": "Addis-Abeba",
+          "tl": "Addis Ababa"
+        },
+        {
+          "en": "Zagreb",
+          "fr": "Zagreb",
+          "tl": "Zagreb"
+        },
+        {
+          "en": "Vilnius",
+          "fr": "Vilnius",
+          "tl": "Vilnius"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-rs",
+      "prompt": {
+        "en": "What is the capital of Serbia?",
+        "fr": "Quelle est la capitale de ce pays : Serbie ?",
+        "tl": "Ano ang kabisera ng Serbia?"
+      },
+      "answers": [
+        {
+          "en": "Reykjavík",
+          "fr": "Reykjavik",
+          "tl": "Reykjavík"
+        },
+        {
+          "en": "San José",
+          "fr": "San José",
+          "tl": "San José"
+        },
+        {
+          "en": "Ulaanbaatar",
+          "fr": "Oulan-Bator",
+          "tl": "Ulaanbaatar"
+        },
+        {
+          "en": "Belgrade",
+          "fr": "Belgrade",
+          "tl": "Belgrade"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-bg",
+      "prompt": {
+        "en": "What is the capital of Bulgaria?",
+        "fr": "Quelle est la capitale de ce pays : Bulgarie ?",
+        "tl": "Ano ang kabisera ng Bulgaria?"
+      },
+      "answers": [
+        {
+          "en": "Sofia",
+          "fr": "Sofia",
+          "tl": "Sofia"
+        },
+        {
+          "en": "Valletta",
+          "fr": "La Valette",
+          "tl": "Valletta"
+        },
+        {
+          "en": "Santo Domingo",
+          "fr": "Saint-Domingue",
+          "tl": "Santo Domingo"
+        },
+        {
+          "en": "Phnom Penh",
+          "fr": "Phnom Penh",
+          "tl": "Phnom Penh"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-sk",
+      "prompt": {
+        "en": "What is the capital of Slovakia?",
+        "fr": "Quelle est la capitale de ce pays : Slovaquie ?",
+        "tl": "Ano ang kabisera ng Slovakia?"
+      },
+      "answers": [
+        {
+          "en": "Vientiane",
+          "fr": "Vientiane",
+          "tl": "Vientiane"
+        },
+        {
+          "en": "Bratislava",
+          "fr": "Bratislava",
+          "tl": "Bratislava"
+        },
+        {
+          "en": "Nicosia",
+          "fr": "Nicosie",
+          "tl": "Nicosia"
+        },
+        {
+          "en": "Accra",
+          "fr": "Accra",
+          "tl": "Accra"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-si",
+      "prompt": {
+        "en": "What is the capital of Slovenia?",
+        "fr": "Quelle est la capitale de ce pays : Slovénie ?",
+        "tl": "Ano ang kabisera ng Slovenia?"
+      },
+      "answers": [
+        {
+          "en": "Yaoundé",
+          "fr": "Yaoundé",
+          "tl": "Yaoundé"
+        },
+        {
+          "en": "Dhaka",
+          "fr": "Dacca",
+          "tl": "Dhaka"
+        },
+        {
+          "en": "Ljubljana",
+          "fr": "Ljubljana",
+          "tl": "Ljubljana"
+        },
+        {
+          "en": "Montevideo",
+          "fr": "Montevideo",
+          "tl": "Montevideo"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-ee",
+      "prompt": {
+        "en": "What is the capital of Estonia?",
+        "fr": "Quelle est la capitale de ce pays : Estonie ?",
+        "tl": "Ano ang kabisera ng Estonia?"
+      },
+      "answers": [
+        {
+          "en": "Asunción",
+          "fr": "Asunción",
+          "tl": "Asunción"
+        },
+        {
+          "en": "Antananarivo",
+          "fr": "Antananarivo",
+          "tl": "Antananarivo"
+        },
+        {
+          "en": "Muscat",
+          "fr": "Mascate",
+          "tl": "Muscat"
+        },
+        {
+          "en": "Tallinn",
+          "fr": "Tallinn",
+          "tl": "Tallinn"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-lv",
+      "prompt": {
+        "en": "What is the capital of Latvia?",
+        "fr": "Quelle est la capitale de ce pays : Lettonie ?",
+        "tl": "Ano ang kabisera ng Latvia?"
+      },
+      "answers": [
+        {
+          "en": "Riga",
+          "fr": "Riga",
+          "tl": "Riga"
+        },
+        {
+          "en": "Quito",
+          "fr": "Quito",
+          "tl": "Quito"
+        },
+        {
+          "en": "Addis Ababa",
+          "fr": "Addis-Abeba",
+          "tl": "Addis Ababa"
+        },
+        {
+          "en": "Zagreb",
+          "fr": "Zagreb",
+          "tl": "Zagreb"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-lt",
+      "prompt": {
+        "en": "What is the capital of Lithuania?",
+        "fr": "Quelle est la capitale de ce pays : Lituanie ?",
+        "tl": "Ano ang kabisera ng Lithuania?"
+      },
+      "answers": [
+        {
+          "en": "Belgrade",
+          "fr": "Belgrade",
+          "tl": "Belgrade"
+        },
+        {
+          "en": "Vilnius",
+          "fr": "Vilnius",
+          "tl": "Vilnius"
+        },
+        {
+          "en": "San José",
+          "fr": "San José",
+          "tl": "San José"
+        },
+        {
+          "en": "Ulaanbaatar",
+          "fr": "Oulan-Bator",
+          "tl": "Ulaanbaatar"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-is",
+      "prompt": {
+        "en": "What is the capital of Iceland?",
+        "fr": "Quelle est la capitale de ce pays : Islande ?",
+        "tl": "Ano ang kabisera ng Iceland?"
+      },
+      "answers": [
+        {
+          "en": "Phnom Penh",
+          "fr": "Phnom Penh",
+          "tl": "Phnom Penh"
+        },
+        {
+          "en": "Sofia",
+          "fr": "Sofia",
+          "tl": "Sofia"
+        },
+        {
+          "en": "Reykjavík",
+          "fr": "Reykjavik",
+          "tl": "Reykjavík"
+        },
+        {
+          "en": "Santo Domingo",
+          "fr": "Saint-Domingue",
+          "tl": "Santo Domingo"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-mt",
+      "prompt": {
+        "en": "What is the capital of Malta?",
+        "fr": "Quelle est la capitale de ce pays : Malte ?",
+        "tl": "Ano ang kabisera ng Malta?"
+      },
+      "answers": [
+        {
+          "en": "Accra",
+          "fr": "Accra",
+          "tl": "Accra"
+        },
+        {
+          "en": "Vientiane",
+          "fr": "Vientiane",
+          "tl": "Vientiane"
+        },
+        {
+          "en": "Bratislava",
+          "fr": "Bratislava",
+          "tl": "Bratislava"
+        },
+        {
+          "en": "Valletta",
+          "fr": "La Valette",
+          "tl": "Valletta"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-cy",
+      "prompt": {
+        "en": "What is the capital of Cyprus?",
+        "fr": "Quelle est la capitale de ce pays : Chypre ?",
+        "tl": "Ano ang kabisera ng Cyprus?"
+      },
+      "answers": [
+        {
+          "en": "Nicosia",
+          "fr": "Nicosie",
+          "tl": "Nicosia"
+        },
+        {
+          "en": "Yaoundé",
+          "fr": "Yaoundé",
+          "tl": "Yaoundé"
+        },
+        {
+          "en": "Dhaka",
+          "fr": "Dacca",
+          "tl": "Dhaka"
+        },
+        {
+          "en": "Ljubljana",
+          "fr": "Ljubljana",
+          "tl": "Ljubljana"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-uy",
+      "prompt": {
+        "en": "What is the capital of Uruguay?",
+        "fr": "Quelle est la capitale de ce pays : Uruguay ?",
+        "tl": "Ano ang kabisera ng Uruguay?"
+      },
+      "answers": [
+        {
+          "en": "Tallinn",
+          "fr": "Tallinn",
+          "tl": "Tallinn"
+        },
+        {
+          "en": "Montevideo",
+          "fr": "Montevideo",
+          "tl": "Montevideo"
+        },
+        {
+          "en": "Antananarivo",
+          "fr": "Antananarivo",
+          "tl": "Antananarivo"
+        },
+        {
+          "en": "Muscat",
+          "fr": "Mascate",
+          "tl": "Muscat"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-py",
+      "prompt": {
+        "en": "What is the capital of Paraguay?",
+        "fr": "Quelle est la capitale de ce pays : Paraguay ?",
+        "tl": "Ano ang kabisera ng Paraguay?"
+      },
+      "answers": [
+        {
+          "en": "Zagreb",
+          "fr": "Zagreb",
+          "tl": "Zagreb"
+        },
+        {
+          "en": "Riga",
+          "fr": "Riga",
+          "tl": "Riga"
+        },
+        {
+          "en": "Asunción",
+          "fr": "Asunción",
+          "tl": "Asunción"
+        },
+        {
+          "en": "Addis Ababa",
+          "fr": "Addis-Abeba",
+          "tl": "Addis Ababa"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-ec",
+      "prompt": {
+        "en": "What is the capital of Ecuador?",
+        "fr": "Quelle est la capitale de ce pays : Équateur ?",
+        "tl": "Ano ang kabisera ng Ecuador?"
+      },
+      "answers": [
+        {
+          "en": "Ulaanbaatar",
+          "fr": "Oulan-Bator",
+          "tl": "Ulaanbaatar"
+        },
+        {
+          "en": "Belgrade",
+          "fr": "Belgrade",
+          "tl": "Belgrade"
+        },
+        {
+          "en": "Vilnius",
+          "fr": "Vilnius",
+          "tl": "Vilnius"
+        },
+        {
+          "en": "Quito",
+          "fr": "Quito",
+          "tl": "Quito"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-cr",
+      "prompt": {
+        "en": "What is the capital of Costa Rica?",
+        "fr": "Quelle est la capitale de ce pays : Costa Rica ?",
+        "tl": "Ano ang kabisera ng Costa Rica?"
+      },
+      "answers": [
+        {
+          "en": "San José",
+          "fr": "San José",
+          "tl": "San José"
+        },
+        {
+          "en": "Phnom Penh",
+          "fr": "Phnom Penh",
+          "tl": "Phnom Penh"
+        },
+        {
+          "en": "Sofia",
+          "fr": "Sofia",
+          "tl": "Sofia"
+        },
+        {
+          "en": "Reykjavík",
+          "fr": "Reykjavik",
+          "tl": "Reykjavík"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-do",
+      "prompt": {
+        "en": "What is the capital of Dominican Republic?",
+        "fr": "Quelle est la capitale de ce pays : République dominicaine ?",
+        "tl": "Ano ang kabisera ng Dominican Republic?"
+      },
+      "answers": [
+        {
+          "en": "Valletta",
+          "fr": "La Valette",
+          "tl": "Valletta"
+        },
+        {
+          "en": "Santo Domingo",
+          "fr": "Saint-Domingue",
+          "tl": "Santo Domingo"
+        },
+        {
+          "en": "Vientiane",
+          "fr": "Vientiane",
+          "tl": "Vientiane"
+        },
+        {
+          "en": "Bratislava",
+          "fr": "Bratislava",
+          "tl": "Bratislava"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-gh",
+      "prompt": {
+        "en": "What is the capital of Ghana?",
+        "fr": "Quelle est la capitale de ce pays : Ghana ?",
+        "tl": "Ano ang kabisera ng Ghana?"
+      },
+      "answers": [
+        {
+          "en": "Ljubljana",
+          "fr": "Ljubljana",
+          "tl": "Ljubljana"
+        },
+        {
+          "en": "Nicosia",
+          "fr": "Nicosie",
+          "tl": "Nicosia"
+        },
+        {
+          "en": "Accra",
+          "fr": "Accra",
+          "tl": "Accra"
+        },
+        {
+          "en": "Dhaka",
+          "fr": "Dacca",
+          "tl": "Dhaka"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-cm",
+      "prompt": {
+        "en": "What is the capital of Cameroon?",
+        "fr": "Quelle est la capitale de ce pays : Cameroun ?",
+        "tl": "Ano ang kabisera ng Cameroon?"
+      },
+      "answers": [
+        {
+          "en": "Muscat",
+          "fr": "Mascate",
+          "tl": "Muscat"
+        },
+        {
+          "en": "Tallinn",
+          "fr": "Tallinn",
+          "tl": "Tallinn"
+        },
+        {
+          "en": "Montevideo",
+          "fr": "Montevideo",
+          "tl": "Montevideo"
+        },
+        {
+          "en": "Yaoundé",
+          "fr": "Yaoundé",
+          "tl": "Yaoundé"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-mg",
+      "prompt": {
+        "en": "What is the capital of Madagascar?",
+        "fr": "Quelle est la capitale de ce pays : Madagascar ?",
+        "tl": "Ano ang kabisera ng Madagascar?"
+      },
+      "answers": [
+        {
+          "en": "Antananarivo",
+          "fr": "Antananarivo",
+          "tl": "Antananarivo"
+        },
+        {
+          "en": "Zagreb",
+          "fr": "Zagreb",
+          "tl": "Zagreb"
+        },
+        {
+          "en": "Riga",
+          "fr": "Riga",
+          "tl": "Riga"
+        },
+        {
+          "en": "Asunción",
+          "fr": "Asunción",
+          "tl": "Asunción"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-et",
+      "prompt": {
+        "en": "What is the capital of Ethiopia?",
+        "fr": "Quelle est la capitale de ce pays : Éthiopie ?",
+        "tl": "Ano ang kabisera ng Ethiopia?"
+      },
+      "answers": [
+        {
+          "en": "Quito",
+          "fr": "Quito",
+          "tl": "Quito"
+        },
+        {
+          "en": "Addis Ababa",
+          "fr": "Addis-Abeba",
+          "tl": "Addis Ababa"
+        },
+        {
+          "en": "Belgrade",
+          "fr": "Belgrade",
+          "tl": "Belgrade"
+        },
+        {
+          "en": "Vilnius",
+          "fr": "Vilnius",
+          "tl": "Vilnius"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-mn",
+      "prompt": {
+        "en": "What is the capital of Mongolia?",
+        "fr": "Quelle est la capitale de ce pays : Mongolie ?",
+        "tl": "Ano ang kabisera ng Mongolia?"
+      },
+      "answers": [
+        {
+          "en": "Reykjavík",
+          "fr": "Reykjavik",
+          "tl": "Reykjavík"
+        },
+        {
+          "en": "San José",
+          "fr": "San José",
+          "tl": "San José"
+        },
+        {
+          "en": "Ulaanbaatar",
+          "fr": "Oulan-Bator",
+          "tl": "Ulaanbaatar"
+        },
+        {
+          "en": "Sofia",
+          "fr": "Sofia",
+          "tl": "Sofia"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-kh",
+      "prompt": {
+        "en": "What is the capital of Cambodia?",
+        "fr": "Quelle est la capitale de ce pays : Cambodge ?",
+        "tl": "Ano ang kabisera ng Cambodia?"
+      },
+      "answers": [
+        {
+          "en": "Bratislava",
+          "fr": "Bratislava",
+          "tl": "Bratislava"
+        },
+        {
+          "en": "Valletta",
+          "fr": "La Valette",
+          "tl": "Valletta"
+        },
+        {
+          "en": "Santo Domingo",
+          "fr": "Saint-Domingue",
+          "tl": "Santo Domingo"
+        },
+        {
+          "en": "Phnom Penh",
+          "fr": "Phnom Penh",
+          "tl": "Phnom Penh"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-la",
+      "prompt": {
+        "en": "What is the capital of Laos?",
+        "fr": "Quelle est la capitale de ce pays : Laos ?",
+        "tl": "Ano ang kabisera ng Laos?"
+      },
+      "answers": [
+        {
+          "en": "Vientiane",
+          "fr": "Vientiane",
+          "tl": "Vientiane"
+        },
+        {
+          "en": "Ljubljana",
+          "fr": "Ljubljana",
+          "tl": "Ljubljana"
+        },
+        {
+          "en": "Nicosia",
+          "fr": "Nicosie",
+          "tl": "Nicosia"
+        },
+        {
+          "en": "Accra",
+          "fr": "Accra",
+          "tl": "Accra"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-bd",
+      "prompt": {
+        "en": "What is the capital of Bangladesh?",
+        "fr": "Quelle est la capitale de ce pays : Bangladesh ?",
+        "tl": "Ano ang kabisera ng Bangladesh?"
+      },
+      "answers": [
+        {
+          "en": "Yaoundé",
+          "fr": "Yaoundé",
+          "tl": "Yaoundé"
+        },
+        {
+          "en": "Dhaka",
+          "fr": "Dacca",
+          "tl": "Dhaka"
+        },
+        {
+          "en": "Tallinn",
+          "fr": "Tallinn",
+          "tl": "Tallinn"
+        },
+        {
+          "en": "Montevideo",
+          "fr": "Montevideo",
+          "tl": "Montevideo"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-om",
+      "prompt": {
+        "en": "What is the capital of Oman?",
+        "fr": "Quelle est la capitale de ce pays : Oman ?",
+        "tl": "Ano ang kabisera ng Oman?"
+      },
+      "answers": [
+        {
+          "en": "Asunción",
+          "fr": "Asunción",
+          "tl": "Asunción"
+        },
+        {
+          "en": "Antananarivo",
+          "fr": "Antananarivo",
+          "tl": "Antananarivo"
+        },
+        {
+          "en": "Muscat",
+          "fr": "Mascate",
+          "tl": "Muscat"
+        },
+        {
+          "en": "Riga",
+          "fr": "Riga",
+          "tl": "Riga"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 3
+    },
+    {
+      "id": "capital-bt",
+      "prompt": {
+        "en": "What is the capital of Bhutan?",
+        "fr": "Quelle est la capitale de ce pays : Bhoutan ?",
+        "tl": "Ano ang kabisera ng Bhutan?"
+      },
+      "answers": [
+        {
+          "en": "Malé",
+          "fr": "Malé",
+          "tl": "Malé"
+        },
+        {
+          "en": "Ngerulmud",
+          "fr": "Ngerulmud",
+          "tl": "Ngerulmud"
+        },
+        {
+          "en": "Maseru",
+          "fr": "Maseru",
+          "tl": "Maseru"
+        },
+        {
+          "en": "Thimphu",
+          "fr": "Thimphou",
+          "tl": "Thimphu"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-kg",
+      "prompt": {
+        "en": "What is the capital of Kyrgyzstan?",
+        "fr": "Quelle est la capitale de ce pays : Kirghizistan ?",
+        "tl": "Ano ang kabisera ng Kyrgyzstan?"
+      },
+      "answers": [
+        {
+          "en": "Bishkek",
+          "fr": "Bichkek",
+          "tl": "Bishkek"
+        },
+        {
+          "en": "Suva",
+          "fr": "Suva",
+          "tl": "Suva"
+        },
+        {
+          "en": "Palikir",
+          "fr": "Palikir",
+          "tl": "Palikir"
+        },
+        {
+          "en": "Gaborone",
+          "fr": "Gaborone",
+          "tl": "Gaborone"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-tj",
+      "prompt": {
+        "en": "What is the capital of Tajikistan?",
+        "fr": "Quelle est la capitale de ce pays : Tadjikistan ?",
+        "tl": "Ano ang kabisera ng Tajikistan?"
+      },
+      "answers": [
+        {
+          "en": "Lilongwe",
+          "fr": "Lilongwe",
+          "tl": "Lilongwe"
+        },
+        {
+          "en": "Dushanbe",
+          "fr": "Douchanbé",
+          "tl": "Dushanbe"
+        },
+        {
+          "en": "Apia",
+          "fr": "Apia",
+          "tl": "Apia"
+        },
+        {
+          "en": "Majuro",
+          "fr": "Majuro",
+          "tl": "Majuro"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-tm",
+      "prompt": {
+        "en": "What is the capital of Turkmenistan?",
+        "fr": "Quelle est la capitale de ce pays : Turkménistan ?",
+        "tl": "Ano ang kabisera ng Turkmenistan?"
+      },
+      "answers": [
+        {
+          "en": "Praia",
+          "fr": "Praia",
+          "tl": "Praia"
+        },
+        {
+          "en": "Paramaribo",
+          "fr": "Paramaribo",
+          "tl": "Paramaribo"
+        },
+        {
+          "en": "Ashgabat",
+          "fr": "Achgabat",
+          "tl": "Ashgabat"
+        },
+        {
+          "en": "Nukuʻalofa",
+          "fr": "Nukuʻalofa",
+          "tl": "Nukuʻalofa"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-uz",
+      "prompt": {
+        "en": "What is the capital of Uzbekistan?",
+        "fr": "Quelle est la capitale de ce pays : Ouzbékistan ?",
+        "tl": "Ano ang kabisera ng Uzbekistan?"
+      },
+      "answers": [
+        {
+          "en": "Port Vila",
+          "fr": "Port-Vila",
+          "tl": "Port Vila"
+        },
+        {
+          "en": "Moroni",
+          "fr": "Moroni",
+          "tl": "Moroni"
+        },
+        {
+          "en": "Georgetown",
+          "fr": "Georgetown",
+          "tl": "Georgetown"
+        },
+        {
+          "en": "Tashkent",
+          "fr": "Tachkent",
+          "tl": "Tashkent"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-bn",
+      "prompt": {
+        "en": "What is the capital of Brunei?",
+        "fr": "Quelle est la capitale de ce pays : Brunei ?",
+        "tl": "Ano ang kabisera ng Brunei?"
+      },
+      "answers": [
+        {
+          "en": "Bandar Seri Begawan",
+          "fr": "Bandar Seri Begawan",
+          "tl": "Bandar Seri Begawan"
+        },
+        {
+          "en": "Honiara",
+          "fr": "Honiara",
+          "tl": "Honiara"
+        },
+        {
+          "en": "Victoria",
+          "fr": "Victoria",
+          "tl": "Victoria"
+        },
+        {
+          "en": "Belmopan",
+          "fr": "Belmopan",
+          "tl": "Belmopan"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-tl",
+      "prompt": {
+        "en": "What is the capital of Timor-Leste?",
+        "fr": "Quelle est la capitale de ce pays : Timor oriental ?",
+        "tl": "Ano ang kabisera ng Timor-Leste?"
+      },
+      "answers": [
+        {
+          "en": "Thimphu",
+          "fr": "Thimphou",
+          "tl": "Thimphu"
+        },
+        {
+          "en": "Dili",
+          "fr": "Dili",
+          "tl": "Dili"
+        },
+        {
+          "en": "Ngerulmud",
+          "fr": "Ngerulmud",
+          "tl": "Ngerulmud"
+        },
+        {
+          "en": "Maseru",
+          "fr": "Maseru",
+          "tl": "Maseru"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-mv",
+      "prompt": {
+        "en": "What is the capital of Maldives?",
+        "fr": "Quelle est la capitale de ce pays : Maldives ?",
+        "tl": "Ano ang kabisera ng Maldives?"
+      },
+      "answers": [
+        {
+          "en": "Gaborone",
+          "fr": "Gaborone",
+          "tl": "Gaborone"
+        },
+        {
+          "en": "Bishkek",
+          "fr": "Bichkek",
+          "tl": "Bishkek"
+        },
+        {
+          "en": "Malé",
+          "fr": "Malé",
+          "tl": "Malé"
+        },
+        {
+          "en": "Palikir",
+          "fr": "Palikir",
+          "tl": "Palikir"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-fj",
+      "prompt": {
+        "en": "What is the capital of Fiji?",
+        "fr": "Quelle est la capitale de ce pays : Fidji ?",
+        "tl": "Ano ang kabisera ng Fiji?"
+      },
+      "answers": [
+        {
+          "en": "Majuro",
+          "fr": "Majuro",
+          "tl": "Majuro"
+        },
+        {
+          "en": "Lilongwe",
+          "fr": "Lilongwe",
+          "tl": "Lilongwe"
+        },
+        {
+          "en": "Dushanbe",
+          "fr": "Douchanbé",
+          "tl": "Dushanbe"
+        },
+        {
+          "en": "Suva",
+          "fr": "Suva",
+          "tl": "Suva"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-ws",
+      "prompt": {
+        "en": "What is the capital of Samoa?",
+        "fr": "Quelle est la capitale de ce pays : Samoa ?",
+        "tl": "Ano ang kabisera ng Samoa?"
+      },
+      "answers": [
+        {
+          "en": "Apia",
+          "fr": "Apia",
+          "tl": "Apia"
+        },
+        {
+          "en": "Praia",
+          "fr": "Praia",
+          "tl": "Praia"
+        },
+        {
+          "en": "Paramaribo",
+          "fr": "Paramaribo",
+          "tl": "Paramaribo"
+        },
+        {
+          "en": "Ashgabat",
+          "fr": "Achgabat",
+          "tl": "Ashgabat"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-to",
+      "prompt": {
+        "en": "What is the capital of Tonga?",
+        "fr": "Quelle est la capitale de ce pays : Tonga ?",
+        "tl": "Ano ang kabisera ng Tonga?"
+      },
+      "answers": [
+        {
+          "en": "Tashkent",
+          "fr": "Tachkent",
+          "tl": "Tashkent"
+        },
+        {
+          "en": "Nukuʻalofa",
+          "fr": "Nukuʻalofa",
+          "tl": "Nukuʻalofa"
+        },
+        {
+          "en": "Moroni",
+          "fr": "Moroni",
+          "tl": "Moroni"
+        },
+        {
+          "en": "Georgetown",
+          "fr": "Georgetown",
+          "tl": "Georgetown"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-vu",
+      "prompt": {
+        "en": "What is the capital of Vanuatu?",
+        "fr": "Quelle est la capitale de ce pays : Vanuatu ?",
+        "tl": "Ano ang kabisera ng Vanuatu?"
+      },
+      "answers": [
+        {
+          "en": "Belmopan",
+          "fr": "Belmopan",
+          "tl": "Belmopan"
+        },
+        {
+          "en": "Bandar Seri Begawan",
+          "fr": "Bandar Seri Begawan",
+          "tl": "Bandar Seri Begawan"
+        },
+        {
+          "en": "Port Vila",
+          "fr": "Port-Vila",
+          "tl": "Port Vila"
+        },
+        {
+          "en": "Victoria",
+          "fr": "Victoria",
+          "tl": "Victoria"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-sb",
+      "prompt": {
+        "en": "What is the capital of Solomon Islands?",
+        "fr": "Quelle est la capitale de ce pays : Îles Salomon ?",
+        "tl": "Ano ang kabisera ng Solomon Islands?"
+      },
+      "answers": [
+        {
+          "en": "Maseru",
+          "fr": "Maseru",
+          "tl": "Maseru"
+        },
+        {
+          "en": "Thimphu",
+          "fr": "Thimphou",
+          "tl": "Thimphu"
+        },
+        {
+          "en": "Dili",
+          "fr": "Dili",
+          "tl": "Dili"
+        },
+        {
+          "en": "Honiara",
+          "fr": "Honiara",
+          "tl": "Honiara"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-pw",
+      "prompt": {
+        "en": "What is the capital of Palau?",
+        "fr": "Quelle est la capitale de ce pays : Palaos ?",
+        "tl": "Ano ang kabisera ng Palau?"
+      },
+      "answers": [
+        {
+          "en": "Ngerulmud",
+          "fr": "Ngerulmud",
+          "tl": "Ngerulmud"
+        },
+        {
+          "en": "Gaborone",
+          "fr": "Gaborone",
+          "tl": "Gaborone"
+        },
+        {
+          "en": "Bishkek",
+          "fr": "Bichkek",
+          "tl": "Bishkek"
+        },
+        {
+          "en": "Malé",
+          "fr": "Malé",
+          "tl": "Malé"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-fm",
+      "prompt": {
+        "en": "What is the capital of Micronesia?",
+        "fr": "Quelle est la capitale de ce pays : Micronésie ?",
+        "tl": "Ano ang kabisera ng Micronesia?"
+      },
+      "answers": [
+        {
+          "en": "Suva",
+          "fr": "Suva",
+          "tl": "Suva"
+        },
+        {
+          "en": "Palikir",
+          "fr": "Palikir",
+          "tl": "Palikir"
+        },
+        {
+          "en": "Lilongwe",
+          "fr": "Lilongwe",
+          "tl": "Lilongwe"
+        },
+        {
+          "en": "Dushanbe",
+          "fr": "Douchanbé",
+          "tl": "Dushanbe"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-mh",
+      "prompt": {
+        "en": "What is the capital of Marshall Islands?",
+        "fr": "Quelle est la capitale de ce pays : Îles Marshall ?",
+        "tl": "Ano ang kabisera ng Marshall Islands?"
+      },
+      "answers": [
+        {
+          "en": "Ashgabat",
+          "fr": "Achgabat",
+          "tl": "Ashgabat"
+        },
+        {
+          "en": "Apia",
+          "fr": "Apia",
+          "tl": "Apia"
+        },
+        {
+          "en": "Majuro",
+          "fr": "Majuro",
+          "tl": "Majuro"
+        },
+        {
+          "en": "Paramaribo",
+          "fr": "Paramaribo",
+          "tl": "Paramaribo"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-cv",
+      "prompt": {
+        "en": "What is the capital of Cabo Verde?",
+        "fr": "Quelle est la capitale de ce pays : Cap-Vert ?",
+        "tl": "Ano ang kabisera ng Cabo Verde?"
+      },
+      "answers": [
+        {
+          "en": "Georgetown",
+          "fr": "Georgetown",
+          "tl": "Georgetown"
+        },
+        {
+          "en": "Tashkent",
+          "fr": "Tachkent",
+          "tl": "Tashkent"
+        },
+        {
+          "en": "Nukuʻalofa",
+          "fr": "Nukuʻalofa",
+          "tl": "Nukuʻalofa"
+        },
+        {
+          "en": "Praia",
+          "fr": "Praia",
+          "tl": "Praia"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-km",
+      "prompt": {
+        "en": "What is the capital of Comoros?",
+        "fr": "Quelle est la capitale de ce pays : Comores ?",
+        "tl": "Ano ang kabisera ng Comoros?"
+      },
+      "answers": [
+        {
+          "en": "Moroni",
+          "fr": "Moroni",
+          "tl": "Moroni"
+        },
+        {
+          "en": "Belmopan",
+          "fr": "Belmopan",
+          "tl": "Belmopan"
+        },
+        {
+          "en": "Bandar Seri Begawan",
+          "fr": "Bandar Seri Begawan",
+          "tl": "Bandar Seri Begawan"
+        },
+        {
+          "en": "Port Vila",
+          "fr": "Port-Vila",
+          "tl": "Port Vila"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-sc",
+      "prompt": {
+        "en": "What is the capital of Seychelles?",
+        "fr": "Quelle est la capitale de ce pays : Seychelles ?",
+        "tl": "Ano ang kabisera ng Seychelles?"
+      },
+      "answers": [
+        {
+          "en": "Honiara",
+          "fr": "Honiara",
+          "tl": "Honiara"
+        },
+        {
+          "en": "Victoria",
+          "fr": "Victoria",
+          "tl": "Victoria"
+        },
+        {
+          "en": "Thimphu",
+          "fr": "Thimphou",
+          "tl": "Thimphu"
+        },
+        {
+          "en": "Dili",
+          "fr": "Dili",
+          "tl": "Dili"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-ls",
+      "prompt": {
+        "en": "What is the capital of Lesotho?",
+        "fr": "Quelle est la capitale de ce pays : Lesotho ?",
+        "tl": "Ano ang kabisera ng Lesotho?"
+      },
+      "answers": [
+        {
+          "en": "Malé",
+          "fr": "Malé",
+          "tl": "Malé"
+        },
+        {
+          "en": "Ngerulmud",
+          "fr": "Ngerulmud",
+          "tl": "Ngerulmud"
+        },
+        {
+          "en": "Maseru",
+          "fr": "Maseru",
+          "tl": "Maseru"
+        },
+        {
+          "en": "Bishkek",
+          "fr": "Bichkek",
+          "tl": "Bishkek"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-bw",
+      "prompt": {
+        "en": "What is the capital of Botswana?",
+        "fr": "Quelle est la capitale de ce pays : Botswana ?",
+        "tl": "Ano ang kabisera ng Botswana?"
+      },
+      "answers": [
+        {
+          "en": "Dushanbe",
+          "fr": "Douchanbé",
+          "tl": "Dushanbe"
+        },
+        {
+          "en": "Suva",
+          "fr": "Suva",
+          "tl": "Suva"
+        },
+        {
+          "en": "Palikir",
+          "fr": "Palikir",
+          "tl": "Palikir"
+        },
+        {
+          "en": "Gaborone",
+          "fr": "Gaborone",
+          "tl": "Gaborone"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-mw",
+      "prompt": {
+        "en": "What is the capital of Malawi?",
+        "fr": "Quelle est la capitale de ce pays : Malawi ?",
+        "tl": "Ano ang kabisera ng Malawi?"
+      },
+      "answers": [
+        {
+          "en": "Lilongwe",
+          "fr": "Lilongwe",
+          "tl": "Lilongwe"
+        },
+        {
+          "en": "Ashgabat",
+          "fr": "Achgabat",
+          "tl": "Ashgabat"
+        },
+        {
+          "en": "Apia",
+          "fr": "Apia",
+          "tl": "Apia"
+        },
+        {
+          "en": "Majuro",
+          "fr": "Majuro",
+          "tl": "Majuro"
+        }
+      ],
+      "correct": 0,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-sr",
+      "prompt": {
+        "en": "What is the capital of Suriname?",
+        "fr": "Quelle est la capitale de ce pays : Suriname ?",
+        "tl": "Ano ang kabisera ng Suriname?"
+      },
+      "answers": [
+        {
+          "en": "Praia",
+          "fr": "Praia",
+          "tl": "Praia"
+        },
+        {
+          "en": "Paramaribo",
+          "fr": "Paramaribo",
+          "tl": "Paramaribo"
+        },
+        {
+          "en": "Tashkent",
+          "fr": "Tachkent",
+          "tl": "Tashkent"
+        },
+        {
+          "en": "Nukuʻalofa",
+          "fr": "Nukuʻalofa",
+          "tl": "Nukuʻalofa"
+        }
+      ],
+      "correct": 1,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-gy",
+      "prompt": {
+        "en": "What is the capital of Guyana?",
+        "fr": "Quelle est la capitale de ce pays : Guyana ?",
+        "tl": "Ano ang kabisera ng Guyana?"
+      },
+      "answers": [
+        {
+          "en": "Port Vila",
+          "fr": "Port-Vila",
+          "tl": "Port Vila"
+        },
+        {
+          "en": "Moroni",
+          "fr": "Moroni",
+          "tl": "Moroni"
+        },
+        {
+          "en": "Georgetown",
+          "fr": "Georgetown",
+          "tl": "Georgetown"
+        },
+        {
+          "en": "Bandar Seri Begawan",
+          "fr": "Bandar Seri Begawan",
+          "tl": "Bandar Seri Begawan"
+        }
+      ],
+      "correct": 2,
+      "difficulty": 4
+    },
+    {
+      "id": "capital-bz",
+      "prompt": {
+        "en": "What is the capital of Belize?",
+        "fr": "Quelle est la capitale de ce pays : Belize ?",
+        "tl": "Ano ang kabisera ng Belize?"
+      },
+      "answers": [
+        {
+          "en": "Dili",
+          "fr": "Dili",
+          "tl": "Dili"
+        },
+        {
+          "en": "Honiara",
+          "fr": "Honiara",
+          "tl": "Honiara"
+        },
+        {
+          "en": "Victoria",
+          "fr": "Victoria",
+          "tl": "Victoria"
+        },
+        {
+          "en": "Belmopan",
+          "fr": "Belmopan",
+          "tl": "Belmopan"
+        }
+      ],
+      "correct": 3,
+      "difficulty": 4
     }
   ]
 }

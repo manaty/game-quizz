@@ -1,0 +1,502 @@
+[
+  {
+    "country": "fr",
+    "url": "https://flagcdn.com/w320/fr.png",
+    "sha256": "d1bdc5f08a3d7290376cfc0dcd33c9604e1b5e5cbea3143cdc02da85fddf22f5"
+  },
+  {
+    "country": "gb",
+    "url": "https://flagcdn.com/w320/gb.png",
+    "sha256": "04cfcfb1f7bd3de068b5ba5ed7686fa68919a9f070ae5b5664124a51a3f3cd85"
+  },
+  {
+    "country": "it",
+    "url": "https://flagcdn.com/w320/it.png",
+    "sha256": "d50c6434f7f34424dd524d3535cea21725ed72ea66c706d964f0643e91c17227"
+  },
+  {
+    "country": "es",
+    "url": "https://flagcdn.com/w320/es.png",
+    "sha256": "e0433d505c347dd38f7f538a88fd7729b3e81925a3fe5869de961e2cc45fd178"
+  },
+  {
+    "country": "de",
+    "url": "https://flagcdn.com/w320/de.png",
+    "sha256": "7fc1961f8730109eebd4569961349dbd39081e3b256007bceda3e5074198b988"
+  },
+  {
+    "country": "us",
+    "url": "https://flagcdn.com/w320/us.png",
+    "sha256": "dcd9384ffc761b248e03e7f148e7aea8f662570b6f6db02e27a643c02adf72da"
+  },
+  {
+    "country": "ca",
+    "url": "https://flagcdn.com/w320/ca.png",
+    "sha256": "85490776a6998e472e5928719f44ab6e352f5ead15508b6995c931b17053b95a"
+  },
+  {
+    "country": "jp",
+    "url": "https://flagcdn.com/w320/jp.png",
+    "sha256": "d70de87c9b178bf7a4ce09478eb8375df20bafa16d50e34b837f471f2daff8e6"
+  },
+  {
+    "country": "cn",
+    "url": "https://flagcdn.com/w320/cn.png",
+    "sha256": "19d4b9084307aed2400bdc6c6ab33929c78b5f7cd3b4075758ed9efd0208402c"
+  },
+  {
+    "country": "ph",
+    "url": "https://flagcdn.com/w320/ph.png",
+    "sha256": "67c121dcb8132f817053422535b4dbeb2d3a135ca60b3280589113b71dc35983"
+  },
+  {
+    "country": "au",
+    "url": "https://flagcdn.com/w320/au.png",
+    "sha256": "1fc19c0e59a7158894e1836da6e6ee545ea4f35f2cf748bee771f1bc3a0e00ce"
+  },
+  {
+    "country": "br",
+    "url": "https://flagcdn.com/w320/br.png",
+    "sha256": "76f921bcec127a82ac23e7d46eabbe4780c32cbd5447574f984b7e2115ef9750"
+  },
+  {
+    "country": "ar",
+    "url": "https://flagcdn.com/w320/ar.png",
+    "sha256": "87eacda2733a09ea105b232fd6f7e60d7d9b86986b96e5bc014aaa9224e2b25c"
+  },
+  {
+    "country": "mx",
+    "url": "https://flagcdn.com/w320/mx.png",
+    "sha256": "7861fd85478121bc9fbffd71e7493ac48b598dfdcdd27cbe5cf05d6e69d6c6f4"
+  },
+  {
+    "country": "in",
+    "url": "https://flagcdn.com/w320/in.png",
+    "sha256": "104118179650eb6a3217c8a70513ae76e45b8eef4e88ea0a5c68a90e13ab2172"
+  },
+  {
+    "country": "eg",
+    "url": "https://flagcdn.com/w320/eg.png",
+    "sha256": "f722de4a5082c41f52d74ca00542035c6f463143b9c6901eabd19d807c1fdc6a"
+  },
+  {
+    "country": "gr",
+    "url": "https://flagcdn.com/w320/gr.png",
+    "sha256": "76e348051d4252b06feebb816ba386169600a77fbeff1724645efcd2fa364b46"
+  },
+  {
+    "country": "pt",
+    "url": "https://flagcdn.com/w320/pt.png",
+    "sha256": "4793b497c24e2cb32e725a77656f2d9a4c1812216503bf56cf14c3b9a1ecf872"
+  },
+  {
+    "country": "be",
+    "url": "https://flagcdn.com/w320/be.png",
+    "sha256": "08f0b3d860476a151ce275cfad1b2066327af09d2b9d186b3a1c7316a2cc59fb"
+  },
+  {
+    "country": "th",
+    "url": "https://flagcdn.com/w320/th.png",
+    "sha256": "3f8d89e49397e7feabda4ad18d090c90a66caf9c2f9fd5851c149170d46f36ca"
+  },
+  {
+    "country": "vn",
+    "url": "https://flagcdn.com/w320/vn.png",
+    "sha256": "6fce5aa6eecb39d8e02f82cef2f7c05134fceccc7243bed1514714933f57d6ec"
+  },
+  {
+    "country": "kr",
+    "url": "https://flagcdn.com/w320/kr.png",
+    "sha256": "64b71f98601acaa3537ff862a443d9741e68cf143849f2adbae413777a685a07"
+  },
+  {
+    "country": "ma",
+    "url": "https://flagcdn.com/w320/ma.png",
+    "sha256": "0a1f00f3766c48289f8a5117e06053a16b8af7b4d2d45656b7ea402bd41379e0"
+  },
+  {
+    "country": "ie",
+    "url": "https://flagcdn.com/w320/ie.png",
+    "sha256": "55b2d7ca353fa71962b7be1c230bd7e567fb1ad06d15baa6e849290007639a75"
+  },
+  {
+    "country": "ru",
+    "url": "https://flagcdn.com/w320/ru.png",
+    "sha256": "9b62fec0e9ba57e5ab292881684834415ec74c202066ec1c59f5dce30b049fb1"
+  },
+  {
+    "country": "se",
+    "url": "https://flagcdn.com/w320/se.png",
+    "sha256": "475c1e628d62b218b10b7581fec823056789c1d9daf6c01d6e54796fc9256887"
+  },
+  {
+    "country": "no",
+    "url": "https://flagcdn.com/w320/no.png",
+    "sha256": "22a09e44d8121d2ab152b714d1ecef35da50d5c878f9e3f501699e691cb22aca"
+  },
+  {
+    "country": "dk",
+    "url": "https://flagcdn.com/w320/dk.png",
+    "sha256": "c2d1f782feb85e9f3a91d02e2518284e523e8d66fe711161ae0eae32051bd17e"
+  },
+  {
+    "country": "fi",
+    "url": "https://flagcdn.com/w320/fi.png",
+    "sha256": "e109f87f56b559b3d4497be214e902a702b4a656852029fa89820d9c249021dc"
+  },
+  {
+    "country": "pl",
+    "url": "https://flagcdn.com/w320/pl.png",
+    "sha256": "c5703c9d89f1d04249636445d6a5b7304f53138c226219f4f4e43dae6d88ee77"
+  },
+  {
+    "country": "at",
+    "url": "https://flagcdn.com/w320/at.png",
+    "sha256": "857597f405c4666612b0c65f03489000942e4aaa33aeb3188d80348a8618d3d8"
+  },
+  {
+    "country": "hu",
+    "url": "https://flagcdn.com/w320/hu.png",
+    "sha256": "64f56ea9db403a24f7dd98ea02c4532230339db42a0bbb79a74074af28101bc0"
+  },
+  {
+    "country": "cz",
+    "url": "https://flagcdn.com/w320/cz.png",
+    "sha256": "bf03e38ae17c8cb68a37a15412d27d82685d9e97156b49e26b1380a554a6a9c5"
+  },
+  {
+    "country": "ro",
+    "url": "https://flagcdn.com/w320/ro.png",
+    "sha256": "4e90076936377a380d0746ed0f505d428db6f23aeba5843556f09f0662229bf4"
+  },
+  {
+    "country": "tr",
+    "url": "https://flagcdn.com/w320/tr.png",
+    "sha256": "e50ad4feb4f7d0f03348415bec20ccf61049d3d08968ae175d1c7cb5d98f3a3a"
+  },
+  {
+    "country": "nz",
+    "url": "https://flagcdn.com/w320/nz.png",
+    "sha256": "198aec3bc9943a34e9b91d834c143a579a5e2d39c3f06faef02297340272263a"
+  },
+  {
+    "country": "pe",
+    "url": "https://flagcdn.com/w320/pe.png",
+    "sha256": "be8e0220fb734dd74557584007745a046d27bede3bbb252eee23705bac33ae8a"
+  },
+  {
+    "country": "cl",
+    "url": "https://flagcdn.com/w320/cl.png",
+    "sha256": "7a53172c6a054812f58c753d941eda3750bff9cbb383d94de401086899455861"
+  },
+  {
+    "country": "co",
+    "url": "https://flagcdn.com/w320/co.png",
+    "sha256": "40753493477508d19ca6323845ce0caf30a8504b4305766e7cf7143a167e2660"
+  },
+  {
+    "country": "cu",
+    "url": "https://flagcdn.com/w320/cu.png",
+    "sha256": "8fe09641cbe379eeea7dc21608b0d67f620f8c6d44d82d8afc02158d986ee911"
+  },
+  {
+    "country": "jm",
+    "url": "https://flagcdn.com/w320/jm.png",
+    "sha256": "e0eec4728090a5dab5ad39c2d9ecb13ef286dc53012e8f5a2c08b1f686cba5c9"
+  },
+  {
+    "country": "sa",
+    "url": "https://flagcdn.com/w320/sa.png",
+    "sha256": "471e93e6e2be4e1d77cd1dc0103b5edab2e3bbbd09c5ec2a44fbd8f890d7d628"
+  },
+  {
+    "country": "ae",
+    "url": "https://flagcdn.com/w320/ae.png",
+    "sha256": "e994b473d43d9ff3a0f57ff5aee33e1f6f14a8cff9744afb1d01a41f4ac482fb"
+  },
+  {
+    "country": "qa",
+    "url": "https://flagcdn.com/w320/qa.png",
+    "sha256": "df8a86cabdec4947f34dbe913aa2a82e3832220b2a07e6a136d7a69fadb648c3"
+  },
+  {
+    "country": "ke",
+    "url": "https://flagcdn.com/w320/ke.png",
+    "sha256": "613b6c13837260b85aa891106ae4f424974c438a836734a15b80fd2a26fa90a0"
+  },
+  {
+    "country": "dz",
+    "url": "https://flagcdn.com/w320/dz.png",
+    "sha256": "bb712bea6757af0414d80c54aa2336610047c6a7450515713a3895515d873b98"
+  },
+  {
+    "country": "tn",
+    "url": "https://flagcdn.com/w320/tn.png",
+    "sha256": "f3c57d875c5bf33ae8ebceb9a28700a9397ffba58f1eea5807cd7b7d3bd59f8d"
+  },
+  {
+    "country": "sn",
+    "url": "https://flagcdn.com/w320/sn.png",
+    "sha256": "19e19258374674dc157e742b998d91e852c8de801b583e7ed5a7072b509adff7"
+  },
+  {
+    "country": "np",
+    "url": "https://flagcdn.com/w320/np.png",
+    "sha256": "9a5663252e37e93cfda170c71cc88714b7ef9873f7dca5d63acc0acc6a1b0c7d"
+  },
+  {
+    "country": "pk",
+    "url": "https://flagcdn.com/w320/pk.png",
+    "sha256": "cd047675bbd7b2e1a30125b110ae860cba81c61d7af9329a3e93a188b7b8df19"
+  },
+  {
+    "country": "hr",
+    "url": "https://flagcdn.com/w320/hr.png",
+    "sha256": "7cf079b3e22226235dd467117f136049f60c6509a8b4cdf6c3c0716e60070bf3"
+  },
+  {
+    "country": "rs",
+    "url": "https://flagcdn.com/w320/rs.png",
+    "sha256": "ea302324f2b3f389eae1c8ac389c5602b0bed41cf9122b9e2c2a46f97f6c6859"
+  },
+  {
+    "country": "bg",
+    "url": "https://flagcdn.com/w320/bg.png",
+    "sha256": "ed339369c007db474b651cb409a72dfd5ba5341fc235a9f205057596e9325ef7"
+  },
+  {
+    "country": "sk",
+    "url": "https://flagcdn.com/w320/sk.png",
+    "sha256": "2fa0eb5df144cb10540d5db77a496ed43b94f2c017a3835e6df5d68e927fed8c"
+  },
+  {
+    "country": "si",
+    "url": "https://flagcdn.com/w320/si.png",
+    "sha256": "860baae079d5de987aac730733180138f041c5be94d88d816249e7cb4ff9b588"
+  },
+  {
+    "country": "ee",
+    "url": "https://flagcdn.com/w320/ee.png",
+    "sha256": "2253b34cdf1ae595320f2a1c7347a3cf3ad5ff4fdcff7fcdd6febc9e845a6bbe"
+  },
+  {
+    "country": "lv",
+    "url": "https://flagcdn.com/w320/lv.png",
+    "sha256": "0cc124f49c3d28fb02ae46cece1cb2643d51dc406f7f37c5f4911447d87317b0"
+  },
+  {
+    "country": "lt",
+    "url": "https://flagcdn.com/w320/lt.png",
+    "sha256": "1146487ae5c3467f355d9f6199ab155a6dba17dc228dfd4fb2e84128616ee415"
+  },
+  {
+    "country": "is",
+    "url": "https://flagcdn.com/w320/is.png",
+    "sha256": "49e20da9b264d9719bfb766876fe4322837ecc35bb2e737742055a380d9dc697"
+  },
+  {
+    "country": "mt",
+    "url": "https://flagcdn.com/w320/mt.png",
+    "sha256": "88f0879821d92b51b7bc0202c315a230bb02796ff15c36b20348718fc7714aac"
+  },
+  {
+    "country": "cy",
+    "url": "https://flagcdn.com/w320/cy.png",
+    "sha256": "c99a530b206eb7557e441221f97347f227fef89fb58d749fee5c3fd0df89a1cd"
+  },
+  {
+    "country": "uy",
+    "url": "https://flagcdn.com/w320/uy.png",
+    "sha256": "8426ee6ef53a556657950d4b1e3077c79a5f98832585dc3c6f2f1434fa6a99f4"
+  },
+  {
+    "country": "py",
+    "url": "https://flagcdn.com/w320/py.png",
+    "sha256": "82da6faf7281772e7029a42c5e22e72f03a814287487bad6d281ac0619f616d2"
+  },
+  {
+    "country": "ec",
+    "url": "https://flagcdn.com/w320/ec.png",
+    "sha256": "743dae5ece485c1f4e6d03d1756ab0eb26ddf07947a2a4068e2620912b3dc446"
+  },
+  {
+    "country": "cr",
+    "url": "https://flagcdn.com/w320/cr.png",
+    "sha256": "36ae69f4ee58d934011d526820a860e96b1d110e01c33a7978a23e7554e1eaac"
+  },
+  {
+    "country": "do",
+    "url": "https://flagcdn.com/w320/do.png",
+    "sha256": "c86f19f5885d5403b52ee2efaf4064b6a3633cd819d21a00a14d80bbff1076e1"
+  },
+  {
+    "country": "gh",
+    "url": "https://flagcdn.com/w320/gh.png",
+    "sha256": "3c2bcb239412b65fe32e5753b240d9c54010b7578ec88496d73cc0297a23ce0a"
+  },
+  {
+    "country": "cm",
+    "url": "https://flagcdn.com/w320/cm.png",
+    "sha256": "4f7d72fa71899ebfdd8246a6915def2e8b6af672be4f31b2b0d0c80be9d16f4f"
+  },
+  {
+    "country": "mg",
+    "url": "https://flagcdn.com/w320/mg.png",
+    "sha256": "b4d42e0bb0a0bfba6b038c9c0b9f8f7b99b7a5fb38120fff67a2194d8c572d61"
+  },
+  {
+    "country": "et",
+    "url": "https://flagcdn.com/w320/et.png",
+    "sha256": "e8528fff6d7625f53337a8f0ea254d94cd052047b01b42743bc7ef4c9f5834d1"
+  },
+  {
+    "country": "mn",
+    "url": "https://flagcdn.com/w320/mn.png",
+    "sha256": "cb20e58f41c6d40657424a86b348bd0b561c1ea07a25502de832267a9e63c254"
+  },
+  {
+    "country": "kh",
+    "url": "https://flagcdn.com/w320/kh.png",
+    "sha256": "3eb3d658681ee24d618ec60236bac39ce85f876c106d11de166198ad056c094d"
+  },
+  {
+    "country": "la",
+    "url": "https://flagcdn.com/w320/la.png",
+    "sha256": "8d816818bebf50e318119150c5e69853bf03543918c9b1f7209e7b12b103e1dd"
+  },
+  {
+    "country": "bd",
+    "url": "https://flagcdn.com/w320/bd.png",
+    "sha256": "3a432a8b63f4a8db9ed1f9a76d73f352127995fc85ef1611a2a26888a679f68e"
+  },
+  {
+    "country": "om",
+    "url": "https://flagcdn.com/w320/om.png",
+    "sha256": "d47d2dd407d80b00b802277a1446a310cb17fed4cf487dce5eff5e56925b9bfc"
+  },
+  {
+    "country": "bt",
+    "url": "https://flagcdn.com/w320/bt.png",
+    "sha256": "3621170e660f8672f43f4e1ff0566cff30510401b7a76b0020fc7346feae6757"
+  },
+  {
+    "country": "kg",
+    "url": "https://flagcdn.com/w320/kg.png",
+    "sha256": "fbab65c54e7b848e0345ee0ae2ecc14ff75dd81e723e180cbede2fea4923ad24"
+  },
+  {
+    "country": "tj",
+    "url": "https://flagcdn.com/w320/tj.png",
+    "sha256": "e456408ab5fbd54346cb5ea382126e3d214d57955bf3319b6ec15024c756eb0c"
+  },
+  {
+    "country": "tm",
+    "url": "https://flagcdn.com/w320/tm.png",
+    "sha256": "a08891d22521c006530644f7b03d369039a9bf69dbf6e117f699994899b00292"
+  },
+  {
+    "country": "uz",
+    "url": "https://flagcdn.com/w320/uz.png",
+    "sha256": "74a9b211ccd1a24f5b051fb07fbf674d959762e766318146eba11ffc5bff7502"
+  },
+  {
+    "country": "bn",
+    "url": "https://flagcdn.com/w320/bn.png",
+    "sha256": "e0189f00aa6f274a71cd4333059231ba07a8c374830a4168442fdf72db350836"
+  },
+  {
+    "country": "tl",
+    "url": "https://flagcdn.com/w320/tl.png",
+    "sha256": "013e6feae30917eee00e3db320c2e4ab0c67810b1d6ade593dc46f846a5f47b8"
+  },
+  {
+    "country": "mv",
+    "url": "https://flagcdn.com/w320/mv.png",
+    "sha256": "c59855c32b200c9b8e4aeabbbf219a6398aed1242e39f114cd4059285e50894e"
+  },
+  {
+    "country": "fj",
+    "url": "https://flagcdn.com/w320/fj.png",
+    "sha256": "f54d3a4579ccd61199dece5c6d30ebcf66aa2bc1f530049770cd76a852fef05a"
+  },
+  {
+    "country": "ws",
+    "url": "https://flagcdn.com/w320/ws.png",
+    "sha256": "dc0bd9c3bb17dc13eda55838138b491b658b3f173e9f483a39feecddda98e4a0"
+  },
+  {
+    "country": "to",
+    "url": "https://flagcdn.com/w320/to.png",
+    "sha256": "1bb2af7362f2e5eba006dfc79feda3e02a3fb22f1faaabf93fbf2bc3f245e53a"
+  },
+  {
+    "country": "vu",
+    "url": "https://flagcdn.com/w320/vu.png",
+    "sha256": "97ab4889aae2a14485f413f6681dc7da29b27ab8f1c33f5feeb5004f158205d2"
+  },
+  {
+    "country": "sb",
+    "url": "https://flagcdn.com/w320/sb.png",
+    "sha256": "a9bd5cc58955c2a4b554999623d3ae695e98afd65f37e3f05ad861f5606cafaa"
+  },
+  {
+    "country": "pw",
+    "url": "https://flagcdn.com/w320/pw.png",
+    "sha256": "98dd58e606a0da7457d5df2a6675299daa7a87746d29c658f62b0b0ba95ad9a6"
+  },
+  {
+    "country": "fm",
+    "url": "https://flagcdn.com/w320/fm.png",
+    "sha256": "6f8b43f1521b5d17b6a002fb5e2fda0b5e01dc4273dd57751ba1f8994fb5250f"
+  },
+  {
+    "country": "mh",
+    "url": "https://flagcdn.com/w320/mh.png",
+    "sha256": "cfa4d5ae2af50bc92277db45a700bc37eca1562ad95d98878bc519b42c20bf2b"
+  },
+  {
+    "country": "cv",
+    "url": "https://flagcdn.com/w320/cv.png",
+    "sha256": "5a2200d55da0dad7b4d0ad8e09477565eeb6e7dd68a53708d79aaa8ba2032413"
+  },
+  {
+    "country": "km",
+    "url": "https://flagcdn.com/w320/km.png",
+    "sha256": "5e715743c44a1a74379649d397ca02a4d0c96064c7a1df9aebab29a90f9146a9"
+  },
+  {
+    "country": "sc",
+    "url": "https://flagcdn.com/w320/sc.png",
+    "sha256": "5dc11c237d0d83d6d486fe9d6b2bc0e2310f5abafa6c03473f0af298f32aecd2"
+  },
+  {
+    "country": "ls",
+    "url": "https://flagcdn.com/w320/ls.png",
+    "sha256": "2402a1b5012c8a34947c9ab117b71bb47ed587e5726b9ae789a3994dc50513e5"
+  },
+  {
+    "country": "bw",
+    "url": "https://flagcdn.com/w320/bw.png",
+    "sha256": "76237084b58bbc787138064efdc1c2bcc0d7726ae54e4bf3b7971109157b534e"
+  },
+  {
+    "country": "mw",
+    "url": "https://flagcdn.com/w320/mw.png",
+    "sha256": "dec186a942bb2fcf8beb443fbaec1592f342f4e0bf1003fe79c677b8162211a6"
+  },
+  {
+    "country": "sr",
+    "url": "https://flagcdn.com/w320/sr.png",
+    "sha256": "63f3c50aede1a50e127d689644cbd086781396eb4e04c38a460edb9d0e82c533"
+  },
+  {
+    "country": "gy",
+    "url": "https://flagcdn.com/w320/gy.png",
+    "sha256": "de9f48897ade916c766d65cb96778da4fdc960c8951bca40ce3f86b50b0ff6f1"
+  },
+  {
+    "country": "bz",
+    "url": "https://flagcdn.com/w320/bz.png",
+    "sha256": "8c256036a97c77365a20af5fe0457aa0498f3c97f6f0eaa96359308d0741d4f9"
+  }
+]
