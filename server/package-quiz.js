@@ -9,5 +9,5 @@ export function packageQuiz(base,input){
  })};
  const options={...base.manifest.options,quizId:{...base.manifest.options.quizId,values:[id],default:id},questionCount:{...base.manifest.options.questionCount,max:quiz.questions.length,default:Math.min(10,quiz.questions.length)}};
  const title=typeof quiz.title==='string'?{en:quiz.title}:quiz.title;
- return {...base,manifest:{...base.manifest,id,title,author:quiz.author,options},engine:base.engine+'\n;globalThis.RetroQuizBank='+JSON.stringify({[id]:prepared})+';\n;const __quizCreate=globalThis.RetroMuseumGame.create;globalThis.RetroMuseumGame.create=(players,saved,options)=>__quizCreate(players,saved,{quizId:'+JSON.stringify(id)+',...options});',assets};
+ return {...base,manifest:{...base.manifest,id,title,description:{en:"A community questionnaire for The Million Quiz: "+title.en},author:quiz.author,options},engine:base.engine+'\n;globalThis.RetroQuizBank='+JSON.stringify({[id]:prepared})+';\n;const __quizCreate=globalThis.RetroMuseumGame.create;globalThis.RetroMuseumGame.create=(players,saved,options)=>__quizCreate(players,saved,{quizId:'+JSON.stringify(id)+',...options});',assets};
 }

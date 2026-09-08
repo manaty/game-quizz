@@ -1,7 +1,8 @@
+import {randomInt} from 'node:crypto';
 import {gameOptions} from './schema.js';
 import {BUILTIN_QUIZZES} from './builtins.js';
 const copy=x=>JSON.parse(JSON.stringify(x));
-function random(n){const a=new Uint32Array(1),limit=4294967296-4294967296%n;do{crypto.getRandomValues(a);}while(a[0]>=limit);return a[0]%n;}
+function random(n){return randomInt(n);}
 const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=random(i+1);[a[i],a[j]]=[a[j],a[i]];}return a;};
 export class Quizz{
  constructor(players,saved,options={},bank=BUILTIN_QUIZZES){
@@ -49,7 +50,7 @@ export class Quizz{
   this.index++;this.stage='question';this.left=this.options.seconds;this.answerOrder=shuffle([0,1,2,3]);this.revision++;
   for(const p of this.players){p.answer=null;p.hidden=[];p.spectator=false;}return true;
  }
- finish(){this.stage='finished';this.ended=true;this.left=0;this.revision++;const ranking=this.ranking();this.winner=ranking[0]?.id||null;}
+ finish(){this.stage='finished';this.ended=true;this.left=0;this.revision++;const ranking=this.ranking();this.winner=(this.options.mode==='cooperative'?this.team.alive:ranking[0]?.gain>0)?ranking[0]?.id||null:null;}
  ranking(){return [...this.players].sort((a,b)=>b.gain-a.gain||b.score-a.score||a.number-b.number).map(({id,number,score,gain,alive})=>({id,number,score,gain,alive}));}
  snapshot(id){
   const p=this.players.find(p=>p.id===id),q=this.question,revealed=this.stage!=='question';
