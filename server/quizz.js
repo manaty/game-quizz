@@ -1,5 +1,5 @@
 import {randomInt} from 'node:crypto';
-import {gameOptions} from './schema.js';
+import {gameOptions,difficultyPlan} from './schema.js';
 import {BUILTIN_QUIZZES} from './builtins.js';
 const copy=x=>JSON.parse(JSON.stringify(x));
 function random(n){return randomInt(n);}
@@ -9,7 +9,7 @@ export class Quizz{
   this.bank=bank;this.options=gameOptions(saved?.options||options,bank[(saved?.options||options).quizId||'flags']?.questions.length||0);
   this.quiz=bank[this.options.quizId];if(!this.quiz)throw Error('Unknown quiz.');
   this.players=players.map(p=>({id:p.id,number:p.number,score:0,gain:0,safe:0,alive:true,answer:null,used:false,hidden:[],spectator:false}));
-  this.order=this.quiz.questions.map((_,i)=>i);if(this.options.order==='random')shuffle(this.order);this.order=this.order.slice(0,this.options.questionCount);
+  this.order=saved?.order||difficultyPlan(this.quiz.questions,this.options).groups.flatMap(g=>(this.options.order==='random'?shuffle([...g.indices]):g.indices).slice(0,g.count));if(!saved){if(this.options.order==='random')shuffle(this.order);else this.order.sort((a,b)=>a-b);}
   this.index=0;this.stage='question';this.left=this.options.seconds;this.team={score:0,gain:0,safe:0,alive:true};this.winner=null;this.ended=false;this.revision=0;
   this.answerOrder=shuffle([0,1,2,3]);
   if(saved)for(const k of ['players','order','index','stage','left','team','winner','ended','revision','answerOrder'])this[k]=copy(saved[k]);

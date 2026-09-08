@@ -1,6 +1,6 @@
 {
   "name": "@manaty/game-quizz",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "type": "module",
   "license": "MIT",
   "description": "A shared quiz show. Flags, fruit, capitals and European monarchs. Choose the mode, question count and timer.",

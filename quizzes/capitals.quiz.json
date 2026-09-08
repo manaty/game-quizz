@@ -22,7 +22,8 @@
         "Berlin",
         "Madrid"
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 1
     },
     {
       "id": "capital1",
@@ -37,7 +38,8 @@
         "Osaka",
         "Seoul"
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 1
     },
     {
       "id": "capital2",
@@ -52,7 +54,8 @@
         "Davao",
         "Baguio"
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 2
     },
     {
       "id": "capital3",
@@ -67,7 +70,8 @@
         "Naples",
         "Venice"
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 2
     },
     {
       "id": "capital4",
@@ -82,7 +86,8 @@
         "Montreal",
         "Vancouver"
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 2
     },
     {
       "id": "capital5",
@@ -97,7 +102,8 @@
         "Melbourne",
         "Perth"
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 2
     },
     {
       "id": "capital6",
@@ -112,7 +118,8 @@
         "São Paulo",
         "Salvador"
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 2
     },
     {
       "id": "capital7",
@@ -127,7 +134,8 @@
         "Hamburg",
         "Bonn"
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 2
     },
     {
       "id": "capital8",
@@ -142,7 +150,8 @@
         "Luxor",
         "Aswan"
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 2
     },
     {
       "id": "capital9",
@@ -157,7 +166,8 @@
         "Seville",
         "Valencia"
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 2
     }
   ]
 }

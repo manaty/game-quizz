@@ -44,7 +44,8 @@
         "en": "This is the flag of France.",
         "fr": "Ce drapeau est celui de France.",
         "tl": "Ito ang watawat ng Pransiya."
-      }
+      },
+      "difficulty": 1
     },
     {
       "id": "flag1",
@@ -81,7 +82,8 @@
         "en": "This is the flag of Italy.",
         "fr": "Ce drapeau est celui de Italie.",
         "tl": "Ito ang watawat ng Italya."
-      }
+      },
+      "difficulty": 1
     },
     {
       "id": "flag2",
@@ -118,7 +120,8 @@
         "en": "This is the flag of Germany.",
         "fr": "Ce drapeau est celui de Allemagne.",
         "tl": "Ito ang watawat ng Alemanya."
-      }
+      },
+      "difficulty": 1
     },
     {
       "id": "flag3",
@@ -155,7 +158,8 @@
         "en": "This is the flag of Austria.",
         "fr": "Ce drapeau est celui de Autriche.",
         "tl": "Ito ang watawat ng Austria."
-      }
+      },
+      "difficulty": 2
     },
     {
       "id": "flag4",
@@ -192,7 +196,8 @@
         "en": "This is the flag of Poland.",
         "fr": "Ce drapeau est celui de Pologne.",
         "tl": "Ito ang watawat ng Poland."
-      }
+      },
+      "difficulty": 2
     },
     {
       "id": "flag5",
@@ -229,7 +234,8 @@
         "en": "This is the flag of Netherlands.",
         "fr": "Ce drapeau est celui de Pays-Bas.",
         "tl": "Ito ang watawat ng Netherlands."
-      }
+      },
+      "difficulty": 2
     },
     {
       "id": "flag6",
@@ -266,7 +272,8 @@
         "en": "This is the flag of Belgium.",
         "fr": "Ce drapeau est celui de Belgique.",
         "tl": "Ito ang watawat ng Belgium."
-      }
+      },
+      "difficulty": 2
     },
     {
       "id": "flag7",
@@ -303,7 +310,8 @@
         "en": "This is the flag of Ireland.",
         "fr": "Ce drapeau est celui de Irlande.",
         "tl": "Ito ang watawat ng Ireland."
-      }
+      },
+      "difficulty": 2
     },
     {
       "id": "flag8",
@@ -340,7 +348,8 @@
         "en": "This is the flag of Ukraine.",
         "fr": "Ce drapeau est celui de Ukraine.",
         "tl": "Ito ang watawat ng Ukraine."
-      }
+      },
+      "difficulty": 2
     },
     {
       "id": "flag9",
@@ -377,7 +386,8 @@
         "en": "This is the flag of Indonesia.",
         "fr": "Ce drapeau est celui de Indonésie.",
         "tl": "Ito ang watawat ng Indonesia."
-      }
+      },
+      "difficulty": 2
     }
   ]
 }

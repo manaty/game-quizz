@@ -4,7 +4,7 @@ One reusable Retro Museum activity, with separate questionnaires. Play on a shar
 
 ## Play
 
-Node 22+, `npm ci --ignore-scripts`, then `npm start`. Open the printed host URL. Choose questionnaire, game mode, 1–100 questions (within the selected pack), 15–90 seconds per answer, and authored or random question order. Phones join by QR; the host supports combined screen/controller mode.
+Node 22+, `npm ci --ignore-scripts`, then `npm start`. Open the printed host URL. Choose questionnaire, game mode, 1–1000 questions per bank (within the selected pack), 15–90 seconds per answer, and authored or random question order. Phones join by QR; the host supports combined screen/controller mode.
 
 - Ranking: everyone keeps playing; correct answers earn points, with equal weighting and tied results.
 - Elimination: incorrect/missing answers end the prize run; every five correct stages secures a checkpoint. Eliminated players continue practicing.
@@ -17,7 +17,7 @@ Gains are fictional points, with no money or purchases. The game declares no fix
 
 Copy [the submission prompt](public/submit-prompt.txt), append your content instructions, and give it to an assistant. An HTTP-capable assistant can POST to `https://retro-museum.net/api/quizzes/submissions`. Otherwise it produces a JSON file for the [submission page](https://retro-museum.net/quizzes). No GitHub repository, game build or API key is required from a questionnaire author.
 
-The payload is `{quiz, publication}`. A quiz has `schemaVersion:1`, an ID/title/author/language and 1–100 questions. Each question has prompt, four distinct answers, zero-based correct index, optional explanation and optional PNG/JPEG data URL (maximum 100,000 decoded bytes; dimensions up to 2048). Publication metadata describes rights, age, image provenance and sources. AI/content review is mandatory for the public catalog; receipt is not approval. The museum operator can import a private questionnaire into the local administration for offline use.
+The payload is `{quiz, publication}`. A quiz has `schemaVersion:1`, an ID/title/author/language and 1–1000 questions per bank. Each question has prompt, four distinct answers, zero-based correct index, optional explanation and optional PNG/JPEG data URL (maximum 100,000 decoded bytes; dimensions up to 2048). Publication metadata describes rights, age, image provenance and sources. AI/content review is mandatory for the public catalog; receipt is not approval. The museum operator can import a private questionnaire into the local administration for offline use.
 
 Only data is accepted, never user code. Public/private game snapshots expose no correct answer before reveal or another player's answer. Saved matches retain their selected question order, timer, choices, lifeline and points. Question data is reconstructed from the exact pinned questionnaire package on standalone restart.
 
@@ -39,6 +39,12 @@ Phone controller:
 
 ## Content packs
 
-In the [marketplace](https://retro-museum.net/#catalog), Quiz is one game with separate questionnaire packs. Select one or more packs to prepare a game that contains only those questions. A selection currently supports up to 10 packs and 100 questions; the host may play fewer questions.
+In the [marketplace](https://retro-museum.net/#catalog), Quiz is one game with separate questionnaire packs. Select one or more packs to prepare a game that contains only those questions. A selection currently supports up to 10 packs and 1,000 questions in the bank; a session draws 1–100 questions.
 
 Download the complete `.rmg.json` selection for an SDK-compatible host, or the `.quiz.json` content file to import from an existing museum's Quiz settings. Approved community questionnaires reuse the same game engine. The content-only engine build deliberately excludes all unselected starter questions.
+
+
+### Family difficulty (1.1.0)
+Each new question declares difficulty 1–4: primary, middle school, high school, advanced/specialist. These are indicative knowledge and reading demands, not intelligence scores. The museum can select a minimum/maximum level or exact percentages, rounded by largest remainder. Insufficient questions at a requested level cause a clear error; they are never silently replaced by another level. Older unclassified content remains usable in the full range and is excluded from targeted mixes.
+
+Banks accept up to 1,000 questions, but the entire JSON is limited to **10,000,000 UTF-8 bytes**, including metadata and base64 images. Each image remains limited to **100,000 decoded bytes**. A session draws 1–100 questions. Large public banks are reviewed in resumable batches; only fully reviewed content is published.

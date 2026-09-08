@@ -38,7 +38,8 @@
           "tl": "Limon"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 1
     },
     {
       "id": "fruit1",
@@ -69,7 +70,8 @@
           "tl": "Strawberry"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 1
     },
     {
       "id": "fruit2",
@@ -100,7 +102,8 @@
           "tl": "Abokado"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 1
     },
     {
       "id": "fruit3",
@@ -131,7 +134,8 @@
           "tl": "Papaya"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 1
     },
     {
       "id": "fruit4",
@@ -162,7 +166,8 @@
           "tl": "Saging"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 1
     },
     {
       "id": "fruit5",
@@ -193,7 +198,8 @@
           "tl": "Pinya"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 1
     },
     {
       "id": "fruit6",
@@ -224,7 +230,8 @@
           "tl": "Mangga"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 1
     },
     {
       "id": "fruit7",
@@ -255,7 +262,8 @@
           "tl": "Pakwan"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 1
     },
     {
       "id": "fruit8",
@@ -286,7 +294,8 @@
           "tl": "Ubas"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 1
     },
     {
       "id": "fruit9",
@@ -317,7 +326,8 @@
           "tl": "Niyog"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "difficulty": 2
     }
   ]
 }

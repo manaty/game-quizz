@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "quizz",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "title": {
     "en": "The Million Quiz",
     "fr": "Le Quiz Million",
@@ -92,6 +92,28 @@
         "authored"
       ],
       "default": "random"
+    },
+    "difficultyMin": {
+      "label": {
+        "en": "Minimum level (1 primary – 4 advanced)",
+        "fr": "Niveau minimum",
+        "tl": "Pinakamababang antas"
+      },
+      "type": "integer",
+      "min": 1,
+      "max": 4,
+      "default": 1
+    },
+    "difficultyMax": {
+      "label": {
+        "en": "Maximum level (1 primary – 4 advanced)",
+        "fr": "Niveau maximum",
+        "tl": "Pinakamataas na antas"
+      },
+      "type": "integer",
+      "min": 1,
+      "max": 4,
+      "default": 4
     }
   }
 }
