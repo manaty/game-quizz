@@ -4,7 +4,7 @@ One reusable Retro Museum activity, with separate questionnaires. Play on a shar
 
 ## Play
 
-Node 22+, `npm ci --ignore-scripts`, then `npm start`. Open the printed host URL. Choose questionnaire, game mode, 1–1000 questions per bank (within the selected pack), 15–90 seconds per answer, and authored or random question order. Phones join by QR; the host supports combined screen/controller mode.
+Node 22+, `npm ci --ignore-scripts`, then `npm start`. Open the printed host URL. Choose questionnaire, game mode, 1–100 questions to play (within the selected bank), 15–90 seconds per answer, and authored or random question order. Phones join by QR; the host supports combined screen/controller mode.
 
 - Ranking: everyone keeps playing; correct answers earn points, with equal weighting and tied results.
 - Elimination: incorrect/missing answers end the prize run; every five correct stages secures a checkpoint. Eliminated players continue practicing.
