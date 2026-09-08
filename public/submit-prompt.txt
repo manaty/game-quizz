@@ -30,7 +30,7 @@ The correct index is zero-based (0, 1, 2 or 3). Title, prompt, answers and expla
 4. I authorize submitting original text you create for this request to the public catalog under CC BY 4.0. Do not transfer private information, authentication tokens or unrelated files. If publication would require rights I have not provided, stop before submission and explain what is missing.
 5. If you have an HTTP execution tool, POST the JSON to https://retro-museum.net/api/quizzes/submissions with Content-Type: application/json. No login, museum token or API key is required. This endpoint only queues review; it does not publish immediately. A duplicate payload returns the same submission. Respect 429 responses; do not retry in a loop. Keep the returned id and report URL. A timeout is not proof of failure: retry only the identical payload to retrieve its existing receipt.
 6. Show me the real receipt and tracking link. Never claim submission or approval without an actual successful response. A 202 response means queued, not approved. Check the report once; review can continue later. Do not attempt to bypass a rejection.
-7. If you cannot make HTTP requests, provide a downloadable JSON file with the complete payload and tell me to upload it at https://retro-museum.net/quizzes. Do not imply that an ordinary ChatGPT chat can always perform POST requests.
+7. If you cannot make HTTP requests, provide a downloadable JSON file with the complete payload and tell me to upload it at https://retro-museum.net/quizzes. Do not imply that an ordinary AI chat can always perform POST requests.
 
 MY CONTENT INSTRUCTIONS:
 [Theme, audience/age, language, difficulty, number of questions up to 1000, and any other requirements.]
